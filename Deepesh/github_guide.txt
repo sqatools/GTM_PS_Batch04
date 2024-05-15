@@ -18,5 +18,31 @@ git clone https://github.com/sqatools/GTM_PS_Batch04.git
 10. git push
 
 
+###################################################
+Multi Branching Model
+
+1. Create branch from GitHub server, branch with your name.
+2. Go to local system and run 'git pull' command in the git terminal
+   it will show all the new created branches.
+3. Everyone has to checkout their respective branch in git terminal 
+   with command 'git checkout <branch name>'
+4. run command 'git branch' : it will show current active branch in green color
+   newly created branch should show in green color
+
+5. Add any file in your respective name folder.
+6. run git command 'git status' it will show newly added file in red color
+7. run git command 'git add .' it will add all the files
+8. run git command 'git status' it will show all the file in green color
+9. run git command 'git commit -m "msg"' commit will be initiated.
+10. run git command 'git push' it will push all changes to git server.
+11. Open server and refresh the page. -> newly added changes will be reflect in respective branch
+12. Every member has to create pull request against main to merge the changes.
+13. Get approval and merge pull request.
+14. all changes will be available in main branch.
+15. Back git terminal and run command 'git checkout main' it will switch main branch
+16. run command 'git pull' all the changes will updated in local machine.
+
+
+
 
 
