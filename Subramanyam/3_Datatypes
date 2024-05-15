@@ -1,0 +1,127 @@
+
+Standard data types
+A variable can hold different types of values. For example, a person's name must be stored as a string whereas its id must be stored as an integer.
+
+Python provides various standard data types that define the storage method on each of them. The data types defined in Python are given below.
+
+1. Numbers
+2. Sequence Type
+3. Boolean
+4. Set
+5. Dictionary
+---------
+Numaric:
+   i) Integer : Int - Integer value can be any length. 121544255
+  ii) Float   : Float - Float is used to store floating-point numbers. It is accurate upto 15 decimal points. 12.25, 5.2
+ iii) Complex : complex - A complex number contains an ordered pair, i.e., x + iy, denotes real and imaginary parts.2+5j
+ 
+Numbers:  Number stores numeric values.  he integer, float, and complex values belong to a Python Numbers data-type
+          Python provides the type() function to know the data-type of the variable
+          the isinstance() function is used to check an object belongs to a particular class.
+a = 5  
+print("The type of a", type(a))        o/p: The type of a <class 'int'>
+b = 40.5  
+print("The type of b", type(b))        o/p: The type of b <class 'float'>
+c = 1+3j  
+print("The type of c", type(c))             The type of c <class 'complex'>
+print(" c is a complex number", isinstance(1+3j,complex))         o/p: c is complex number: True
+
+------------------------------------------------------------------------------------------------- 
+Sequence:        
+    i) String   : The string can be defined as the sequence of characters represented in the quotation marks.(use single, double, or triple quotes)
+                : operator + is used to concatenate two strings , operator * is known as a repetition operator 
+str1 = 'hello' #string str1    
+str2 = ' how are you' #string str2  
+Slicing:          h e l l o     Based on index 
+              --->0 1 2 3 4
+                 -5-4-3-2-1 <--              
+print (str1[0:2]) #printing first two character using slice operator    : he
+print (str1[4]) #printing 4th character of the string                   : o
+print (str1*2) #printing the string twice                               : hellohello
+print (str1 + str2) #printing the concatenation of str1 and str2        : hello how are you
+--------------------------------- 
+   ii) List     : The list can contain data of different types.
+                : The items stored in the list are separated with a comma (,) and enclosed within square brackets [].
+                : We can use slice [:] operators to access the data of the list
+                : The concatenation operator (+) and repetition operator (*) works with the list like String
+ a,b,c= 2,5,7 
+l=[uday. 25.13.45,True] 
+list1  = [1, "hi", "Python", 2]    
+#Checking type of given list  
+print(type(list1))      :    <class list>
+#Printing the list1  
+print (list1)            : [1, 'hi', 'Python', 2]
+# List slicing  
+print (list1[3:])       : [2]
+# List slicing  
+print (list1[0:2])      : [1, 'hi']
+# List Concatenation using + operator   
+print (list1 + list1)  : [1, 'hi', 'Python', 2, 1, 'hi', 'Python', 2]
+# List repetation using * operator  
+print (list1 * 3)        : [1, 'hi', 'Python', 2, 1, 'hi', 'Python', 2, 1, 'hi', 'Python', 2]    
+-----------------------------------   
+  iii) Tuple  : A tuple is similar to the list in many ways. Like lists, tuples also contain the collection of the items of different data types. 
+              : The items of the tuple are separated with a comma (,) and enclosed in parentheses ().
+              : A tuple is a read-only data structure as we can't modify the size and value of the items of a tuple.
+
+tup  = ("hi", "Python", 2)    
+# Checking type of tup  
+print (type(tup))     : <class 'tuple'>
+#Printing the tuple  
+print (tup)           : ('hi', 'Python', 2)
+# Tuple slicing  
+print (tup[1:])       : ('Python', 2)
+           0:n-1
+print (tup[0:1])      : ('hi',) 
+# Tuple concatenation using + operator  
+print (tup + tup)     : ('hi', 'Python', 2, 'hi', 'Python', 2)
+# Tuple repatation using * operator  
+print (tup * 3)       :('hi', 'Python', 2, 'hi', 'Python', 2, 'hi', 'Python', 2)
+# Adding value to tup. It will throw an error.  
+t[2] = "hi"            t[2] = "hi";   error:  TypeError: 'tuple' object does not support item assignment
+---------------------------------
+Dictionary  : Dictionary is an unordered set of a key-value pair of items.
+            : It is like an associative array or a hash table where each key stores a specific value.
+            : Key can hold any primitive data type, whereas value is an arbitrary Python object.
+            : The items in the dictionary are separated with the comma (,) and enclosed in the curly braces {}.
+
+d = {1:'Uday', age:25, 3:'john', 4:'mike'}     
+# Printing dictionary  
+print (d)                     : {1:'Uday', age:25, 3:'john', 4:'mike'}     
+# Accesing value using keys  
+print("1st name is "+d[1])    : 1st name is Uday
+print("2nd name is "+ d[4])   : 2nd name is mike
+print (d.keys())              : dict_keys([1, 2, 3, 4])
+print (d.values())            : dict_values(['Uday', '25', 'john', 'mike'])
+-----------------    
+Boolean  : Boolean type provides two built-in values, True and False.
+         : These values are used to determine the given statement true or false.
+         : True can be represented by any non-zero value or 'T' whereas false can be represented by the 0 or 'F'. 
+
+print(type(True))   : <class 'bool'>
+print(type(False))  : <class 'bool'>
+print(false)        : NameError: name 'false' is not defined
+--------------------------------------
+Set  : Python Set is the unordered collection of the data type. It is iterable, mutable(can modify after creation), and has unique elements. 
+     : In set, the order of the elements is undefined; it may return the changed sequence of the element. 
+     : The set is created by using a built-in function set(), or a sequence of elements is passed in the curly braces and separated by the comma.
+     : It can contain various types of values.
+
+# Creating Empty set  
+set1 = set()  
+set2 = {'James', 2, 3,'Python'}  
+#Printing Set value  
+print(set2)           : {3, 'Python', 'James', 2}   (unordered)
+# Adding element to the set  
+set2.add(10) 
+print(set2)           : {'Python', 'James', 3, 2, 10}
+#Removing element from the set  
+set2.remove(2)  
+print(set2)            : {'Python', 'James', 3, 10}
+
+----------------------------------------
+
+
+
+
+
