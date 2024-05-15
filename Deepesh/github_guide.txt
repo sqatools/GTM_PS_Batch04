@@ -1,0 +1,22 @@
+1. Go to GitHub.com and get repo link
+
+https://github.com/sqatools/GTM_PS_Batch04.git
+
+2. Go to project folder on local system the open the git terminal
+
+git clone https://github.com/sqatools/GTM_PS_Batch04.git
+
+3. cd GTM_PS_Batch04 : It will navigate to repo folder
+
+4. create folder with your  name on local system
+5. create a file in side your folder
+6. Open git terminal run command "git status" # new added folder will be
+   visible in  red color
+7. use command "git add ." # file/folder will be to added
+8. use command "git status" # file/folder will show in green color
+9. use command "git commit -m "adding my folder"" # commit will be initiated
+10. git push
+
+
+
+
