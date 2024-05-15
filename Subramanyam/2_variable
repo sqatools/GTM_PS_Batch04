@@ -1,0 +1,338 @@
+Python Variables:
+1. Variable is a name that is used to refer to memory location. Python variable is also known as an identifier and used to hold value.
+Name = Uday
+Age = 25
+2. Variable names can be a group of both the letters and digits, but they have to begin with a letter or an underscore.
+
+Pawan and pawan both are two different variables.[capital letters nd small letters different]
+
+Identifier:  An Identifier is used to identify the literals used in the program
+----------------------------
+1. The first character of the variable must be an alphabet or underscore ( _ ). Name,  _name
+2. All the characters except the first character may be an alphabet of lower-case(a-z), upper-case (A-Z), underscore, or digit (0-9). NAME , name
+3. Identifier name must not contain any white-space, or special character (!, @, #, %, ^, &, *). user_name
+4. Identifier name must not be similar to any keyword defined in the language.
+5. Identifier names are case sensitive; for example, my name, and MyName is not the same. 
+6. Examples of valid identifiers: a123, _n, n_9, etc.
+7. Examples of invalid identifiers: 1a, n%4, n 9, etc.
+
+Declaring Variable and Assigning Values
+
+The equal (=) operator is used to assign value to a variable.
+a=25
+--------------------------
+# Python program showing  
+# a use of input() 
+   
+val = input("Enter your value/Name: ") 
+print(val)
+-----------------
+print("John")  
+print(type(John))
+Python built-in type() function.   o/p: <class 'str'>
+In Python, variables are a symbolic name that is a reference or pointer to an object.
+The variables are used to denote objects by that name.
+a = 50            # variable a refers to an integer object.
+
+we assign the integer value 50 to a new variable b.
+a = 50
+b = a
+-------
+a = 50
+b = 100
+ c=100                   b-- > 100 <--c
+every created object identifies uniquely in Python. Python provides the guaranteed that no two objects will have the same identifier. 
+The built-in id() function, is used to identify the object identifier. Consider the following example.
+
+a = 50  
+b = a  
+print(id(a))  
+print(id(b))  
+# Reassigned variable a  
+a = 500  
+print(id(a))    
+
+o/p: 140734982691168
+     140734982691168   # We assigned the b = a, a and b both point to the same object.
+     2822056960944
+
+Variable names can be any length can have uppercase, lowercase (A to Z, a to z), the digit (0-9), and underscore character(_). 
+Consider the following example of valid variables names.
+
+name = "Devansh"  
+age = 20  
+marks = 80.50
+Name , Age =  Uday, 25 
+  
+print(type(name))  
+print(age)  
+print(marks)  
+
+ 	 Consider the following valid variables name.
+
+name = "A"  
+Name = "B"  
+naMe = "C"  
+NAME = "D"  
+n_a_m_e = "E"  
+_name = "F"  
+name_ = "G"  
+_name_ = "H"  
+na56me = "I"  
+  
+print(name,Name,naMe,NAME,n_a_m_e, NAME, n_a_m_e, _name, name_,_name, na56me)
+-------------------------------------------------------------------
+Camel Case - In the camel case, each word or abbreviation in the middle of begins with a capital letter. There is no intervention of whitespace. For example - nameOfStudent, valueOfVaraible, etc.
+
+Pascal Case - It is the same as the Camel Case, but here the first word is also capital. For example - NameOfStudent, etc.
+
+Snake Case - In the snake case, Words are separated by the underscore. For example - name_of_student, etc.
+--------------------------------------------------------------------
+1. Assigning single value to multiple variables
+Ex:
+x=y=z=50    
+print(x)    
+print(y)    
+print(z)  
+ 
+2. Assigning multiple values to multiple variables:
+a,b,c=5,10,15    
+print(a) 
+print b    
+print c  
+
+Python Variable Types
+---------------------------
+There are two types of variables in Python - Local variable and Global variable
+Local Variable:  Local variables are the variables that declared inside the function and have scope within the function
+
+# Declaring a function 
+city= Hyderabad    [Global Variable]
+def add():  
+    # Defining local variables. They has scope only within a function  
+    a = 20  
+    b = 30  
+    c = a + b  
+    print("The sum is:", c)  
+  
+# Calling a function  
+add()                 o/p: The sum is: 50
+
+add()  
+# Accessing local variable outside the function   
+print(a)        its not withind the function           Error: NameError: name 'a' is not defined
+
+Global Variables
+Global variables can be used throughout the program, and its scope is in the entire program. We can use global variables inside or outside the function.
+A variable declared outside the function is the global variable by default. 
+Python provides the global keyword to use global variable inside the function
+
+ Declare a variable and initialize it  
+x = 101  
+  
+# Global variable in function  
+def mainFunction():  
+    # printing a global variable  
+    global x  
+    print(x)  
+    # modifying a global variable  
+    x = 'Welcome To Javatpoint'  
+    print(x)  
+  
+mainFunction()  
+print(x) 
+
+##accessed the declared variable using the global keyword inside the function.
+-------------------------------------------------------------------------------------
+Operation on variable:
+
+Delete a variable:  del <variable_name>     We deleted variable x, and print it  we get the error "variable x is not defined"
+
+# Assigning a value to x  
+x = 6  
+print(x)  
+# deleting a variable.   
+del x  
+print(x) 
+
+print(type(a))      #class <int>
+a = 5  
+b = 6  
+# printing multiple variables  
+print(a,b) 
+#separate the variables by the comma  
+Print(1, 2, 3, 4, 5, 6, 7, 8)  
+------------------------------------------------------------------------------------
+Operators
+Operators are the main building block of any programming language. Operators allow the programmer to perform different kinds of operations on operands. These operators can be categorized based upon their different functionality:
+
+Arithmetic operators: Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication and division.
+# Examples of Arithmetic Operator 
+a = 9
+b = 4
+   
+# Addition of numbers 
+add = a + b 
+# Subtraction of numbers  
+sub = a - b 
+# Multiplication of number  
+mul = a * b 
+# Division(float) of number  
+div1 = a / b 
+# Division(floor) of number  
+div2 = a // b 
+# Modulo of both number 
+mod = a % b 
+   
+# print results 
+print(add) 
+print(sub) 
+print(mul) 
+print(div1) 
+print(div2) 
+print(mod)
+Run on IDE
+Output:
+
+13
+5
+36
+2.25
+2
+1
+Relational Operators: Relational operators compares the values. It either returns True or False according to the condition.
+# Examples of Relational Operators 
+a = 13
+b = 33
+   
+# a > b is False 
+print(a > b) 
+   
+# a < b is True 
+print(a < b) 
+   
+# a == b is False 
+print(a == b) 
+   
+# a != b is True 
+print(a != b) 
+   
+# a >= b is False 
+print(a >= b) 
+   
+# a <= b is True 
+print(a <= b)
+Run on IDE
+Output:
+
+False
+True
+False
+True
+False
+True
+Logical Operators: Logical operators perform Logical AND, Logical OR and Logical NOT operations.
+# Examples of Logical Operator 
+a = True
+b = False
+   
+# Print a and b is False 
+print(a and b) 
+   
+# Print a or b is True 
+print(a or b) 
+   
+# Print not a is False 
+print(not a) 
+Run on IDE
+Output:
+
+False
+True
+False
+
+
+Bitwise operators: Bitwise operator acts on bits and performs bit by bit operation.
+# Examples of Bitwise operators 
+a = 10
+b = 4
+   
+# Print bitwise AND operation   
+print(a & b) 
+   
+# Print bitwise OR operation 
+print(a | b) 
+   
+# Print bitwise NOT operation  
+print(~a) 
+   
+# print bitwise XOR operation  
+print(a ^ b) 
+   
+# print bitwise right shift operation  
+print(a >> 2) 
+   
+# print bitwise left shift operation  
+print(a << 2)
+Run on IDE
+Output:
+
+0
+14
+-11
+14
+2
+40
+Assignment operators: Assignment operators are used to assign values to the variables.
+Special operators: Special operators are of two types-
+Identity operator that contains is and is not.
+Membership operator that contains in and not in.
+# Examples of Identity and 
+# Membership operator
+ 
+ 
+a1 = 'Ganesh'
+b1 = 'Ganesh'
+ 
+# Identity operator
+print(a1 is not b1)
+print(a1 is b1)
+ 
+# Membership operator
+print("G" in a1)
+print("N" not in b1)
+Run on IDE
+Output:
+
+False
+True
+True
+True
+Note: For more information, refer ???? Basic Operators in Python.
+
+Basics of Input/Output
+Taking input from user –
+Python provides us with two inbuilt functions to read the input from the keyboard.
+
+raw_input(): This function works in older version (like Python 2.x). This function takes exactly what is typed from the keyboard, convert it to string and then return it to the variable in which we want to store. For example:
+# Python program showing  
+# a use of raw_input() 
+   
+g = raw_input("Enter your name : ") 
+print g 
+input(): This function first takes the input from the user and then evaluates the expression, which means Python automatically identifies whether the user entered a string or a number or list. For example:
+# Python program showing  
+# a use of input() 
+   
+val = input("Enter your value: ") 
+print(val)
+
+
+
+
+
+
+
+
+
+1
