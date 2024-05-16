@@ -43,6 +43,8 @@ Multi Branching Model
 16. run command 'git pull' all the changes will updated in local machine.
 
 
+Useful command
 
+git remote set-url origin https://GreyStoneProject@github.com/sqatools/GTM_PS_Batch04.git
 
 
