@@ -1,1 +1,3 @@
 Welcome to python programming.
+
+print("Hello word")
