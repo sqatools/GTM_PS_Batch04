@@ -101,3 +101,11 @@ r=10
 h=20
 area=2*3.14*10*20+2*3.14*10
 print("Area of cylinder:", area)
+
+#Simple interest
+
+p=1000
+r=10
+t=2
+amount=p+(p/r)*2
+print("Amount payable:",amount)
