@@ -96,3 +96,8 @@ area = 3.14*radius*radius
 print("Area of circle: ",area)
 
 print("_"*50)
+
+r=10
+h=20
+area=2*3.14*10*20+2*3.14*10
+print("Area of cylinder:", area)
