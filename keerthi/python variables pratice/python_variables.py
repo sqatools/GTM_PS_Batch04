@@ -119,4 +119,4 @@ t=2
 amount=p+(p/r)*t
 print("Simple interest is:", amount)
 
-#
+
