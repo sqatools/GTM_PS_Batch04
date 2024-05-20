@@ -120,3 +120,8 @@ amount=p+(p/r)*t
 print("Simple interest is:", amount)
 
 
+#choose the date
+import datetime
+import random
+for i in range(5):
+    print(random.random())
