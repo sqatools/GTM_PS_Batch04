@@ -109,3 +109,14 @@ r=10
 t=2
 amount=p+(p/r)*2
 print("Amount payable:",amount)
+
+print("-"*5)
+
+#calculate simple interest
+p=80
+r=5
+t=2
+amount=p+(p/r)*t
+print("Simple interest is:", amount)
+
+#
