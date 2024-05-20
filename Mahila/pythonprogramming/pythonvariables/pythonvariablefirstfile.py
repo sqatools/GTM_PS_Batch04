@@ -86,9 +86,147 @@ print("LHS Output: ",LHS)
 
 RHS = a**2 + 2*a*b + b**2
 print("RHS Output :",RHS)
+print("-"*50)
+#########################################################################################
+"""
+Python program to repeat a given string 5 times.
+Input :
+str1 = “SQATools”
+Output :
+“SQAToolsSQAToolsSQAToolsSQAToolsSQATools” 
+"""
+str1 = "SQATools"
+print(str1*5)
 
+print("-"*50)
+"""
+Python program to get the Average of given numbers.
+Formula: sum of all the number/ total number
+Input:
+a = 40
+b = 50
+c = 30
+Output :
+Average = 40
+"""
+a = 40
+b = 50
+c = 30
+print("average : ",(a+b+c)/3)
 
+print("-"*50)
 
+"""
+Python program to get the median of given numbers.
+Note: all the numbers should be arranged in ascending order
+Formula : (n+1)/2
+n = Number of values
+Input : [45, 60, 61, 66, 70, 77, 80]
+Output:  66
+"""
+"""
+Python program to print the square and cube of a given number.
+Input :
+num1 = 9
+Output :
+Square = 81
+Cube =   729
+"""
 
+num1=9
+print("sqaure =", 9**2)
+print("cube =", 9**3)
 
+print("-"*50)
+"""
+Python program to interchange values between variables.
+Input :
+a = 10
+b = 20
+Output :
+a = 20
+b = 10
+"""
+a = 10
+b = 20
+a,b = b,a
+
+print("value of a: ",a)
+print("value of b: ",b)
+
+print("-"*50)
+"""
+Python program to solve this Pythagorous theorem.
+Theorem : (a2 + b2 = c2)
+"""
+
+"""
+Python program to solve the given math formula.
+Formula : (a – b)2 = a^2 + b^2 – 2ab
+"""
+a=10
+b=20
+
+LHS = ((a-b)**2)
+print(LHS)
+
+RHS =((a**2) + (b**2) - (2*a*b))
+print(RHS)
+
+print(LHS==RHS)
+
+print("-"*50)
+
+"""
+Python program to solve the given math formula.
+Formula : a2 – b2 = (a-b)(a+b)
+"""
+a=5
+b=4
+
+LHS = ((a**2)-(b**2))
+print(LHS)
+
+RHS =((a-b)*(a+b))
+print(RHS)
+
+print(LHS==RHS)
+
+print("-"*50)
+
+"""
+Python program to solve the given math formula.
+Formula : (a + b)3 = a3 + 3ab(a+b) + b3 
+"""
+a=10
+b=20
+
+LHS=((a+b)**3)
+print(LHS)
+
+RHS=((a**3)+((3*a*b)*(a+b))+(b**3))
+print(RHS)
+
+print(LHS==RHS)
+
+print("-"*50)
+
+"""
+Python program to solve the given math formula.
+Formula : (a – b)3 = a3 – 3a2b + 3ab2 – b3
+"""
+a=10
+b=5
+LHS =((a-b)**3)
+print(LHS)
+
+RHS =((a**3)-(3*(a**2)*b)+(3*a*(b**2))-(b**3))
+print(RHS)
+
+print(LHS==RHS)
+
+"""
+Python program to calculate the area of the square.
+Formula : area = a*a
+"""
 
