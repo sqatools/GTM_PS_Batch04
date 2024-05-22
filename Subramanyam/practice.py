@@ -179,13 +179,13 @@ print("_"*50)
 '''
 
 # Python program to get the Fibonacci series between 0 to 50.
-
+'''
 n1 = 0
 n2 = 1
 
 count =0
 
-print("sequence in:  ",end=" ")
+print("sequence in:  ",end="\n ",)
 while count<50:
     print(n1,end=" ")
     n3 = n1+n2
@@ -193,10 +193,11 @@ while count<50:
     n2=n3
     count +=1
 
+print("Bye")
+
+'''
 
 
-
-print("_"*100)
 
 #  Python program to check given number is palindrome or not.
 '''
@@ -218,10 +219,37 @@ else:
 #  Python program to calculate compound interest.
 # formula p((1+r/100)**n).
 
+'''
 p = int(input("Enter principle amount: "))
 r = float(input("Enter interest rate: "))
 n = int(input("Enter number of years: "))
 
 amount = p*((1+r/100)**n)
 
-print("Compoud interest: ",amount)
+print("Compoud interest: ",amount) '''
+
+print("#"*100)
+
+# Python program to check the prime number.
+'''
+num1 = int(input("enter the valve :"))
+count = 0
+
+for i in range(1,num1+1):
+    if num1%i == 0:
+        count+=1
+
+if count == 2:
+    print(f"{num1} is a prime number")
+else:
+    print(f"{num1} is not a prime number")
+'''
+# Python program to check leap year.
+
+
+year = int(input("Enter a year: "))
+
+if (year%400 == 0 or year%100 != 0) and year%4 == 0:
+    print(f"{year} is a leap year")
+else:
+    print(f"{year} is not a leap year")
