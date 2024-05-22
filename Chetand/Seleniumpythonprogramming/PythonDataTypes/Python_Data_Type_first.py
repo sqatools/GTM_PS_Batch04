@@ -195,5 +195,95 @@ Properties of List
 - List follows positive and negative indexing as like string
 - List can contain any type of data like int, float, string, list, tuple, dict, set, Boolean.
 """
+print("_" * 50)
+########## Tuple #############
+
+tup1 = (2, 3.5, 'Hello', [3, 5, 6], (2, 3, 4), True)
+
+print(tup1, type(tup1))
+
+print(tup1[2])  # Hello
+var1 = tup1[2]
+print(var1, var1[0], type(var1))  # Hello H <class 'str'>
+
+print(tup1[-2])  # (2, 3, 4)
+var2 = tup1[-2]
+print(var2, var2[1], type(var2))  # (2, 3, 4) 3 <class 'tuple'>
+
+list1 = [4, 7, 8]
+tup2 = (4, 6, 7, list1)
+list1.append(100)
+
+print("tup2 :", tup2)
+
+"""
+# properties of tuple
+- Tuple is immutable data type, we can not modify it once it is defined.
+- Tuple follows positive and negative indexing as like string and list
+- Tuple can store all type of data, int, float, string, list, tuple, dict, set, boolean
+- Tuple is faster than list.
+- We can store duplicate data in the tuple and list
+"""
+
+print("_" * 50)
+############## Dictionary ##########
+# {'key' : 'value'}
+
+dict1 = {'Name': 'Rahul', 'Age': 25, 'Address': 'Mumbai', 'Phone': 45645645}
+
+print(dict1, type(dict1))  # <class 'dict'>
+
+print(dict1['Name'])
+
+dict1['email'] = 'rahul@gmail.com'
+print(dict1)
+
+"""
+# properties of dictionary
+- Dictionary is mutable data type, we can modify at any point of time
+- Dictionary store the data in key value pair.
+- Dictionary only contains unique key, duplicate keys are not allowed.
+- Dictionary can contain duplicate values
+- Only immutable data type can key in the dictionary e.g int, float, string
+  tuple, boolean
+
+- All type of data can be value in the dictionary, e.g int, float, string, list, 
+  tuple, dictionary, set, boolean
+"""
+print("_" * 50)
+dict2 = {
+    123: 45.56,
+    44.12: 'Good Morning',
+    "Hello": [4, 7, 2, 8, 1],
+    # [1, 2, 3] : 456            # unhashable type: 'list'
+    (3, 6, 1): {'a': 123, 'b': 456},
+    # {'a' : 111} : [45,66, 77]   # unhashable type: 'dict'
+    123: 88888,
+
+}
+
+print("dict2 :", dict2)
+
+print(dict2[44.12])  # Good Morning
+
+print(dict2[(3, 6, 1)]['b'])  # 456
+
+print("_" * 50)
+######################## Set data Type ############################
+set1 = {True, False, 1, 0, 3.5, 'Python', 4, 5, (5, 6, 7), 4, 3.5}  # <class 'set'>
+
+print(set1, type(set1))  # {(5, 6, 7), 1, 3.5, 4, 5, 500, 'Python'}
+
+set1.add(500)
+
+print(set1)
+
+"""
+# Properties of set data type
+- set only store unique data, duplicate data is not allowed.
+- set can contains only immutable data type, like int, float, string, tuple, boolean
+- set store data in random order.
+- set does not follow any indexing/sequence
+"""
 
 
