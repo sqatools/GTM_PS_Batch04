@@ -164,7 +164,6 @@ print(list2)
 
 s1 = list2[0]
 print(s1, type(s1), s1[0]) # Hello <class 'str'> H
-
 print(list2[6], type(list2[6]))  # {'a': 123, 'b': 345} <class 'dict'>
 
 print("_"*50)
