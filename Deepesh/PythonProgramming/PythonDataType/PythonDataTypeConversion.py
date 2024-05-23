@@ -268,7 +268,7 @@ tup_f = (4, 7, 8)
 bool_f = bool(tup_f)
 print(bool_f, type(bool_f))  # True <class 'bool'>
 
-
+# New change
 
 
 
