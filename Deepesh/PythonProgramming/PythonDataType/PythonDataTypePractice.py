@@ -275,7 +275,7 @@ print(dict2[(3, 6, 1)]['b']) # 456
 
 print("_"*50)
 ######################## Set data Type ############################
-set1 = {True, False, 1, 0, 3.5, 'Python',4, 5, (5, 6, 7), 4, 3.5} # <class 'set'>
+set1 = {1, True, False, 0, 3.5, 'Python',4, 5, (5, 6, 7), 4, 3.5} # <class 'set'>
 
 print(set1, type(set1)) # {(5, 6, 7), 1, 3.5, 4, 5, 500, 'Python'}
 
