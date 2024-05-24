@@ -268,7 +268,131 @@ tup_f = (4, 7, 8)
 bool_f = bool(tup_f)
 print(bool_f, type(bool_f))  # True <class 'bool'>
 
-# New change
+
+################## Dictionary Data Type Conversion #########
+
+# dict -> int # conversion is not possible
+# dict -> float # conversion is not possible
+# dict -> string
+print("_"*40)
+dict1 = {'a' : 123, 'b' : 345}
+str1 = str(dict1)
+print(str1, type(str1), str1[2])  # {'a': 123, 'b': 345} <class 'str'> a
+
+#### dict -> list ####
+print("_"*50)
+dict2 = {'a' : 123, 'b' : 345, 'c' : 444}
+list1 = list(dict2)
+print(list1, type(list1)) # ['a', 'b', 'c'] <class 'list'>
+
+#### dict -> tuple ###
+print("_"*50)
+dict2 = {'a' : 123, 'b' : 345, 'c' : 444, 'd': 132}
+tupl1 = tuple(dict2)
+print(tupl1, type(tupl1))  # ('a', 'b', 'c', 'd') <class 'tuple'>
+
+
+#### dict -> set #######
+dict_a = {'a' : 123, 'b' : 345, 'c' : 444, 'd': 132}
+set1 = set(dict_a)
+print(set1, type(set1)) # {'d', 'c', 'a', 'b'} <class 'set'>
+
+#### dict -> Boolean ###
+
+dict_b = {'P': 123, 'Q': 456, 'R': 333}
+b1 = bool(dict_b)
+print(b1, type(b1))  # True <class 'bool'>
+
+dict_c = {}
+b2 = bool(dict_c)
+print(b2, type(b2))  # False <class 'bool'>
+
+print(dict_b.values())
+
+
+################## Set Data Type #########################
+# set -> int # conversion is not possible
+# set -> float # conversion is not possible
+
+### set -> string ####
+print("_"*50)
+set1 = {4, 7, 2, 5, 1, 4, 'a', 'b'}
+s1= str(set1)
+print(s1, type(s1), s1[0], s1[1]) # {1, 2, 4, 5, 7, 'a', 'b'} <class 'str'> { 1
+
+
+#### set -> list ###
+
+set2 = {4, 7, 2, 7, 12, 2, 4}
+list1 = list(set2)
+print(list1, type(list1))  # [2, 4, 12, 7] <class 'list'>
+
+### set -> tuple ###
+set3 = {4, 7, 2, 7, 12, 2, 4}
+tup2 = tuple(set3)
+print(tup2, type(tup2))  # (2, 4, 12, 7) <class 'tuple'>
+
+### set -> dict ### # conversion is not possible
+"""
+set4 = {4, 7, 2, 7, 11, 44}
+d1 = dict(set4)
+print(d1)
+"""
+# TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+### set -> boolean ###
+
+set4 = set()
+b1 = bool(set4)
+print(b1, type(b1))  # False <class 'bool'>
+
+set5 = {4, 6, 2, 6, 7, 2}
+b2 = bool(set5)
+print(b2, type(b2))  # True <class 'bool'>
+
+################### Boolean Data Type Conversion ##########
+# bool -> int
+print("_"*50)
+b1 = True
+n1 = int(b1)
+print(n1, type(n1))  # 1 <class 'int'>
+
+######## bool -> float ##########
+print("_"*50)
+bool2 = False
+b2 = float(bool2)
+print(b2, type(b2))  # 0.0 <class 'float'>
+
+#### Bool - string ###
+b3 = True
+s1 = str(b3)
+print(s1, type(s1), s1[0])  # True <class 'str'> T
+
+#### Bool - List ### : conversion  is not possible
+"""
+b4 = False
+l4 = list(b4)
+print(l4)
+"""
+# TypeError: 'bool' object is not iterable
+
+### bool -> tuple ###  : conversion  is not possible
+#### bool -> dict #### : conversion  is not possible
+"""
+b5 = False
+di1 = dict(b5)
+print(di1, type(di1))
+"""
+#### bool -> set #### : conversion  is not possible
+
+b5 = False
+di1 = dict(b5)
+
+
+
+
+
+
 
 
 
