@@ -1,5 +1,5 @@
-# Python program to check for the anagram.
-'''
+#
+
 word = input("Enter the words :")
 combination = 0
 character = len(word)
@@ -10,7 +10,7 @@ while character>0:
 
 print("Total combination without repetaation: ",combination)
 
-'''
+
 # how to display those combination word in print statement
 
 # Python program to generate random numbers.
@@ -57,12 +57,14 @@ print(f'my Name is {name} , I am from {loc} and I {age} years old')
 
 # Python program to find the sum of natural numbers.
 
-'''num = int(input("Eeter the number: "))
+'''
+num = int(input("Eeter the number: "))
 total = 0
 
 for i in range(1,num+1):
     total+=i
-print("total",total)'''
+print("total",total)
+'''
 
 # Python program to find the sum of natural numbers.
 '''
@@ -129,3 +131,4 @@ elif operation == "*":
     print(num1*num2)
 else:
     print("Invalid operation")
+'''
