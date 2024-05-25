@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb48b3d2-4915-4523-ba84-36186bc051b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GTM_PS_Batch04.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="eb48b3d2-4915-4523-ba84-36186bc051b9" name="Changes" comment="adding" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding first python file" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding first python file" />
+    <MESSAGE value="adding" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding" />
   </component>
 </project>
