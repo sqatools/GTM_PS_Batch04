@@ -176,10 +176,34 @@ print('_'*50)
 
 p=[2,3,4]
 list1=[7,8,9,[8,9,6],p,0]
-# print(list1, type(list1))
-p2=list1[4]
-print("value of p2:",p2)
+print(list1, type(list1))
+p2=list1
+print("p2 value:",p2)
 p2.append(100)
+
+print(list1)
+print(list1[1][2])
+
+# **************TUPLE****************
+# properties of tuple
+# - Tuple is immutable data type, we can not modify it once it is defined.
+# - Tuple follows positive and negative indexing as like string and list
+# - Tuple can store all type of data, int, float, string, list, tuple, dict, set, boolean
+# - Tuple is faster than list.
+# - We can store duplicate data in the tuple and list
+
+
+print("*"*50)
+# tup1 = (2, 3.5, 'Hello', [3, 5, 6], (2, 3, 4), True)
+#
+# print(tup1, type(tup1))
+
+# *******Dictionary******************
+dict1 = {'Name' : 'Rahul', 'Age' : 25, 'Address' : 'Mumbai', 'Phone' : 45645645}
+print(dict1,type(dict1))
+
+
+
 
 
 
