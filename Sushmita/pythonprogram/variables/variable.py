@@ -37,3 +37,29 @@ list3.append(98)
 print(list3)
 
 ##########tuple######
+
+print("*"*50)
+tuple=(3,45,6,7)
+
+print(tuple,type(tuple))
+
+print(tuple[1])
+
+list1=[3,'sushmita']
+tuple1=(45,[3,4,"Hello"],list1)
+print(tuple1)
+
+print(tuple1[2][1])
+
+#############Dictionary################
+
+print("*"*50)
+
+dict={'name':'sushmit','29':'48', "add":"RAjajanagar"}
+print(dict['add'],type(dict))
+dict['age']=29
+print(dict)
+
+##############SET################################
+set={1,'hello',(8,9,0)}
+print(set,type(set))
