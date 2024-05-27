@@ -6,6 +6,11 @@ print(type(var1))
 #print the address where the variable is stored
 print(id(var1))
 
+a1=100
+print(a1)
+print(modify(a1=200))
+
+
 #string type
 var2 = "good morning"
 print(var2)
