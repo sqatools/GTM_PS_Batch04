@@ -1,23 +1,4 @@
-"""
-Python Data Type
 
-1. Number Data Type
-    i).  Integer
-    ii). Float
-    iii). Complex
-
-2. Sequential Data Type
-    i). String
-    ii). List
-    iiI). Tuple
-
-3. Dictionary
-4. Set
-5. Boolean
-"""
-print ("-"*50)
-##########################d
-#
 # Integer Data Type ####
 
 I1 = 40
@@ -92,7 +73,7 @@ controls, loops, functions, native data types etc.
 ‎Python Arithmetic Operations · 
 ‎Hello Python Program · ‎Python Area Of Triangle
 '''
-
+#to print paragraphs in our own order we can use ''' or """
 str8 = """
 Python Programs or Python Programming
 Examples for beginners and 
@@ -124,23 +105,32 @@ print("_" * 50)
 print("str10 :", type(str10), str10)
 print("_" * 50)
 
-var1 = "Hello"
+str1 = "pycharm"
 
 """
- 0   1   2   3  4  #+ve
- H   e   l   l  o
--5  -4   -3  -2 -1 # -ve
+#string has positive index and as well as negative index. positive index starts with 0,1,2... and
+#negative index starts with -1,-2.....
+0   1  2   3  4  5  6  #+ve index
+p   y  c   h  a  r  m 
+-7 -6 -5 -4 -3 -2 -1  #-ve index
 """
-print(var1[0])  # H
-print(var1[-5])  # H
+print(str1[1])  #y
+print(str1[3])  #h
+print(str1[5])  #r
+print(str1[-2]) #r
+print(str1[-4])  #h
+print(str1[-7])  #p
+print(str1[0])  #p
 
-print(var1[-1])  # 0
-print(var1[4])  # 0
+print("_" *50)
 
-var2 = "Good Morning"
+str2 = "Good Morning"
 
-print(var2[5])  # M
-
+print(str2[4])   #  space
+print(str2[0])   #G
+print(str2[-2])  #n
+print(str2[-5])  #r
+#if we have any space between the strings the spaces will also count for index positions.
 """
 # Properties of String
 - String is immutable data type, once it is defined we can not change it.
@@ -149,10 +139,15 @@ print(var2[5])  # M
 """
 
 print("_" * 50)
+
+
 ############ List ############
 
-list1 = [12, 4.5, 'hello', [3, 6, 7]]
-print(list1, type(list1))  # <class 'list'>
+lis1 = [ 2, 0.2 , "hello" , [3,4,5], (2.3,"hello")]
+print (lis1 , type(lis1))
+print (lis1[-1],type(lis1[-1]))  #(2.3, 'hello') <class 'tuple'>
+print(lis1[2],type(lis1[2]))     #hello <class 'str'>
+print("_" * 50)
 
 list2 = [
     'Hello',  # 0 # -7
@@ -164,27 +159,25 @@ list2 = [
     {'a': 123, 'b': 345},  # 6 # -1
 ]
 
-print(list2)
-
+print(list2)  #['Hello', 'Good Morning', 4534543, 56.66, [4, 6, 7, 8], (4, 7, 2, 22), {'a': 123, 'b': 345}]
 s1 = list2[0]
 print(s1, type(s1), s1[0])  # Hello <class 'str'> H
 print(list2[6], type(list2[6]))  # {'a': 123, 'b': 345} <class 'dict'>
 
 print("_" * 50)
-str1 = "Hello \n Good \n Morning"
+str1 = "Hello \n Good \n Morning"   #\n for next line
 print(str1)
 
-str2 = "Hello \t \t Good \t\t Morning"
+str2 = "Hello \t \t Good \t\t Morning"  #\t for tab space
 print(str2)
 
 print("_" * 50)
+
 p = [44, 77, 88]
-
 list3 = [4, 6, 7, [5, 7, 8], p, True]
-
 p2 = list3[3]
 print("p2 value :", p2)
-p2.append(100)
+p2.append(100)   #appending value to 100 af position 3
 
 print(list3)
 print(list3[-1])
@@ -201,6 +194,8 @@ Properties of List
 """
 
 print("_" * 50)
+
+
 ########## Tuple #############
 
 tup1 = (2, 3.5, 'Hello', [3, 5, 6], (2, 3, 4), True)
