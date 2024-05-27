@@ -234,4 +234,26 @@ else:
     print(f"{num} is not available in the list")  #30 is not available in the list
 
 
+
+#16)find the largest number among three numbers
+
+num1 =int(input("Enter first number : "))
+num2 =int(input("Enter second number : "))
+num3 = int(input("Enter Third number : "))
+
+if num1>num2:
+    if num1>num3:
+        print(f"{num1} is greater")
+    else:
+        print(f"{num3} is greater")
+else:
+    if num2>num3:
+        print(f"{num2} is greater")
+    else:
+        print(f"{num3} is greater")
+
+
 """
+#17)Python program to check whether a number is palindrome. eg:malayalam
+
+int = input("Enter values : ")

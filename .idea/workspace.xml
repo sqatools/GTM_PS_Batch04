@@ -116,11 +116,21 @@
       <option name="presentableId" value="Default" />
       <updated>1716225492013</updated>
     </task>
+    <task id="LOCAL-00001" summary="addind division.py file">
+      <option name="closed" value="true" />
+      <created>1716814051346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716814051346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="if else practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="if else practise" />
+    <MESSAGE value="addind division.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="addind division.py file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
