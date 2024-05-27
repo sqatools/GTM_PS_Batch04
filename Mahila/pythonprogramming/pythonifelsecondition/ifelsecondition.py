@@ -152,7 +152,7 @@ else:
 # Print output
     print("It is not a part of the series")
 
-"""
+
 def fib(n):
     a=0
     b=1
@@ -165,3 +165,95 @@ def fib(n):
         b=c
         print(c)
 fib(10)
+
+#10)authentication of username and password. The name and password of the user should be the same to be valid
+
+name = input("Enter User Name : ")
+password = input("Enter valid password : ")
+if(name==password):
+    print("valid details")
+else:
+    print("Invalid details entered,Please enter valid details")
+
+
+#11)validate user_id in the list of user_ids. Take a user id to validate user_id.
+
+user_ids = [2,4,6,8,6,9]
+user_id = int(input("Enter user id : "))
+if user_id in user_ids:
+    print("valid userid entered")
+else:
+    print("invalid userid entered")
+
+
+#12)square or cube if the given number is divided by 2 or 3 respectively.
+
+num = int(input("Enter a number : "))
+if (num%2==0):
+    print(num**2)
+elif(num%3==0):
+    print(num**3)
+else:
+    print("not divisible by 2 or 3")
+
+
+
+#14)Python nested If else program to describe the interview process
+
+round1 = input("Enter the selection status for first round : ")
+round2 = input("Enter the selection status for second round : ")
+
+if round1 == "pass":
+    print("congrats you are selected in first round interview")
+    if round2 == "pass":
+        print("congrats you are selected and will get the offer letter soon through mail")
+    else:
+        print("sorry,you have not cleared round 2")
+else:
+    print("Better luck next time")
+
+
+#15)Determine whether a number is available in the list
+
+list1 = [22,33,49,34,65,67,12,25]
+num = int(input("Enter a number: "))
+
+if num in list1:
+    print("num is available in the list")  #this will print on;y the message
+else:
+    print("num is not available in the list") #num is not available in the list
+
+
+
+list1 = [22,33,49,34,65,67,12,25]
+num = int(input("Enter a number: "))
+
+if num in list1:
+    print(f"{num} is available in the list")  #this will print the number also along with the message to print
+else:
+    print(f"{num} is not available in the list")  #30 is not available in the list
+
+
+
+#16)find the largest number among three numbers
+
+num1 =int(input("Enter first number : "))
+num2 =int(input("Enter second number : "))
+num3 = int(input("Enter Third number : "))
+
+if num1>num2:
+    if num1>num3:
+        print(f"{num1} is greater")
+    else:
+        print(f"{num3} is greater")
+else:
+    if num2>num3:
+        print(f"{num2} is greater")
+    else:
+        print(f"{num3} is greater")
+
+
+"""
+#17)Python program to check whether a number is palindrome. eg:malayalam
+
+int = input("Enter values : ")
