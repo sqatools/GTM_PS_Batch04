@@ -1,4 +1,4 @@
-#1)Program to check if a number is divisible by 3 - directly assigning value
+#)Program to check if a number is divisible by 3 - directly assigning value
 """
 a=30
 if (a%3==0):
@@ -15,7 +15,7 @@ else:
 
 print("-"*50)
 
-#2)Program to check if a number is divisible by 3 - user assigning value
+#Program to check if a number is divisible by 3 - user assigning value
 #for user assigning value we need to use the function ###input###
 
 n1 = int(input("please enter value : "))    # please enter value : 30           #divisible by 3
@@ -33,7 +33,7 @@ else:
 
 print("-"*50)
 
-#3)Program to get all numbers divided by 3 between 1 to 30
+#Program to get all numbers divided by 3 between 1 to 30
 
 for n in range(1,31):
     if n%3==0:
@@ -55,7 +55,7 @@ for n in range(1,31):
 #30
 
 print("_"*70)
-#4)If-else program to assign grades as per total marks
+#If-else program to assign grades as per total marks
 
 #Condition for grades:
 #Marks less than 40: Fail
@@ -105,7 +105,7 @@ else:
     print("not a valid mark")
 
 
-#5)Python program to check number is divided by 3 and 5
+#Python program to check number is divided by 3 and 5
 
 num=int(input("enter a number :"))
 if (num%3==0 and num%5==0):
@@ -133,7 +133,7 @@ else:
 print("-"*80)
 
 
-#7) Python program to print the square of the number if the num is divisible by 11
+# Python program to print the square of the number if the num is divisible by 11
 
 num = int(input("enter a value:"))
 if(num%11==0):
@@ -141,7 +141,7 @@ if(num%11==0):
 else:
     print("not divisible by 11")
 
-#8)Python program to check given number is odd or even
+#Python program to check given number is odd or even
 
 n1= int(input("enter a value:"))
 if(n1%2==0):
@@ -160,7 +160,7 @@ else:
 
 
 
-#10)authentication of username and password. The name and password of the user should be the same to be valid
+#authentication of username and password. The name and password of the user should be the same to be valid
 
 name = input("Enter User Name : ")
 password = input("Enter valid password : ")
@@ -170,7 +170,7 @@ else:
     print("Invalid details entered,Please enter valid details")
 
 
-#11)validate user_id in the list of user_ids. Take a user id to validate user_id.
+#validate user_id in the list of user_ids. Take a user id to validate user_id.
 
 user_ids = [2,4,6,8,6,9]
 user_id = int(input("Enter user id : "))
@@ -180,7 +180,7 @@ else:
     print("invalid userid entered")
 
 
-#12)square or cube if the given number is divided by 2 or 3 respectively.
+#square or cube if the given number is divided by 2 or 3 respectively.
 
 num = int(input("Enter a number : "))
 if (num%2==0):
@@ -192,7 +192,7 @@ else:
 
 
 
-#14)Python nested If else program to describe the interview process
+#Python nested If else program to describe the interview process
 
 round1 = input("Enter the selection status for first round : ")
 round2 = input("Enter the selection status for second round : ")
@@ -229,7 +229,7 @@ else:
 
 
 
-#16)find the largest number among three numbers
+#find the largest number among three numbers
 
 num1 =int(input("Enter first number : "))
 num2 =int(input("Enter second number : "))
@@ -247,14 +247,78 @@ else:
         print(f"{num3} is greater")
 
 
-"""
-
 #Python program to check any person eligible to vote or not
 #age > 18+ : eligible
 #age < 18: not eligible
 
 age = int(input("Enter the age :"))
-if age>18:
+if age>=18:
     print("You are eligible for voting")
 else:
     print("You are not eligible for voting")
+
+
+
+#Python program to check whether a student has passed the exam. If marks are greater than 35 students have passed the exam.
+#Input = Enter marks: 45
+#Output = Pass
+
+marks = int(input("Enter the marks :"))
+
+if marks> 35:
+    print("passed the exam")
+else:
+    print("Filed the exam")
+
+
+# Python program to check whether the given number is positive or not.
+#Input = 20
+#Output = True
+
+num4 = int(input("Enter a value : "))
+if num4>0:
+    print("true")
+else:
+    print("false")
+
+#Python program to check whether the given number is negative or not.
+
+num5 = int(input("Enter a value : "))
+if num5<0:
+    print("true")
+else:
+    print("false")
+
+#Python program to check whether the given number is positive or negative and even or odd.
+#Input = 26
+#Output = The given number is positive and even
+
+
+num6 = int(input("Enter a value :"))
+if num6>0:
+    if num6%2==0:
+        print(f"{num6} is even")
+    else:
+        print(f"{num6} is odd")
+else:
+    if num6 % 2 == 0:
+        print(f"{num6} is even")
+    else:
+        print(f"{num6} is odd")
+
+
+#Python program to print the largest number from two numbers.
+#Input:
+#25, 63
+#Output = 63
+
+a=25
+b=63
+
+if a>b:
+    print (f"{a} is greater")
+else:
+    print (f"{b} is greater")
+
+
+"""
