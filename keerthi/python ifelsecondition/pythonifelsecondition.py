@@ -117,7 +117,12 @@ if type(str1)==str:
 else:
     print("str1 is not a str")
 
-
+#Python program to check whether the given number is float or not.
+n=23.5
+if type(n)==float:
+    print("Given number is float")
+else:
+    print("given number is not float")
 
 
 
