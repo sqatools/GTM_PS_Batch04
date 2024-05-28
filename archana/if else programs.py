@@ -63,4 +63,3 @@ for i in range(1,31):
         print(i)
 
 
-#6).  Python program to check given number is a prime number or not.
