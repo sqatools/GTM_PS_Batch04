@@ -60,10 +60,11 @@ print(p, type(p),str1[2])
 # print(var_str, type(var_str), var_str(3))  #not applicable
 '''
 
-# #this is not working.
-# str_b="8965"
-# f2_float = float(str_b)
-# print(f2_float, type(f2_float))
+#this is not working.
+str_b="89.65"
+str1 = "5567"
+result = float(str1)
+print(result, type(result))
 
 # converting string to list
 str1="welcome"
