@@ -1,5 +1,5 @@
 #Program to check if a number is divisible by 3 - directly assigning value
-
+"""
 a=30
 if (a%3==0):
     print("a is divisible by 3")  #a is divisible by 3
@@ -321,24 +321,6 @@ else:
     print (f"{b} is greater")
 
 
-
-#Python program to check whether a given character is uppercase or not.
-char = input("Enter a character: ")
-if char.isupper():            #method to find uppercase
-    print("True")
-else:
-    print("False")
-
-
-#Python program to check whether the given character is lowercase or not.
-
-char = input ("enter a character :")
-if char.islower():           #method to find lowercase
-    print("True")
-else:
-    print("false")
-
-
 #Check whether the number is an integer or not
 
 num7 = 3
@@ -388,7 +370,7 @@ year = int(input("Enter the year: "))
 if (year%100 != 0 or year%400 == 0) and year%4 == 0:  #Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years, if they are exactly divisible by 400
     print("The year given is a leap year.")
 else:
-    print("The year gien is not a leap year.")
+    print("The year given is not a leap year.")
 
 
 
@@ -427,3 +409,16 @@ if alphabet not in vowels:                                  ######## if not in #
     print("Given char is consonant")
 else:
     print("Given char is not consonant")
+
+"""
+
+
+#Python program to convert the month name to the number of days
+
+month = input ("Enter the month : ")
+
+if month=="january":
+    print("number of days 31")
+elif month=="february":
+    print("number of days 28 or 29")
+elif month=="march":
