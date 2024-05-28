@@ -84,6 +84,27 @@ elif(marks>90 and marks<=100):
 else:
     print("invalid marks entered")
 
+##---------------simply chained comparison
+##############marks > 35 and <=45 by simply chained comparison 35 < marks <=45 #############
+
+
+marks = int(input("Enter the marks : "))
+if marks < 35:
+    print("failed")
+elif 35 < marks <= 55:
+    print("Grade C")
+elif 55 < marks <=65:
+    print("grade B")
+elif 65 < marks <=85:
+    print("grade A")
+elif 85 < marks <= 95:
+    print("grade A+")
+elif 95 < marks <=100:
+    print("Excellent")
+else:
+    print("not a valid mark")
+
+
 #5)Python program to check number is divided by 3 and 5
 
 num=int(input("enter a number :"))
@@ -98,28 +119,19 @@ else:
 #enter a number :5
 #The number is not divisible by 3 and 5
 
+#### to print the number also we can do the below method.
+num = int(input("Enter a number : "))
+
+if num%3==0 and num%5==0:
+    print(f"{num} is  divisible by 3 and 5")
+else:
+    print(f"{num} is not divisible by 3 and 5")
+
+#Enter a number : 31
+#31 is not divisible by 3 and 5
+
 print("-"*80)
 
-#6)print given number is prime or not
-#prime number is dividible by 1 and itself
-
-
-num =  int(input("Enter a number: "))
-# Create count variable
-count = 0
-# Iterate over numbers
-for i in range(2,num):
-# Check for division
-    if num%i == 0:
-    # Add 1 to the count variable
-        count += 1
-# Check for prime number
-if count > 0:
-# Print output
-    print("It is not a prime number")
-else:
-#Print output
-    print("It is a prime number")
 
 #7) Python program to print the square of the number if the num is divisible by 11
 
@@ -137,31 +149,112 @@ if(n1%2==0):
 else:
     print("given value is odd")
 
-#9)Python program to check a given number is part of the Fibonacci series from 1 to 10.
+#### to print number also we can use f"{num} is odd"
 
-# Fibonacci series- a type series where each number is the sum of the two that precede it. It starts from 0 and 1 usually. The Fibonacci sequence is given by 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on.
-fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-print(type(fib))
-# Take input through the user
-num = int(input("Enter a number: "))
-# Check for number in fibonacci series
-if num in fib:
-# Print output
-    print("It is a part of the series")
+num2 = int(input("Enter a value : "))
+if num2%2==0:
+    print (f"{num2} is even number")
 else:
-# Print output
-    print("It is not a part of the series")
+    print (f"{num2} is an odd number")
+
+
+
+
+#10)authentication of username and password. The name and password of the user should be the same to be valid
+
+name = input("Enter User Name : ")
+password = input("Enter valid password : ")
+if(name==password):
+    print("valid details")
+else:
+    print("Invalid details entered,Please enter valid details")
+
+
+#11)validate user_id in the list of user_ids. Take a user id to validate user_id.
+
+user_ids = [2,4,6,8,6,9]
+user_id = int(input("Enter user id : "))
+if user_id in user_ids:
+    print("valid userid entered")
+else:
+    print("invalid userid entered")
+
+
+#12)square or cube if the given number is divided by 2 or 3 respectively.
+
+num = int(input("Enter a number : "))
+if (num%2==0):
+    print(num**2 :square)
+elif(num%3==0):
+    print(num**3 : cube)
+else:
+    print("not divisible by 2 or 3")
+
+
+
+#14)Python nested If else program to describe the interview process
+
+round1 = input("Enter the selection status for first round : ")
+round2 = input("Enter the selection status for second round : ")
+
+if round1 == "pass":
+    print("congrats you are selected in first round interview")
+    if round2 == "pass":
+        print("congrats you are selected and will get the offer letter soon through mail")
+    else:
+        print("sorry,you have not cleared round 2")
+else:
+    print("Better luck next time")
+
+
+#15)Determine whether a number is available in the list
+
+list1 = [22,33,49,34,65,67,12,25]
+num = int(input("Enter a number: "))
+
+if num in list1:
+    print("num is available in the list")  #this will print on;y the message
+else:
+    print("num is not available in the list") #num is not available in the list
+
+########
+
+list1 = [22,33,49,34,65,67,12,25]
+num = int(input("Enter a number: "))
+
+if num in list1:
+    print(f"{num} is available in the list")  #this will print the number also along with the message to print
+else:
+    print(f"{num} is not available in the list")  #30 is not available in the list
+
+
+
+#16)find the largest number among three numbers
+
+num1 =int(input("Enter first number : "))
+num2 =int(input("Enter second number : "))
+num3 = int(input("Enter Third number : "))
+
+if num1>num2:
+    if num1>num3:
+        print(f"{num1} is greater")
+    else:
+        print(f"{num3} is greater")
+else:
+    if num2>num3:
+        print(f"{num2} is greater")
+    else:
+        print(f"{num3} is greater")
+
 
 """
-def fib(n):
-    a=0
-    b=1
-    print(a)
-    print(b)
 
-    for i in range(2,n):
-        c=a+b
-        a=b
-        b=c
-        print(c)
-fib(10)
+#Python program to check any person eligible to vote or not
+#age > 18+ : eligible
+#age < 18: not eligible
+
+age = int(input("Enter the age :"))
+if age>18:
+    print("You are eligible for voting")
+else:
+    print("You are not eligible for voting")
