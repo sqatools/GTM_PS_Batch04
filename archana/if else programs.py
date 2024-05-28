@@ -1,9 +1,11 @@
+# Python program to check given number is divided by 3 or not.
 '''a = 31
 if a%3 ==0  :
     print("a is divisble by 3")
 else:
     print("a is not divisible by 3")
 '''
+
 '''
 a = int(input("enter the number:"))
 if a%3 == 0:
@@ -12,6 +14,7 @@ else:
     print("a is not divisble by 3")
 '''
 '''
+#3). If else program to assign grades as per total marks
 marks = int(input("enter the number"))
 if marks < 40:
     print("Fail")
@@ -46,5 +49,17 @@ else:
     print("not divisble")
 '''
 
+"""
 a = int(input("enter the number"))
-if a % 2 ==0:
+if a % 2 == 0:
+    print("even number")
+else:
+    print("odd number")
+"""
+
+#2). If else program to get all the numbers divided by 3 from 1 to 30.
+for i in range(1,31):
+    if i % 3 == 0:
+        print(i)
+
+
