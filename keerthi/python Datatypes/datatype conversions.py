@@ -79,7 +79,7 @@ print('_'*50)
 #converting str to dict
 str_val="Hello"
 dict_val={str_val:len(str_val)}
-print(dict_val, type(dict_val))
+print(dict_val, type(dict_val),dict_val[2])
 
 '''
  #direct string cannot be converted)
