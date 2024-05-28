@@ -68,7 +68,7 @@ False or False : False
 == : equal to operator
 in contains operator:
 """
-
+""""""
 
 print("_"*50)
 num = 22
@@ -199,4 +199,111 @@ n2 = 61
 
 result = True if n2 in [3, 6, 22, 60, 12] else False
 print("result :", result)
+""""""
+# 1 program to check given number is divided by 3 or not.#
+print("_"*50)
 
+num = 30
+if num % 3 == 0:
+    print("number is divisible by 3")
+else:
+    print("number is Not divisible by 3")
+
+# 2 Python program to check the given number divided by 3 and 5.#
+print("_"*50)
+
+num = 15
+if num % 3 == 0 and num % 5 == 0:
+    print("number is divisible by 3 and 5")
+else:
+    print("number is Not divisible by 3 and 5")
+
+# 3 Python program to check given number is odd or even.#
+
+print("_"*50)
+
+num = 15
+if num % 3 == 0 or num % 2 == 0:
+    print("Given number is Odd ")
+else:
+    print("Given number is Even ")
+
+# 4 Python program to check authentication with the given username and password.#
+
+print("_"*50)
+
+str1 = "Chetan"
+str2 = "Chetan@123"
+if str1 == "Chetan" and str2 == "Chetan@123":
+    print("authentication is successful")
+else:
+    print("Invalid user or Password")
+
+# 5 Python program to validate user_id in the list of user_ids.#
+
+print("_"*50)
+
+userid_list = [1, 2, 3, 12, 34, 16]
+ide = 12
+if ide in userid_list:
+    print("Id is present in List")
+
+else:
+    print("Id is not present in List")
+
+# 6 Python program to check any person eligible to vote or not#
+print("="*50)
+
+Age = 16
+
+if Age >= 18:
+    print("Eligible for Voting")
+else:
+    print("Not Eligible for Voting")
+
+# 7 Python program to Check greater among three Number#
+
+print("="*50)
+
+num1 = 100
+num2 = 67
+num3 = 89
+
+if num1 > num2 and num1 > num3:
+    print("num1 is Greater")
+elif num2 > num1 and num2 > num3:
+    print("num2 is Greater")
+elif num3 > num1 and num3 > num2:
+    print("num3 is Greater")
+else:
+    print("Id is not present in List")
+
+# 8 Python Program to Check whether the given number is negative or not#
+print("="*50)
+Number = -23
+
+if Number < 0:
+    print("Given number is Negative")
+else:
+    print("Given number is not Negative")
+"""
+9 Python program to check whether a student has passed the exam 
+ If marks are greater than 35 students have passed the exam
+"""
+print("="*50)
+
+Student_Marks = 50
+
+if Student_Marks > 35:
+
+    print("students have passed the exam")
+else:
+    print("students have failed the exam")
+
+# 10 Program to check whether the number is Int#
+print("="*50)
+ Digit = 12
+ if type(Digit) == int:
+     print("Digit is Integer")
+ else:
+print("Digit is Not an Integer")
