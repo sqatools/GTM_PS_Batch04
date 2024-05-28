@@ -299,12 +299,33 @@ if Student_Marks > 35:
     print("students have passed the exam")
 else:
     print("students have failed the exam")
-"""
+
 # 10 Program to check whether the number is Int#
 print("="*50)
- Digit = 12
- if type(Digit) == int:
+Digit = 12
+if type(Digit) == int:
      print("Digit is Integer")
- else:
-print("Digit is Not an Integer")
-"""
+else:
+    print("Digit is Not an Integer")
+
+# 11 Python program to assign grades as per total marks #
+print("="*50)
+Mark = 1011
+if Mark < 30:
+    print("failed")
+elif 30 < Mark < 40:
+    print("Garde C")
+elif 40 < Mark < 50:
+    print("Garde B")
+elif 50 < Mark < 60:
+    print("Garde B +")
+elif 60 < Mark < 70:
+    print("Garde A")
+elif 70 < Mark < 80:
+    print("Garde A+")
+elif 80< Mark < 90:
+    print("Garde A++")
+elif 90 < Mark < 100:
+    print("Garde Merit")
+else:
+    print("Invalid Grade")
