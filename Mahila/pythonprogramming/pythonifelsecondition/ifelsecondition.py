@@ -1,4 +1,4 @@
-#1)Program to check if a number is divisible by 3 - directly assigning value
+#)Program to check if a number is divisible by 3 - directly assigning value
 """
 a=30
 if (a%3==0):
@@ -15,7 +15,7 @@ else:
 
 print("-"*50)
 
-#2)Program to check if a number is divisible by 3 - user assigning value
+#Program to check if a number is divisible by 3 - user assigning value
 #for user assigning value we need to use the function ###input###
 
 n1 = int(input("please enter value : "))    # please enter value : 30           #divisible by 3
@@ -33,7 +33,7 @@ else:
 
 print("-"*50)
 
-#3)Program to get all numbers divided by 3 between 1 to 30
+#Program to get all numbers divided by 3 between 1 to 30
 
 for n in range(1,31):
     if n%3==0:
@@ -55,7 +55,7 @@ for n in range(1,31):
 #30
 
 print("_"*70)
-#4)If-else program to assign grades as per total marks
+#If-else program to assign grades as per total marks
 
 #Condition for grades:
 #Marks less than 40: Fail
@@ -84,7 +84,28 @@ elif(marks>90 and marks<=100):
 else:
     print("invalid marks entered")
 
-#5)Python program to check number is divided by 3 and 5
+##---------------simply chained comparison
+##############marks > 35 and <=45 by simply chained comparison 35 < marks <=45 #############
+
+
+marks = int(input("Enter the marks : "))
+if marks < 35:
+    print("failed")
+elif 35 < marks <= 55:
+    print("Grade C")
+elif 55 < marks <=65:
+    print("grade B")
+elif 65 < marks <=85:
+    print("grade A")
+elif 85 < marks <= 95:
+    print("grade A+")
+elif 95 < marks <=100:
+    print("Excellent")
+else:
+    print("not a valid mark")
+
+
+#Python program to check number is divided by 3 and 5
 
 num=int(input("enter a number :"))
 if (num%3==0 and num%5==0):
@@ -98,30 +119,21 @@ else:
 #enter a number :5
 #The number is not divisible by 3 and 5
 
+#### to print the number also we can do the below method.
+num = int(input("Enter a number : "))
+
+if num%3==0 and num%5==0:
+    print(f"{num} is  divisible by 3 and 5")
+else:
+    print(f"{num} is not divisible by 3 and 5")
+
+#Enter a number : 31
+#31 is not divisible by 3 and 5
+
 print("-"*80)
 
-#6)print given number is prime or not
-#prime number is dividible by 1 and itself
 
-
-num =  int(input("Enter a number: "))
-# Create count variable
-count = 0
-# Iterate over numbers
-for i in range(2,num):
-# Check for division
-    if num%i == 0:
-    # Add 1 to the count variable
-        count += 1
-# Check for prime number
-if count > 0:
-# Print output
-    print("It is not a prime number")
-else:
-#Print output
-    print("It is a prime number")
-
-#7) Python program to print the square of the number if the num is divisible by 11
+# Python program to print the square of the number if the num is divisible by 11
 
 num = int(input("enter a value:"))
 if(num%11==0):
@@ -129,7 +141,7 @@ if(num%11==0):
 else:
     print("not divisible by 11")
 
-#8)Python program to check given number is odd or even
+#Python program to check given number is odd or even
 
 n1= int(input("enter a value:"))
 if(n1%2==0):
@@ -137,36 +149,18 @@ if(n1%2==0):
 else:
     print("given value is odd")
 
-#9)Python program to check a given number is part of the Fibonacci series from 1 to 10.
+#### to print number also we can use f"{num} is odd"
 
-# Fibonacci series- a type series where each number is the sum of the two that precede it. It starts from 0 and 1 usually. The Fibonacci sequence is given by 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on.
-fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-print(type(fib))
-# Take input through the user
-num = int(input("Enter a number: "))
-# Check for number in fibonacci series
-if num in fib:
-# Print output
-    print("It is a part of the series")
+num2 = int(input("Enter a value : "))
+if num2%2==0:
+    print (f"{num2} is even number")
 else:
-# Print output
-    print("It is not a part of the series")
+    print (f"{num2} is an odd number")
 
 
-def fib(n):
-    a=0
-    b=1
-    print(a)
-    print(b)
 
-    for i in range(2,n):
-        c=a+b
-        a=b
-        b=c
-        print(c)
-fib(10)
 
-#10)authentication of username and password. The name and password of the user should be the same to be valid
+#authentication of username and password. The name and password of the user should be the same to be valid
 
 name = input("Enter User Name : ")
 password = input("Enter valid password : ")
@@ -176,7 +170,7 @@ else:
     print("Invalid details entered,Please enter valid details")
 
 
-#11)validate user_id in the list of user_ids. Take a user id to validate user_id.
+#validate user_id in the list of user_ids. Take a user id to validate user_id.
 
 user_ids = [2,4,6,8,6,9]
 user_id = int(input("Enter user id : "))
@@ -186,19 +180,19 @@ else:
     print("invalid userid entered")
 
 
-#12)square or cube if the given number is divided by 2 or 3 respectively.
+#square or cube if the given number is divided by 2 or 3 respectively.
 
 num = int(input("Enter a number : "))
 if (num%2==0):
-    print(num**2)
+    print(num**2 :square)
 elif(num%3==0):
-    print(num**3)
+    print(num**3 : cube)
 else:
     print("not divisible by 2 or 3")
 
 
 
-#14)Python nested If else program to describe the interview process
+#Python nested If else program to describe the interview process
 
 round1 = input("Enter the selection status for first round : ")
 round2 = input("Enter the selection status for second round : ")
@@ -223,7 +217,7 @@ if num in list1:
 else:
     print("num is not available in the list") #num is not available in the list
 
-
+########
 
 list1 = [22,33,49,34,65,67,12,25]
 num = int(input("Enter a number: "))
@@ -235,7 +229,7 @@ else:
 
 
 
-#16)find the largest number among three numbers
+#find the largest number among three numbers
 
 num1 =int(input("Enter first number : "))
 num2 =int(input("Enter second number : "))
@@ -253,7 +247,78 @@ else:
         print(f"{num3} is greater")
 
 
-"""
-#17)Python program to check whether a number is palindrome. eg:malayalam
+#Python program to check any person eligible to vote or not
+#age > 18+ : eligible
+#age < 18: not eligible
 
-int = input("Enter values : ")
+age = int(input("Enter the age :"))
+if age>=18:
+    print("You are eligible for voting")
+else:
+    print("You are not eligible for voting")
+
+
+
+#Python program to check whether a student has passed the exam. If marks are greater than 35 students have passed the exam.
+#Input = Enter marks: 45
+#Output = Pass
+
+marks = int(input("Enter the marks :"))
+
+if marks> 35:
+    print("passed the exam")
+else:
+    print("Filed the exam")
+
+
+# Python program to check whether the given number is positive or not.
+#Input = 20
+#Output = True
+
+num4 = int(input("Enter a value : "))
+if num4>0:
+    print("true")
+else:
+    print("false")
+
+#Python program to check whether the given number is negative or not.
+
+num5 = int(input("Enter a value : "))
+if num5<0:
+    print("true")
+else:
+    print("false")
+
+#Python program to check whether the given number is positive or negative and even or odd.
+#Input = 26
+#Output = The given number is positive and even
+
+
+num6 = int(input("Enter a value :"))
+if num6>0:
+    if num6%2==0:
+        print(f"{num6} is even")
+    else:
+        print(f"{num6} is odd")
+else:
+    if num6 % 2 == 0:
+        print(f"{num6} is even")
+    else:
+        print(f"{num6} is odd")
+
+
+#Python program to print the largest number from two numbers.
+#Input:
+#25, 63
+#Output = 63
+
+a=25
+b=63
+
+if a>b:
+    print (f"{a} is greater")
+else:
+    print (f"{b} is greater")
+
+
+"""

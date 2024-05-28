@@ -22,12 +22,12 @@
     &quot;assignee&quot;: &quot;Subra133&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sqatools/GTM_PS_Batch04.git",
-    "accountId": "e285bcb5-973c-4d25-8428-c5c383cb8b36"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sqatools/GTM_PS_Batch04.git&quot;,
+    &quot;accountId&quot;: &quot;e285bcb5-973c-4d25-8428-c5c383cb8b36&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -39,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.division.executor": "Run",
-    "Python.division.py.executor": "Run",
-    "Python.ifelsecondition.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Git_Repo/GTM_PS_Batch04/Subramanyam/division.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.division.executor&quot;: &quot;Run&quot;,
+    &quot;Python.division.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ifelsecondition.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Git_Repo/GTM_PS_Batch04/Subramanyam/division.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.ifelsecondition">
     <configuration name="division" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
