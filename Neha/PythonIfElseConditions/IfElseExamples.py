@@ -36,6 +36,27 @@ elif x == 7:
 else:
     print("Invalid number")
 
+#Python program to accept two numbers and mathematical operations from users and
+# perform mathematical operations according to it.
+
+n1 = int(input("Enter n1: "))
+n2 = int(input("Enter n2: "))
+operation = input("operation: ")
+
+if operation == "+":
+    print(n1+n2)
+elif operation == "-":
+    print(n1-n2)
+elif operation == "*":
+    print(n1*n2)
+elif operation == "/":
+    print(n1/n2)
+else:
+    print("Invalid operation")
+
+
+
+
 #Python program to check whether the citizen is a senior citizen or not.
 #An age greater than 60 than the given citizen is a senior citizen.
 
