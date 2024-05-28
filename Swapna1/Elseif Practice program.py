@@ -103,4 +103,12 @@ if a in list_a:
 else:
     print("User id is not available")
     '''
-####### program to print a square or cube if the given number is divided by 2 or 3###
+####### program to print a square or cube if the given number is divided by 2 or 3##
+'''
+num = int(input("Enter the number:"))
+if num%2 == 0:
+ print("Square of the given number is:",num**2)
+elif num%3 == 0:
+ print("Cube", num**3)
+ '''
+#######nested If else program to describe the interview process######
