@@ -410,7 +410,7 @@ if alphabet not in vowels:                                  ######## if not in #
 else:
     print("Given char is not consonant")
 
-"""
+
 
 
 #Python program to convert the month name to the number of days
@@ -422,3 +422,27 @@ if month=="january":
 elif month=="february":
     print("number of days 28 or 29")
 elif month=="march":
+    print("number of days 31")
+elif month=="april":
+    print("number of days 30")
+elif month=="may":
+    print("number of days 31")
+elif month=="june":
+    print("number of days 30")
+elif month=="july":
+    print("number of days 31")
+elif month=="august":
+    print("number of days 30")
+elif month=="september":
+    print("number of days 31")
+elif month=="october":
+    print("number of days 30")
+elif month=="november":
+    print("number of days 31")
+elif month=="december":
+    print("number of days 30")
+else:
+    print("invalid month entered")
+
+
+"""
