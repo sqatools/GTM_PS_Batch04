@@ -10,6 +10,16 @@ else:
 
 a = -45
 if a<0:
-    print("Value is negative")
+    print("Number is negative")
 else:
-    print("Value is positive")
+    print("Number is positive")
+
+#Python program to print the largest number from two numbers.
+
+a = 215
+b = 45
+
+if a>b:
+    print("a is the largest number")
+else:
+    print("b is the largest number")
