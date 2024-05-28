@@ -411,7 +411,7 @@ else:
     print("Given char is not consonant")
 
 
-
+"""
 
 #Python program to convert the month name to the number of days
 
@@ -445,4 +445,4 @@ else:
     print("invalid month entered")
 
 
-"""
+
