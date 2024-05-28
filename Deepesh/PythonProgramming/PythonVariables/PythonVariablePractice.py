@@ -8,7 +8,7 @@ var2 = "Good Morning"
 print(type(var2))
 print(var2)
 print(id(var2))
-
+print("_"*40)
 # multiple variable with same value then their address will be same
 a = 15
 b = 15
@@ -61,7 +61,7 @@ print("name :", name)
 print("NAME :", NAME)
 print("Name :", Name)
 
-# 6. variable name declaration should start from begining of any line
+# 6. variable name declaration should start from beginning of any line
 #    can not add space and then declare variable name.
 
 
@@ -141,4 +141,3 @@ print("LHS output :", LHS)
 
 RHS = a**2 + b**2 + 2*a*b
 print("RHS output :",RHS)
-
