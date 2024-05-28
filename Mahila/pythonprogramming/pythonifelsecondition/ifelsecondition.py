@@ -1,5 +1,5 @@
-#)Program to check if a number is divisible by 3 - directly assigning value
-"""
+#Program to check if a number is divisible by 3 - directly assigning value
+
 a=30
 if (a%3==0):
     print("a is divisible by 3")  #a is divisible by 3
@@ -321,4 +321,109 @@ else:
     print (f"{b} is greater")
 
 
-"""
+
+#Python program to check whether a given character is uppercase or not.
+char = input("Enter a character: ")
+if char.isupper():            #method to find uppercase
+    print("True")
+else:
+    print("False")
+
+
+#Python program to check whether the given character is lowercase or not.
+
+char = input ("enter a character :")
+if char.islower():           #method to find lowercase
+    print("True")
+else:
+    print("false")
+
+
+#Check whether the number is an integer or not
+
+num7 = 3
+
+if (type(num7) == int):
+    print("Given value is an integer")
+else:                                          #Given value is an integer
+    print("Given value is not integer")
+
+#
+str7 = "A"
+
+if (type(str7) == int):
+    print("Given value is an integer")
+else:                                            #Given value is not integer
+    print("Given value is not integer")
+
+
+
+#given number is float or not
+
+num9 = 45.5
+
+if type(num9) == float:
+    print("Given number is float")
+else:                                            #Given number is float
+    print("Given number is not float")
+
+
+#Python program to check whether the given input is a string or not.
+#Input = ‘sqatools’
+#Output = True
+
+str1 = "sqatools"
+
+if type(str1) == str:
+    print("True")
+else:
+    print("false")
+
+
+
+#leap year
+
+year = int(input("Enter the year: "))
+
+if (year%100 != 0 or year%400 == 0) and year%4 == 0:  #Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years, if they are exactly divisible by 400
+    print("The year given is a leap year.")
+else:
+    print("The year gien is not a leap year.")
+
+
+
+#Python Python program to check whether the input number if a multiple of two print “Fizz” instead of the number and for the multiples of three print “Buzz”. For numbers that are multiples of both two and three print “FizzBuzz”.
+
+num = int(input("Enter a number: "))
+
+if num%2 == 0 and num%3 == 0:
+    print("FizzBuzz")
+elif num%2 == 0:
+    print("Fizz")
+elif num%3 == 0:
+    print("Buzz")
+else:
+    print("Entered number is not divisible by 3 or 2")
+
+
+#alphabet is a vowel
+
+alphabet = input("Enter a character: ")
+vowels = ["A", "E", "I", "O" , "U" , "a", "e" , "i" , "o" , "u"]
+
+if alphabet in vowels:
+    print("Given char is a vowel")                         #if in##########
+else:
+    print("Given char is not a vowel")
+
+
+
+#Program to check whether an alphabet is a consonant
+
+alphabet = input("Enter a character: ")
+vowels = ["A", "E", "I", "O" , "U" , "a", "e" , "i" , "o" , "u"]
+
+if alphabet not in vowels:                                  ######## if not in #########
+    print("Given char is consonant")
+else:
+    print("Given char is not consonant")
