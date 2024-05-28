@@ -26,7 +26,6 @@ for i in range(1,11):
 
 ###### get all the even numbers from 1 to 20 ####
     print("_" * 50)
-
-for i in range(1, 20):
-    if i % 2 == 0:
-        print(i)
+for k in range(1, 20):
+    if k % 2 == 0:
+        print(k)
