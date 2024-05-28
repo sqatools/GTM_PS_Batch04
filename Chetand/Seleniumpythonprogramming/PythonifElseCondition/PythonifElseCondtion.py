@@ -299,7 +299,7 @@ if Student_Marks > 35:
     print("students have passed the exam")
 else:
     print("students have failed the exam")
-
+"""
 # 10 Program to check whether the number is Int#
 print("="*50)
  Digit = 12
@@ -307,3 +307,4 @@ print("="*50)
      print("Digit is Integer")
  else:
 print("Digit is Not an Integer")
+"""
