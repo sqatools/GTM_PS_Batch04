@@ -73,15 +73,15 @@ else:
 print('_'*50)
 
 Fib=[0,1,1,2,3,4,5,6,7,8,9]
-num=int(input("enter the number:"))
+num=3
 if num in Fib:
     print("number is Fibannoci")
 else:
     print("Number is not fibbanoci")
 
 # program for authentication of name and  pwd
-name=input("enter the username")
-password=input("enter the password")
+name="keerthi"
+password="keerthi"
 if name==password:
     print("Authentication is right")
 else:
