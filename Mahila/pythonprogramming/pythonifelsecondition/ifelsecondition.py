@@ -1,5 +1,5 @@
 #Program to check if a number is divisible by 3 - directly assigning value
-"""
+
 a=30
 if (a%3==0):
     print("a is divisible by 3")  #a is divisible by 3
@@ -505,4 +505,3 @@ elif month == "June" or month == "July" or month == "August" or month == "Septem
 else:
     print("Winter")
 
-"""
