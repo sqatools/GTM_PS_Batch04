@@ -3,4 +3,4 @@ num =input('enter list:')
 if type(num) == list :
     print('True')
 else :
-    print('FAlse')
+    print('False')
