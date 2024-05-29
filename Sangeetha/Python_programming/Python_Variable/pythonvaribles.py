@@ -1,3 +1,4 @@
+"""""""""
 a = 1
 b = 2
 print(a + b)
@@ -18,7 +19,7 @@ print("SQATOOLS" * 5)
 
 ##############
 str1 = "sangeetha"
-print("sangeetha" * 5)
+print("\nsangeetha" * 5)
 
 ##################
 a = 40
@@ -30,6 +31,8 @@ print("Average: ",(a+b+c)/3)
 num1 = 9
 print("square of 9 :", 9**2)
 print("cube of 9 :", 9**3)
+
+""""""
 
 
 

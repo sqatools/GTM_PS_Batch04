@@ -1,5 +1,6 @@
 ##program to check given number is divided by 3 or not.
 
+"""
 num1=21
 
 if num1%3==0:
@@ -59,9 +60,9 @@ if num4 % 2 == 0:
 else:
     print("number is odd ")
 
-print("_"*40)
 
 #Python program to check authentication with the given username and password.
+print("_"*40)
 
 name=input("enter name : ")
 password=input("password : ")
@@ -69,10 +70,61 @@ if name==password:
     print("it is  valid ")
 else :
     print("it is not valid")
-
+"""
+"""
+###Python program to validate user_id in the list of user_ids.
 print("_"*40)
 
-###Python program to validate user_id in the list of user_ids.
+id_list=[1,2,3,4,5,6]
+id_=input("enter id number :")
+if int(id_) in id_list:
+    print("valid id")
+else :
+    print("invalid id")
+
+##program to print a square or cube if the given number is divided by 2 or 3 respectively
+
+"""
+"""
+num4=int(input("enter a number : "))
+if num4%2 == 0 :
+    print("square :" , num4**2)
+elif num4%3 == 0 :
+    print ("cube : "  , num4**3)
+
+"""
+"""
+
+####program to determine whether a given number is available in the list of numbers or not.
+
+list1=[11,22,33,43,57,69,]
+num = int(input("Enter a number: "))
+if num==list1 :
+    print("number is in the list")
+else :
+####Python program to describe the interview process.
+
+"""
+round1="pass"
+round2="pass"
+round3="pass"
+if round1=="pass" :
+    print("congrats you cleared  round1")
+    if round2 == "pass":
+        print("congrats you cleared round 2")
+        if round3 == "pass":
+            print("congrats you cleared the interview , our HR will call you")
+        else:
+            print("you didn't clear the third round HR will get back to you")
+    else:
+        print("you didn't clear the second round hard luck next time")
+else:
+    print("you didn't clear the first round hard luck next time")
+
+
+
+
+
 
 
 
