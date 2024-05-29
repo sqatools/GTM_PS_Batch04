@@ -321,24 +321,6 @@ else:
     print (f"{b} is greater")
 
 
-
-#Python program to check whether a given character is uppercase or not.
-char = input("Enter a character: ")
-if char.isupper():            #method to find uppercase
-    print("True")
-else:
-    print("False")
-
-
-#Python program to check whether the given character is lowercase or not.
-
-char = input ("enter a character :")
-if char.islower():           #method to find lowercase
-    print("True")
-else:
-    print("false")
-
-
 #Check whether the number is an integer or not
 
 num7 = 3
@@ -388,7 +370,7 @@ year = int(input("Enter the year: "))
 if (year%100 != 0 or year%400 == 0) and year%4 == 0:  #Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but these centurial years are leap years, if they are exactly divisible by 400
     print("The year given is a leap year.")
 else:
-    print("The year gien is not a leap year.")
+    print("The year given is not a leap year.")
 
 
 
@@ -427,3 +409,99 @@ if alphabet not in vowels:                                  ######## if not in #
     print("Given char is consonant")
 else:
     print("Given char is not consonant")
+
+
+
+
+#Python program to convert the month name to the number of days
+
+month = input ("Enter the month : ")
+
+if month=="january":
+    print("number of days 31")
+elif month=="february":
+    print("number of days 28 or 29")
+elif month=="march":
+    print("number of days 31")
+elif month=="april":
+    print("number of days 30")
+elif month=="may":
+    print("number of days 31")
+elif month=="june":
+    print("number of days 30")
+elif month=="july":
+    print("number of days 31")
+elif month=="august":
+    print("number of days 30")
+elif month=="september":
+    print("number of days 31")
+elif month=="october":
+    print("number of days 30")
+elif month=="november":
+    print("number of days 31")
+elif month=="december":
+    print("number of days 30")
+else:
+    print("invalid month entered")
+
+# Python program to check whether a triangle is equilateral or not. An equilateral triangle is a triangle in which all three sides are equal.
+#Input:
+#Enter the length of the sides of the triangle
+#A=10
+#B=10
+#C=10
+#Output = True
+
+side1 = int(input("Enter side1 :"))
+side2 = int(input("Enter side2 :"))
+side3 = int(input("Enter side3 :"))
+
+if side1==side2==side3:
+    print("True : Given triangle is an equilateral")
+else:
+    print("false : given triangle is not an equilateral triangle")
+
+
+#Python program to check whether a triangle is scalene or not. A scalene triangle is a triangle that has three unequal sides
+
+side1 = int(input("Enter side1 :"))
+side2 = int(input("Enter side2 :"))
+side3 = int(input("Enter side3 :"))
+
+if side1 != side2 != side3:
+    print("True : given triangle is scalene triangle ")
+else:
+    print("false : given triangle is not scalene triangle")
+
+
+
+#program to check whether a triangle is isosceles or not. An isosceles triangle is a triangle with (at least) two equal sides
+
+side1 = int(input("Enter side1 :"))
+side2 = int(input("Enter side2 :"))
+side3 = int(input("Enter side3 :"))
+
+if side1==side2 or side2==side3 or side3==side1:
+    print("True : Given triangle is isosceles triangle")
+else:
+    print("false : Given triangle is not an isosceles triangle")
+
+
+#In this python if else program, we will read month and returns season for that month.
+
+#Condition for the season:
+#Summer – February, March, April, May
+#Rainy – June, July, August, September
+#Winter – Octomber, November, December, January
+
+
+
+month = input("Enter a month : ")
+
+if month == "February" or month == "March" or month == "April" or month == "May":
+    print("Summer")
+elif month == "June" or month == "July" or month == "August" or month == "September":
+    print("Rainy")
+else:
+    print("Winter")
+

@@ -112,30 +112,3 @@ elif num%3 == 0:
  print("Cube", num**3)
  '''
 #######nested If else program to describe the interview process######
-######Program to check whether a person eligible to vote######
-'''
-age=int(input("Enter the Age"))
-if age>=18:
-    print("Eligible to vote")
-else:
-    print("Not eligible to vote")
-'''
-####### Check whether a student has passed the exam.#####
-'''
-mark=int(input("Enter the Mark: "))
-if mark>=35:
-    print("Pass")
-else:
-    print("Fail")
-'''
-###Check whether the given number is positive or not#####
-
-num=int(input("Enter the number:"))
-if num>=0:
-    print("Number is positive")
-else:
-    print("Number is negative")
-
-
-
-
