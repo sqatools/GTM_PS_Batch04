@@ -56,12 +56,31 @@ for i in range(1,31):
         print(i, "buzz")
 
 
-"""
+
 #5Loops program to print all even numbers between 1 to 100 in python.
 
 for num in range(1,101):
     if num%2==0:
         print(num ,end=",")
 
+
+#Python Loops program to print all natural numbers from 1 to n
+
+num = int(input("Enter value for num : "))
+for i in range(1,num):
+    print(i)
+
+#6) Python Loops program to print all even numbers between 1 to 100 in python.
+
+for i in range(1,101):
+    if i%2==0:
+        print(i ,end=" ,")
+
+"""
+#7)odd numbers
+
+for i in range(1,101):
+    if ((i%2)!=0):
+        print(i , end=",")
 
 
