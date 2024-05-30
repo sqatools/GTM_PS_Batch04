@@ -51,3 +51,13 @@ print('-'*50)
 
 for i in range(1,20) :
     print( i , end=' ')
+
+
+print(" -"*50)
+
+list=[1,2,3,4]
+len=len(list)
+print(len)
+for i in range(-1 , -len-1,-1) :
+    print(list[i])
+

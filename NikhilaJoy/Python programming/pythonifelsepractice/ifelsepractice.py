@@ -54,8 +54,60 @@ else:
     print("not divided by 11")
 """
 #6).  Python program to check given number is a prime number or not.
-
+"""
+n=int(input("enter the number"))
+count=0
+for i in range(2,n):
+  if n % i == 0 :
+    count += 1
+if count>0:
+    print("it is not a prime number")
+else:
+    print("it is a prime number")
+"""
 #9). Python program to check authentication with the given username and password.
-
+"""
 username=input("enter your username")
 password=input("enter your password")
+
+"""
+"""
+29). Python program to find the electricity bill. According to the following conditions:
+Up to 50 units rs 0.50/unit
+Up to 100 units rs 0.75/unit
+Up to 250 units rs 1.25/unit
+above 250 rs 1.50/unit
+an additional surcharge of 17% is added to the bill
+Input = 350
+Output = 438.75
+"""
+"""
+n=int(input("enter the bill amount"))
+bill=0
+if 0<n<=50:
+    bill=n*.5
+elif 50<n<=100:
+    bill=n*.5 + (n-50)*.75
+elif 100<n<=250:
+    bill=50*.5 + 50*.75 + (n-100)*1.25
+else:
+    bill=50*.5 + 50*.75 + 150*1.25 + (n-250)*1.5
+print(bill+bill*.17)
+"""
+total_unit = int(input("Total units Consumed="))
+bill_amount = 0
+
+# If each unit we will add to rate amount in total bill amount
+for bill_unit in range(1, total_unit+1):
+    if bill_unit <= 50:
+        bill_amount = bill_amount + 0.50
+    elif bill_unit > 50 and bill_amount <= 100:
+        bill_amount = bill_amount + 0.75
+    elif bill_unit > 100 and bill_amount <= 250:
+        bill_amount = bill_amount + 1.25
+    elif bill_unit > 250:
+        bill_amount = bill_amount + 1.5
+
+# Addition 17% surcharge on total bill amount
+bill_amount_sur = bill_amount + bill_amount * (17/100)
+print("Bill amount with surcharge :", bill_amount_sur)
