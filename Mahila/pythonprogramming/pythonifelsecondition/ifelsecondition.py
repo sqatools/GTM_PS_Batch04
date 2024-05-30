@@ -1,5 +1,5 @@
 #Program to check if a number is divisible by 3 - directly assigning value
-"""
+
 a=30
 if (a%3==0):
     print("a is divisible by 3")  #a is divisible by 3
@@ -411,7 +411,7 @@ else:
     print("Given char is not consonant")
 
 
-"""
+
 
 #Python program to convert the month name to the number of days
 
@@ -444,5 +444,64 @@ elif month=="december":
 else:
     print("invalid month entered")
 
+# Python program to check whether a triangle is equilateral or not. An equilateral triangle is a triangle in which all three sides are equal.
+#Input:
+#Enter the length of the sides of the triangle
+#A=10
+#B=10
+#C=10
+#Output = True
 
+side1 = int(input("Enter side1 :"))
+side2 = int(input("Enter side2 :"))
+side3 = int(input("Enter side3 :"))
+
+if side1==side2==side3:
+    print("True : Given triangle is an equilateral")
+else:
+    print("false : given triangle is not an equilateral triangle")
+
+
+#Python program to check whether a triangle is scalene or not. A scalene triangle is a triangle that has three unequal sides
+
+side1 = int(input("Enter side1 :"))
+side2 = int(input("Enter side2 :"))
+side3 = int(input("Enter side3 :"))
+
+if side1 != side2 != side3:
+    print("True : given triangle is scalene triangle ")
+else:
+    print("false : given triangle is not scalene triangle")
+
+
+
+#program to check whether a triangle is isosceles or not. An isosceles triangle is a triangle with (at least) two equal sides
+
+side1 = int(input("Enter side1 :"))
+side2 = int(input("Enter side2 :"))
+side3 = int(input("Enter side3 :"))
+
+if side1==side2 or side2==side3 or side3==side1:
+    print("True : Given triangle is isosceles triangle")
+else:
+    print("false : Given triangle is not an isosceles triangle")
+
+
+#In this python if else program, we will read month and returns season for that month.
+
+#Condition for the season:
+#Summer – February, March, April, May
+#Rainy – June, July, August, September
+#Winter – Octomber, November, December, January
+
+
+
+month = input("Enter a month : ")
+
+if month == "February" or month == "March" or month == "April" or month == "May":
+    print("Summer")
+elif month == "June" or month == "July" or month == "August" or month == "September":
+    print("Rainy")
+else:
+    print("Winter")
 
