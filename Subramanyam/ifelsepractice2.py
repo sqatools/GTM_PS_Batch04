@@ -55,17 +55,22 @@ Up to 100 units rs 0.75/unit
 Up to 250 units rs 1.25/unit
 above 250 rs 1.50/unit
 an additional surcharge of 17% is added to the bill'''
-'''
-units=int(input("Enter the units: "))
 
+units=int(input("Enter the units: "))
+bill = 0
 if units<=50:
     print("bills is ",units*0.50)
+    bill=bill+units*0.50
 elif units>50 and units<=100:
     print("bills is ",units*0.75)
+    bill=bill+units*0.75
 elif units>100 and units<=250:
-    print("bills is ",units*1.25)
+    bill = bill + units * 1.25
 else:
-    print("bills is ",units*1.50)
+    bill = bill + units * 1.5
+
+total_bill = bill + bill*(17/100)
+print("total bill amount :", total_bill)
 
 
 total_unit =int(input("Enter the unit as per meter: "))
@@ -74,9 +79,9 @@ bill_amount=0
 for bill_unit in range(1, total_unit+1):
     if bill_unit <= 50:
         bill_amount = bill_amount + 0.50
-    elif bill_unit >50 and bill_amount <= 100:
+    elif bill_unit >50 and bill_unit <= 100:
         bill_amount = bill_amount + 0.75
-    elif bill_unit > 100 and bill_amount <= 250:
+    elif bill_unit > 100 and bill_unit <= 250:
         bill_amount = bill_amount + 1.25
     elif bill_unit > 250:
         bill_amount = bill_amount + 1.5
@@ -84,7 +89,7 @@ for bill_unit in range(1, total_unit+1):
 bill_sur = bill_amount + bill_amount * (17/100)
 print("Bill amount with surcharges",bill_sur)
 
-
+'''
 total_unit = int(input("Total units Consumed="))
 bill_amount = 0
 
