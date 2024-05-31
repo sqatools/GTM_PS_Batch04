@@ -6,18 +6,37 @@ for i in range(1500,2701):
     if i%7==0 and i%5==0:
         print(i,end =' ')
 
-
+'''
 #2). Python Loops program to construct the following pattern, using a nested for loops.
-
+'''
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+'''
+'''
+ (doubt))
+for i in range(6):
+    print(i*"*")
+for i in range(4,-1,-1):
+    print(i*"*")
+'''
 #3). Python Loops program that will add the word from the user to
-the empty string using python
-a = input("enter the string")
+#the empty string using python
+'''a = input("enter the string")
 for i in range(a, end=' '):
     print(i)
 '''
 '''
+'''
 #4). Python Loops program to count the number of even and odd
 #numbers from a series of numbers using  python.
+'''
 numbers = (1,2,3,4,5,6,7,8,9)
 even = 0
 odd =0
@@ -28,7 +47,8 @@ for i in numbers:
         odd +=1
 print("number of even numbers :",even)
 print("number of odd numbers:",odd)
-
+'''
+'''
 #5). Write a program that prints all the numbers from 0 to 6 except 3 and 6 using python.
 for i in range(0,11):
     if i! =3 or i ! =6:
@@ -169,18 +189,18 @@ for i in range(c):
 #21). Write a program to find the sum of the first and last digits of a number using python.
 
 n= 123456
-a = str(n)
+a = str(n)  doubt 
 b = len(a)
 total = 0
 for i in range(b):
     if i==0:
-        total += int(a[i])
+        total += int(a[i])  doubt
     elif i==b-1:
         total+=int(a[i])
 
 print("sum of first and last digits",total)
 '''
-'''doubt
+'''
 n= "abcde"
 a = str(n)
 b = len(a)
@@ -196,16 +216,112 @@ print("sum of first and last digits",total)
 '''
 #22). Write a program to calculate the sum of digits of a number using  python.
 
-n= 12345 doubt
+n= 12345 
 a= str(n)
 total =0
 '''
 #24). Python loops program to enter a number and print its reverse using python.
-
+'''
 n = 12345
 a = str(12345)
 for i in range(len(a),-1,1):
     print(a[i])
+    '''
+'''
+*
+* * 
+* * *
+* * * *
+* * * * *
+
+* * * * *
+* * * *
+* * *
+* *
+*
+
+"""
+
+for i in range(1, 6):
+    for j in range(i):
+        print(j, end=" ")
+    print()
+
+for i in range(6, 0, -1):
+    for j in range(i):
+        print(j, end=" ")
+    print()
+
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
+16 17 18 19 20 21 
+22 23 24 25 26 
+27 28 29 30 
+31 32 33 
+34 35 
+36 
+
+
+"""
+'''
+'''
+temp = 1
+for i in range(1, 6):
+    for j in range(i):
+        print(temp, end=" ")
+        temp += 1
+    print()
+
+for i in range(6, 0, -1):
+    for j in range(i):
+        print(temp, end=" ")
+        temp += 1
+    print()
+    '''
+'''
+A 
+B C 
+D E F 
+G H I J 
+K L M N O 
+P Q R S T U 
+V W X Y Z 
+[ \ ] ^ 
+_ ` a 
+b c 
+d 
+
+
+"""
+
+ascii_value = 65
+for i in range(1, 6):
+    for j in range(i):
+        print(chr(ascii_value), end=" ")
+        ascii_value += 1
+    print()
+
+for i in range(6, 0, -1):
+    for j in range(i):
+        print(chr(ascii_value), end=" ")
+        ascii_value += 1
+    print()
 
 
 
+print(ord("C")) # 67
+print(ord("c")) # 99
+'''
+
+for i in range(1,5):
+    for j in range(i):
+        print(j, end=' ')
+    print()
+
+for i in range(6,0,-1):
+    for j in range(i):
+        print(j,end=' ')
+    print()
