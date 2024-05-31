@@ -39,7 +39,7 @@ for i in range(1,11):
     print(n,"*", i,":",i*n)
 
 ###### get all the even numbers from 1 to 20 ####
-    print("_" * 50)
+    print()
 for k in range(1, 20):
     if k % 2 == 0:
         print(k,end=" ")
@@ -109,7 +109,7 @@ str1="python programming"
 for i in str1:
     print(i, end=" ")
 
-print("_" *50)
+print()
 
 #p y t h o n   p r o g r a m m i n g
 
@@ -117,6 +117,31 @@ str_len=len(str1)
 print("total length:", str_len)
 for i in range(-1, -str_len-1, -1):
     print(i,str1[i])
+
+str2=[7,5,8,3,4,1]
+str_len=len(str2)
+print("total length:",str_len)
+for i in range(-1,-str_len-1,-1):
+    print(i,str2[i])
+
+#for loop in dict.
+dict1 = {'a' : 123, 'b': 345, 'c' : 678}
+for val in dict1.items():
+    print(val)
+
+print(' '*50)
+dict2 = {'x' : 123, 'y' : 765, 'z' : 890}
+for j in dict2.items():
+    print(j)
+
+for k1, v1 in dict1.items():
+    print("key:", k1, "value:", v1)
+
+
+
+
+
+
 
 
 
