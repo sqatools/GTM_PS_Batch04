@@ -1,3 +1,4 @@
+"""
 var1=20
 #print variable
 print(var1)
@@ -38,16 +39,22 @@ print("_"*50)
 print("hello"*8)
 
 ##Operators
+
+#1)addition
 print("-"*50)
 a1=500
 b1=400
 c1=a1+b1
 print("addition : ", c1)
 
+#2)subtraction
+
 print("-"*50)
 p1=100
 p2=50
 print("subtract :", p1-p2)
+
+#3)multiplication
 
 print("-"*50)
 x1 = 5
@@ -55,24 +62,30 @@ x2 = 6
 print("multiplication : ",x1*x2)
 
 print("-"*50)
-#division with /
+
+#4)division with / and //
 
 q1=50
 q2=6
-q3=7
+
 print("division : ", q1/q2)
 print("division : ", q1//q2)
 
+#5)reminder
 print("-"*50)
 V1=14
 V2=5
 print("reminder : ", V1%V2)
 
+#6)power operator
+
 print("-"*50)
 print("power of 5 : ", 5**2)
 
 print("-"*50)
-
+"""
+#7)equal operator ==
+#not equal oeperator !=
 V1=500
 V2=600
 V3=500
