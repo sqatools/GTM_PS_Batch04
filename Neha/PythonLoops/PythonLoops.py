@@ -156,5 +156,5 @@ for keys, value in dict1.items():
             print(data, end=" ")
         print("="*40)
 
-    print("_"*50)
+
 
