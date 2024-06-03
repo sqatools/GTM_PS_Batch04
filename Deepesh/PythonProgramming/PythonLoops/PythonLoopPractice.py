@@ -146,7 +146,7 @@ dict1 = {
         '11th' : ['11a', '11b', '11c']
     }
 }
-
+print("-"*50)
 
 for keys, value in dict1.items():
     print(keys)

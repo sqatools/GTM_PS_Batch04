@@ -137,7 +137,59 @@ for j in dict2.items():
 for k1, v1 in dict1.items():
     print("key:", k1, "value:", v1)
 
+print("_"*50)
+for i in range(1,4):
+    print("address:i:",i)
+    for j in range(1,4):
+        print("package:j:", j)
+        for k in range(1,3):
+            print("item:")
+print("_"*50)
 
+print()
+dict1={
+    'teaching':
+        {
+         'maths':  ['m1','m2','m3','m4','m5'],
+          'science': "python programming",
+            'hindi': ('h1','h2','h3'),
+
+           },
+    'account':
+    {
+       'account1' :'456',
+       'account2' : ['23fd', 'df67','87ygth'],
+        'account3' :{'hgty', 'ythui', 'itee',},
+    },
+    'student':
+    {
+            '9th':{'9a','9b','9c'},
+            '10th':['6a','6b','6c'],
+            '11th':('8a','8b','8c'),
+    }
+
+
+ }
+
+for keys, value in dict1.items():
+    print(keys)
+    for k1, v1 in value.items():
+        print(k1)
+        for data in v1:
+            print(data, end=" ")
+print()
+
+dict2={
+    'employee1':
+        {
+            'Name':'xyz',
+            'ID':['4567'],
+        }
+    'employee2',
+    'employee3',
+
+for i in dict2.items():
+    print(dict2)
 
 
 
