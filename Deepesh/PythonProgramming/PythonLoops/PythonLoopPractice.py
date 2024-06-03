@@ -45,7 +45,7 @@ print("_"*50)
 
 for j in range(1, 20):
     if j%2 ==0:
-        print(j)
+        print(j,end=" ")
 
 # apply loop of list of values
 print("_"*50)
