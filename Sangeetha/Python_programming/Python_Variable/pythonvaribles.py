@@ -32,7 +32,8 @@ num1 = 9
 print("square of 9 :", 9**2)
 print("cube of 9 :", 9**3)
 
-""""""
+"""
+
 
 
 
