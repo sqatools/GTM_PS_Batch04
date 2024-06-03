@@ -1,3 +1,4 @@
+
 # while loop
 
 num1 = 1
@@ -14,9 +15,6 @@ while True:
     #num1 = num1 + 1
     print(num1)
 """
-
-
-
 
 # continue statement
 a = 1
