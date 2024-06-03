@@ -2,11 +2,17 @@
 Python Data Type
 
 1. Number Data Type
-    i).  Integer
-    ii). Float
+    i).  Integer - float
+         Integer - str
+         Integer - bool (0-->false, nonzero -->true)
+    ii). Float - int
+         Float - str
+         Integer - bool (0-->false, nonzero -->true)
     iii). Complex
 
 2. Sequential Data Type
+
+
     i). String
     ii). List
     iiI). Tuple
