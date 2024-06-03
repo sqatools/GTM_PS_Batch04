@@ -1,6 +1,6 @@
 
 # Integer Data Type ####
-
+"""
 I1 = 40
 I2 = 345465
 
@@ -11,9 +11,9 @@ print ("value of I2 :",I2, type(I2))
 
 print ("-"*50)
 """
-Properties of integer
+#Properties of integer
 
-- Integer is immutable data type, once it is defined we can not change it.
+#- Integer is immutable data type, once it is defined we can not change it.
 - Integer does not have any limit to defined the number. we can defined any long number
   as integer.
 - Only whole will be consider as integer.
@@ -258,7 +258,7 @@ dict2 = {
     # [1, 2, 3] : 456            # unhashable type: 'list'
     (3, 6, 1): {'a': 123, 'b': 456},
     # {'a' : 111} : [45,66, 77]   # unhashable type: 'dict'
-    123: 88888,
+    123: 88888
 
 }
 
