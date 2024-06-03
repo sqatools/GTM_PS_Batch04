@@ -218,8 +218,42 @@ else:
     print(f"{year} is not a leap year")
 
 
-"""
 
+#Program to find the square root of a number
+
+import math
+num1 = 9
+
+print(math.sqrt(num1))
+
+
+
+#volume of sphere
+r = int(input("Enter radius of the Sphere: "))
+volume = 4/3*(3.14*r**2)
+
+print("Volume of Sphere: ",volume)
+
+
+
+#Program to perform mathematical operations on two numbers
+
+num1 = int(input("Enter number 1: "))
+num2 = int(input("Enter number 2: "))
+operation = input("Enter any operation : ")
+
+if operation == "+":
+    print(num1+num2)
+elif operation == "-":
+    print(num1-num2)
+elif operation == "/":
+    print(num1/num2)
+elif operation == "*":
+    print(num1*num2)
+else:
+    print("Invalid operation")
+
+"""
 
 
 

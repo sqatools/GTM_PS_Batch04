@@ -5,3 +5,5 @@
 #Program to get the factorial of the given number.
 #Program to get the Fibonacci series between 0 to 50.
 #Python program to check given number is palindrome or not.
+#Python program to check for the anagram
+#Program to generate random numbers
