@@ -248,5 +248,5 @@ Python program to calculate the area of the square.
 Formula : area = a*a
 """
 
-#Python program to calculate compound interest
+
 

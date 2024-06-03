@@ -68,7 +68,7 @@ a,b = b,a    #use = assigning operator
 print("value of a :" ,a)
 print("value of b :" ,b)
 
-#pythegores therom a² + b² = c².
+#pythegores theorem a² + b² = c².
 
 import math
 side1=3
@@ -195,6 +195,32 @@ t=2
 SI=p+(p/r)*t
 print("Simple interest =", SI )
 
+
+#Python program to calculate compound interest
+#p((1+r/100)**n)
+
+p= int(input("Enter value for p : "))
+r= int(input("Enter value for r : "))
+n= int(input("Enter value for n : "))
+
+CI = p*((1+r/100)**n)
+print("Compound Interest : ", CI)
+
+
+#Python program to check year is a leap year.
+#(year%400 == 0 or year%100 != 0) and year%4 == 0.
+
+year = int(input("Enter a year: "))
+
+if (year%400 == 0 or year%100 != 0) and year%4 == 0:
+    print(f"{year} is a leap year")
+else:
+    print(f"{year} is not a leap year")
+
+
 """
+
+
+
 
 
