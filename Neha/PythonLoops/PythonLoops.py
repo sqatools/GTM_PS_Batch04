@@ -45,7 +45,7 @@ print("_"*50)
 
 for j in range(1, 20):
     if j%2 ==0:
-        print(j,end=" ")
+        print(j)
 
 # apply loop of list of values
 print("_"*50)
@@ -146,7 +146,7 @@ dict1 = {
         '11th' : ['11a', '11b', '11c']
     }
 }
-print("-"*50)
+
 
 for keys, value in dict1.items():
     print(keys)
@@ -155,15 +155,6 @@ for keys, value in dict1.items():
         for data in v1:
             print(data, end=" ")
         print("="*40)
-
-    print("_"*50)
-
-
-
-
-
-
-
 
 
 

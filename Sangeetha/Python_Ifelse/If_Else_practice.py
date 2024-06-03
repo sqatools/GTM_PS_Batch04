@@ -105,6 +105,7 @@ else :
 ####Python program to describe the interview process.
 
 """
+"""
 round1="pass"
 round2="pass"
 round3="pass"
@@ -120,6 +121,9 @@ if round1=="pass" :
         print("you didn't clear the second round hard luck next time")
 else:
     print("you didn't clear the first round hard luck next time")
+
+"""
+
 
 
 

@@ -1,37 +1,53 @@
-
-# Integer Data Type ####
 """
-I1 = 40
-I2 = 345465
+Python Data Type
 
-print ("value of I1 :",I1 , type(I1))
-print ("value of I2 :",I2, type(I2))
+1. Number Data Type
+    i).  Integer
+    ii). Float
+    iii). Complex
 
+2. Sequential Data Type
+    i). String
+    ii). List
+    iiI). Tuple
 
-
-print ("-"*50)
+3. Dictionary
+4. Set
+5. Boolean
 """
-#Properties of integer
 
-#- Integer is immutable data type, once it is defined we can not change it.
+#### Integer Data Type ####
+
+a = 20
+b = 54454
+c = 6456456345654645656546456
+
+print("value a", a, type(a))
+print("value b", b, type(b))
+print("value c", c, type(c))
+
+"""
+Properties of integer
+
+- Integer is immutable data type, once it is defined we can not change it.
 - Integer does not have any limit to defined the number. we can defined any long number
   as integer.
 - Only whole will be consider as integer.
 """
-print ("-"*50)
-############################Float Data Type #######
-f1 = 0.1
-f2 = 23.22
-f3 = 4876484.3764844545454
-f4 = 5.458476584734354657687879898900
-f5 = 23245454667576878798988989.345465
 
-print("value of f1 : ",f1,type(f1))  #0.1 <class 'float'>
-print("value of f2 : ",f2,type(f2))  #23.22 <class 'float'>
-print("value of f3 : ",f3,type(f3))  #4876484.376484455 <class 'float'>
-print("value of f4 : ",f4,type(f4))  #5.458476584734354 <class 'float'> around 17 numbers will be displayed.
-print("value of f5 : ",f5,type(f5))  #2.324545466757688e+25 <class 'float'> if it exceeds 17,shows as exponential.
-print ("-"*50)
+###### Float Data Type #######
+p = 0.0
+q = 23.22
+r = 65456456.5645645645645
+s = 6785.88899443243423
+t = 87686577878787658678678.56
+
+print("value of p :", p, type(p))  # 0.0 <class 'float'>
+print("value of q :", q, type(q))  # 23.22 <class 'float'>
+print("value of r :", r, type(r))  # 65456456.56456456 <class 'float'>
+print("value of s :", s, type(s))  # 6785.888994432435  <class 'float'>
+print("value of t :", t, type(t))  # 8.768657787878766e+22 <class 'float'>
+
 """
 Properties of integer
 
@@ -47,25 +63,25 @@ print("_" * 50)
 # x = real number
 # y = imaginary number
 
-c1 = 20 + 10j  # <class 'complex'>
-c2 = 30 + 4.4j  # <class 'complex'>
+var1 = 10 + 30j  # <class 'complex'>
+var2 = 30 + 4.4j  # <class 'complex'>
 
-c3 = c1 + c2
-print("value of c1 :",c1,type(c1))  #(20+10j) <class 'complex'>
-print("value of c2 :",c2,type(c2))  #(30+4.4j) <class 'complex'>
-print("value of c3 :",c3,type(c3))  #(50+14.4j) <class 'complex'>
+var3 = var1 + var2
+print("value of var3 :", var3)  # value of var3 : (40+34.4j)
+
+print("value of var1  :", var1, type(var1))
+print("value of var2  :", var2, type(var2))
 
 ###################### Sequentials data type ################
 print("_" * 50)
-##### String Data Type - sequence of characters enclosed in a quotes ' & "  ################
+##### String Data Type #####
 
-str1 = ''  # <class 'str'>   --- null value also inside cots,considered as string
-str2 = "2"  # <class 'str'>
-str3 = 'Hi using python for programming'    #string inside single cots
-str4 = "is learning python easy? yes it is.."  #string inside double cots
-str5 = 'My name is "Rahul" and living is mumbai' #string inside single cot with a word inside double cots.
+str1 = ''  # <class 'str'>
+str2 = "H"  # <class 'str'>
+str3 = 'Hello How are you? hope you are doing good'
+str4 = "Good Morning to everyone, hope you are enjoying the Python"
+str5 = 'My name is "Rahul" and living is mumbai'
 str6 = "My name is 'Aditya' and living is mumbai"
-#we cannot use same cots for both scenario. eg:if ur giving single cots for writing string then inside the string you can only use double cots.. otherwise it will throw error.
 str7 = '''
 Python Programs or Python Programming Examples for 
 beginners and professionals with programs on basics, 
@@ -73,7 +89,7 @@ controls, loops, functions, native data types etc.
 ‎Python Arithmetic Operations · 
 ‎Hello Python Program · ‎Python Area Of Triangle
 '''
-#to print paragraphs in our own order we can use ''' or """
+
 str8 = """
 Python Programs or Python Programming
 Examples for beginners and 
@@ -82,8 +98,7 @@ on basics, controls, loops,
 functions, native data types etc.
 64356546456456 ^&^*&%^&%^&%&^%&%^$^%$
 """
-str9 ="D"
-str10 ='hello python learner "rahul",hope you are doing well........'
+
 print("str1 :", type(str1), str1)
 print("_" * 50)
 print("str2 :", type(str2), str2)
@@ -97,40 +112,28 @@ print("_" * 50)
 print("str6 :", type(str6), str6)
 print("_" * 50)
 print("str7 :", type(str7), str7)
+
 print("_" * 50)
 print("str8 :", type(str8), str8)
 print("_" * 50)
-print("str9 :", type(str9), str9)
-print("_" * 50)
-print("str10 :", type(str10), str10)
-print("_" * 50)
 
-str1 = "pycharm"
+var1 = "Hello"
 
 """
-#string has positive index and as well as negative index. positive index starts with 0,1,2... and
-#negative index starts with -1,-2.....
-0   1  2   3  4  5  6  #+ve index
-p   y  c   h  a  r  m 
--7 -6 -5 -4 -3 -2 -1  #-ve index
+ 0   1   2   3  4  #+ve
+ H   e   l   l  o
+-5  -4   -3  -2 -1 # -ve
 """
-print(str1[1])  #y
-print(str1[3])  #h
-print(str1[5])  #r
-print(str1[-2]) #r
-print(str1[-4])  #h
-print(str1[-7])  #p
-print(str1[0])  #p
+print(var1[0])  # H
+print(var1[-5])  # H
 
-print("_" *50)
+print(var1[-1])  # 0
+print(var1[4])  # 0
 
-str2 = "Good Morning"
+var2 = "Good Morning"
 
-print(str2[4])   #  space
-print(str2[0])   #G
-print(str2[-2])  #n
-print(str2[-5])  #r
-#if we have any space between the strings the spaces will also count for index positions.
+print(var2[5])  # M
+
 """
 # Properties of String
 - String is immutable data type, once it is defined we can not change it.
@@ -139,15 +142,10 @@ print(str2[-5])  #r
 """
 
 print("_" * 50)
-
-
 ############ List ############
 
-lis1 = [ 2, 0.2 , "hello" , [3,4,5], (2.3,"hello")]
-print (lis1 , type(lis1))
-print (lis1[-1],type(lis1[-1]))  #(2.3, 'hello') <class 'tuple'>
-print(lis1[2],type(lis1[2]))     #hello <class 'str'>
-print("_" * 50)
+list1 = [12, 4.5, 'hello', [3, 6, 7]]
+print(list1, type(list1))  # <class 'list'>
 
 list2 = [
     'Hello',  # 0 # -7
@@ -159,25 +157,27 @@ list2 = [
     {'a': 123, 'b': 345},  # 6 # -1
 ]
 
-print(list2)  #['Hello', 'Good Morning', 4534543, 56.66, [4, 6, 7, 8], (4, 7, 2, 22), {'a': 123, 'b': 345}]
+print(list2)
+
 s1 = list2[0]
 print(s1, type(s1), s1[0])  # Hello <class 'str'> H
 print(list2[6], type(list2[6]))  # {'a': 123, 'b': 345} <class 'dict'>
 
 print("_" * 50)
-str1 = "Hello \n Good \n Morning"   #\n for next line
+str1 = "Hello \n Good \n Morning"
 print(str1)
 
-str2 = "Hello \t \t Good \t\t Morning"  #\t for tab space
+str2 = "Hello \t \t Good \t\t Morning"
 print(str2)
 
 print("_" * 50)
-
 p = [44, 77, 88]
+
 list3 = [4, 6, 7, [5, 7, 8], p, True]
+
 p2 = list3[3]
 print("p2 value :", p2)
-p2.append(100)   #appending value to 100 af position 3
+p2.append(100)
 
 print(list3)
 print(list3[-1])
@@ -194,8 +194,6 @@ Properties of List
 """
 
 print("_" * 50)
-
-
 ########## Tuple #############
 
 tup1 = (2, 3.5, 'Hello', [3, 5, 6], (2, 3, 4), True)
@@ -258,7 +256,7 @@ dict2 = {
     # [1, 2, 3] : 456            # unhashable type: 'list'
     (3, 6, 1): {'a': 123, 'b': 456},
     # {'a' : 111} : [45,66, 77]   # unhashable type: 'dict'
-    123: 88888
+    123: 88888,
 
 }
 
