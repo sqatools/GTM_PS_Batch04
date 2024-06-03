@@ -156,10 +156,13 @@ for keys, value in dict1.items():
             print(data, end=" ")
         print("="*40)
 
-    print("_"*50)
+    print("="*50)
 
 
-
+for i in range(1, 6):
+    print(i*"@*@")
+for i in range(4, -1, -1):
+    print(i*"@*@")
 
 
 

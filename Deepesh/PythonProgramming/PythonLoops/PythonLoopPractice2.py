@@ -1,3 +1,4 @@
+
 # while loop
 
 num1 = 1
@@ -14,9 +15,6 @@ while True:
     #num1 = num1 + 1
     print(num1)
 """
-
-
-
 
 # continue statement
 a = 1
@@ -94,7 +92,7 @@ print()
 for i in range(1, 6):
     for j in range(i):
         print(j, end=" ")
-    print()
+    print() #---------------------------doubt
 
 for i in range(6, 0, -1):
     for j in range(i):
