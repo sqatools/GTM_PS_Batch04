@@ -1,4 +1,3 @@
-
 # while loop
 
 num1 = 1
