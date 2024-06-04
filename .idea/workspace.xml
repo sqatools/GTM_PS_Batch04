@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="Python String">
-      <change afterPath="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonString/PythonStringMethods.py" afterDir="false" />
+    <list default="true" id="b46e4a1e-2b49-4a68-b620-ebd8ff4e7929" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonString/PythonStringPractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonString/PythonStringPractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sangeetha/Python_Ifelse/If_Else_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sangeetha/Python_Ifelse/If_Else_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sangeetha/Python_programming/Python_Variable/pythonvaribles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sangeetha/Python_programming/Python_Variable/pythonvaribles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,89 +22,27 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2h9D2SpdLEQ05QMHUM9LHgOirZM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Trainings/GTM_PS_Batch04_13May24/GTM_PS_Batch04/Deepesh/PythonProgramming/PythonString"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Loops_practice.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Trainings\GTM_PS_Batch04_13May24\GTM_PS_Batch04\Deepesh\PythonProgramming\PythonString" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.PythonStringMethods">
-    <configuration name="PythonLoopPractice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager">
+    <configuration name="Loops_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch04" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonLoops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sangeetha/Python_loops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonLoops/PythonLoopPractice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonStringMethods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_Batch04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonString" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonString/PythonStringMethods.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonStringPractice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_Batch04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonString" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonString/PythonStringPractice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,52 +53,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PythonStringMethods" />
-        <item itemvalue="Python.PythonStringPractice" />
-        <item itemvalue="Python.PythonLoopPractice" />
+        <item itemvalue="Python.Loops_practice" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="Python If else condition" />
-      <created>1716997192273</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1716997192273</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Foor Loop Nested Loop">
-      <created>1717002169040</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1717002169040</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Python String">
-      <created>1717433697468</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717433697468</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Foor Loop Nested Loop" />
-    <MESSAGE value="Python String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python String" />
   </component>
 </project>

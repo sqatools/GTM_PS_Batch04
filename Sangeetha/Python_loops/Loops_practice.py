@@ -3,7 +3,7 @@ for i in range(start_value, end_value, difference)
     print(i)
 """
 """
-for i in range (2,10,20):
+for i in range (2,10,2):
     print(i)
 
 print("_"*50)
