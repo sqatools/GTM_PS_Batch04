@@ -5,11 +5,13 @@ We are learning Python Programming
 its very easy to learn
 """
 
-print(str1, type(str1))
+print(str1, type(str1))           #Hello <class 'str'>
 print("_" * 50)
-print(str2, type(str2))
+print(str2, type(str2))           #Python Programming <class 'str'>
 print("_" * 50)
-print(str3, type(str3))
+print(str3, type(str3))           #We are learning Python Programming
+                                   #its very easy to learn
+                                    #<class 'str'>
 
 str5 = "PROGRAM"
 
@@ -19,9 +21,9 @@ P  R  O  G  R  A  M
 -7 -6 -5 -4 -3 -2 -1 -ve
 """
 
-print(str5[3])  # G
+print(str5[3])                        # G
 
-print(str5[-4])  # G
+print(str5[-4])                        # G
 
 print("_" * 50)
 
