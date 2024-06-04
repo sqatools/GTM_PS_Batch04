@@ -121,4 +121,83 @@ output4 = str_c[1: -10: 1]
 print("output 4 :", output4)  # ndia is best cr
 
 
+print("_"*50)
 #####################
+# Rule 5:  str[:end_index:difference]
+# default initial index will be zero if difference is positive
+# default initial index will be -1 if difference is negative
+
+str6 = "Today is sunny day"
+print("output1 :", str6[:8:1])  # Today is
+
+print("output2 :", str6[:8:-1])
+
+
+print("_"*50)
+############################
+# Rule 6: str1[initial_index::difference]
+# default end index would be end of the string if different is +ve
+# default end index would be start of the string if different is -ve
+
+str7 = "Good Morning"
+print("output 1:", str7[1::1])  #  ood Morning  # with +ve differebce
+
+print("output 2:", str7[-8::-1]) # dooG
+
+print("output 3:", str7[6::-1])  # oM dooG
+
+print("_"*50)
+###################################
+# Rule 7: str1[::difference]
+# In this rule default initial index would be zero and
+#            end index would be end of string if difference is +ve
+# In this rule default initial index would be -1 and
+#            end_index would be start of string if difference is -ve
+
+
+str8 = "Very good evening"
+
+print("output1 :", str8[::1])  # Very good evening
+print("output2 :", str8[::-1])  # gnineve doog yreV
+
+
+###################################################
+print("_"*50)
+
+# Q1:
+str1 = "Python Programming"
+# Output1 = "gython ProgramminP"
+# Output2 = "PPPython Programminggg"
+# Output3 = "Programming Python"
+
+# output1:
+last_char = str1[-1]
+first_char = str1[0]
+remaining_str = str1[1:-1]
+result = f"{last_char}{remaining_str}{first_char}"
+print("result :", result) # gython ProgramminP
+
+# output2
+output2 = f"{first_char*3}{remaining_str}{last_char*3}"
+print("output2 :", output2)  # PPPython Programminggg
+
+# output3:
+str_a = "Python Programming"
+first_word = str_a[0:6]
+last_word = str_a[7:]
+
+output3 = f"{last_word} {first_word}"
+print("output3 :", output3)
+print("_"*50)
+##################### String Methods #####################
+print(dir(str))
+
+"""
+'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith',
+ 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill'
+
+
+"""
+
+
+
