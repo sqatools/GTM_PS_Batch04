@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d31314-ba0d-4dbc-902e-66d573cb2399" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Sangeetha/Python_Strings/Python_strings.py" afterDir="false" />
+    <list default="true" id="b46e4a1e-2b49-4a68-b620-ebd8ff4e7929" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sangeetha/Python_Ifelse/If_Else_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sangeetha/Python_Ifelse/If_Else_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sangeetha/Python_programming/Python_Variable/pythonvaribles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sangeetha/Python_programming/Python_Variable/pythonvaribles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,39 +22,14 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GreyStoneProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Loops_practice.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://GreyStoneProject@github.com/sqatools/GTM_PS_Batch04.git",
-    "accountId": "c2e8cacb-70ba-4215-b6eb-7d8c75ea5d5f"
-  }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
-  <component name="ProjectId" id="2hPwyoS1Co0jswCOMLT8clwnJS7" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Python_strings.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
-  }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="Python_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Loops_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch04" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,11 +38,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sangeetha/Python_Strings" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sangeetha/Python_loops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sangeetha/Python_Strings/Python_strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,26 +53,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Python_strings" />
+        <item itemvalue="Python.Loops_practice" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a3d31314-ba0d-4dbc-902e-66d573cb2399" name="Changes" comment="" />
-      <created>1717509281178</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1717509281178</updated>
-    </task>
     <servers />
   </component>
 </project>
