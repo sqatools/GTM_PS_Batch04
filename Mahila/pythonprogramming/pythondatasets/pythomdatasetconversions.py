@@ -7,19 +7,63 @@ Python Data Type
          Integer - bool (0-->false, nonzero -->true)
     ii). Float - int
          Float - str
-         Integer - bool (0-->false, nonzero -->true)
+         float - bool (0-->false, nonzero -->true)
     iii). Complex
 
 2. Sequential Data Type
 
 
     i). String
+        string -> int
+        #### Can not convert word into number ###
+        #### IF string is holding only number then the conversion is possible
+        string -> float
+        #### Can not convert word into number ###
+        #### IF string is holding only number then the conversion is possible
+        string -> list
+        string -> Tuple
+        string -> Dictionary #### direct conversion is not possible
+        (import jason
+        json.loads)
+        string -> set
+        string- > bool (0-->false, nonzero -->true)
+
+
     ii). List
+        list --> str
+        list -->tuple
+        list -->dict ## direct conversion is not possible we need to use zip function
+        to use zip function we need 2 list of values
+        list -> set
+        list --> bool (0-->false, nonzero -->true)
+
+
     iiI). Tuple
+        tuple-> str
+        tuple -> list
+        tuple to dict ###direct conversion is not possible.
+        so similar to list we can use zip
+        tuple -->set (excluds duplicate values)
+        tuple -->bool (0-->false, nonzero -->true)
+
 
 3. Dictionary
+        dict -> str
+        dict - >list only give key values
+        dict -->tuple only give key values
+        dict --> set
+
+
+        dict -->bool
 4. Set
+        set -> string
+        set -> list  duplicate value removed
+        set -> tuple  duplicate value removed
+        set--> bool
 5. Boolean
+        bool -->int
+        bool -->float
+        bool -->str
 """
 
 ############# Integer #####
@@ -120,7 +164,7 @@ print(f1)
 """
 
 ## string holding only float value then we can convert ##
-str_b = "45"
+str_b = "45.68"
 f2 = float(str_b)
 print(f2, type(f2))  # 45.68 <class 'float'>
 
