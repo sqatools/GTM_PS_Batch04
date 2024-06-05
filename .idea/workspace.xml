@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ea3ea7-2bc6-44ee-82dc-ca3b7d9187f0" name="Changes" comment="Python loop 2" />
+    <list default="true" id="a3d31314-ba0d-4dbc-902e-66d573cb2399" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sangeetha/Python_Strings/Python_strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sangeetha/Python_loops/Loops_practice.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,39 +27,33 @@
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
     "state": "OPEN",
-    "assignee": "Neha2894"
+    "assignee": "GreyStoneProject"
   }
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/sqatools/GTM_PS_Batch04.git",
-    "accountId": "590f6baa-1520-4b7b-9b93-23f57377d658"
+    "url": "https://GreyStoneProject@github.com/sqatools/GTM_PS_Batch04.git",
+    "accountId": "c2e8cacb-70ba-4215-b6eb-7d8c75ea5d5f"
   }
 }]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  "customColor": "",
+  "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="2h8IspY1S05aHK53a4HoFDDtVyW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2hPwyoS1Co0jswCOMLT8clwnJS7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.PythonDatatypeConv.executor": "Run",
-    "Python.PythonDatatypes.executor": "Run",
-    "Python.PythonIfElseExamples.executor": "Run",
-    "Python.PythonLoopPractice.executor": "Run",
-    "Python.PythonLoops.executor": "Run",
+    "Python.Python_strings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.PythonLoops">
-    <configuration name="PythonDatatypeConv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Python_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch04" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,99 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Neha/PythonDatatypes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sangeetha/Python_Strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neha/PythonDatatypes/PythonDatatypeConv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonDatatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_Batch04" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Neha/PythonDatatypes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neha/PythonDatatypes/PythonDatatypes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonIfElseExamples" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="GTM_PS_Batch04" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Neha/PythonIfElseConditions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neha/PythonIfElseConditions/PythonIfElseExamples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonLoopPractice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_Batch04" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonLoops" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deepesh/PythonProgramming/PythonLoops/PythonLoopPractice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonLoops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GTM_PS_Batch04" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Neha/PythonLoops" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neha/PythonLoops/PythonLoops.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sangeetha/Python_Strings/Python_strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,10 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PythonLoops" />
-        <item itemvalue="Python.PythonLoopPractice" />
-        <item itemvalue="Python.PythonDatatypes" />
-        <item itemvalue="Python.PythonDatatypeConv" />
+        <item itemvalue="Python.Python_strings" />
       </list>
     </recent_temporary>
   </component>
@@ -184,87 +91,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39ea3ea7-2bc6-44ee-82dc-ca3b7d9187f0" name="Changes" comment="Added the examples" />
-      <created>1716969492606</created>
+      <changelist id="a3d31314-ba0d-4dbc-902e-66d573cb2399" name="Changes" comment="" />
+      <created>1717509281178</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716969492606</updated>
+      <updated>1717509281178</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added the examples">
-      <option name="closed" value="true" />
-      <created>1716974219656</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716974219656</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Recreated If Else Examples file">
-      <option name="closed" value="true" />
-      <created>1716987644622</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1716987644622</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Loop 1 created">
-      <option name="closed" value="true" />
-      <created>1717053779820</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1717053779820</updated>
-    </task>
-    <task id="LOCAL-00004" summary="If else structure added">
-      <option name="closed" value="true" />
-      <created>1717053982337</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717053982337</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Python datatypes">
-      <option name="closed" value="true" />
-      <created>1717054387835</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1717054387835</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Python datatypes">
-      <option name="closed" value="true" />
-      <created>1717054406578</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1717054406578</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Python loop 2 is done">
-      <option name="closed" value="true" />
-      <created>1717142616495</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1717142616495</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Python loop 2">
-      <option name="closed" value="true" />
-      <created>1717182519361</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1717182519361</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added the examples" />
-    <MESSAGE value="Recreated If Else Examples file" />
-    <MESSAGE value="Loop 1 created" />
-    <MESSAGE value="If else structure added" />
-    <MESSAGE value="Python datatypes" />
-    <MESSAGE value="Python loop 2 is done" />
-    <MESSAGE value="Python loop 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python loop 2" />
   </component>
 </project>
