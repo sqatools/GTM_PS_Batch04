@@ -73,22 +73,56 @@ else:
 print('_'*50)
 
 Fib=[0,1,1,2,3,4,5,6,7,8,9]
-num=int(input("enter the number:"))
+num=3
 if num in Fib:
     print("number is Fibannoci")
 else:
     print("Number is not fibbanoci")
 
-# program for authentication of name and  pwd
-name=input("enter the username")
-password=input("enter the password")
+# program for authentication of name and pwd
+name="keerthi"
+password="keerthi"
 if name==password:
     print("Authentication is right")
 else:
     print("Authentication is wrong")
 
 
+#to check whether given number is positive,negative and even and odd.
+num=13
+if num%2==0:
+    print("number is positive and even")
+else:
+    print("number is negative and odd")
 
+#python to print the largest of two numbers
+n1=20
+n2=40
+if n1>n2:
+    print("n1 is largest than n2")
+elif n2>n1:
+    print("n2 is largest than n1")
+
+#Python program to check whether a given character is uppercase or not.
+p=input("Enter the input:")
+if p.isupper():
+    print("True")
+elif p.islower():
+    print("False")
+
+#Python program to check whether the given input is a string or not
+str1="welcome"
+if type(str1)==str:
+    print("str1 is a str")
+else:
+    print("str1 is not a str")
+
+#Python program to check whether the given number is float or not.
+n=23.5
+if type(n)==float:
+    print("Given number is float")
+else:
+    print("given number is not float")
 
 
 
