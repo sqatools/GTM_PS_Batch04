@@ -84,4 +84,129 @@ print("find is :", str_k.find("is"))  # 9
 # if the string or char is not available then it will return output as -1
 print("find is :", str_k.find("Was")) # -1
 
+####################################
+
+str2 = "Good Morning"
+print(str2[:8:-1])
+
+print("_"*50)
+###################################
+# replace method : this method replace the one word to another
+
+str_a = "Hello We Are Learning Python"
+output = str_a.replace("Python", "Java")
+print("Replaced output :", output)
+
+Output2 = output.replace("Are", "Were")
+print("output2 :", Output2)
+
+output3 = str_a.replace("Python", "Java").replace("Are", "Were")
+print("Output3 :", output3)
+
+output4 = output3.replace("Python", "Java")
+print("output4 :", output4)
+
+print("-"*50)
+####################
+# split() method : This method can break the string in list of substring.
+
+str_1 = "Today India is playing good cricket"
+str_2 = "India,will,win,the,match"
+str_3 = "Learning%is%Fun"
+
+output1 = str_1.split(" ")
+print("output 1:", output1)
+# ['Today', 'India', 'is', 'playing', 'good', 'cricket']
+
+
+output2 = str_2.split(",")
+print("output 2:", output2)
+# ['India', 'will', 'win', 'the', 'match']
+
+output3 = str_3.split("%")
+print("output 3:", output3)
+# ['Learning', 'is', 'Fun']
+
+
+str_4 = "Pytnghon ProngramingAre"
+print("output4 :", str_4.split("o"))
+# ['Pyth', 'n Pr', 'graming']
+
+print("output5 :", str_4.split("ng"))
+# ['Pyt', 'hon Pro', 'rami', 'Are']
+
+###################
+print("_"*50)
+# strip() method : This method remove the training spaces from given string
+str_m = "  Python Programming  "
+print(str_m)
+
+output1 = str_m.strip()
+print(output1)
+
+output2 = str_m.lstrip()
+print(output2)
+
+output3 = str_m.rstrip()
+print(output3)
+
+########################################
+#join() method : This method can join any string with delimeters
+
+str_j = "Learning"
+
+output_j = "-".join(str_j)
+print("output j:", output_j)  # L-e-a-r-n-i-n-g
+
+print("output2 :", "&^&".join(str_j))  # L&^&e&^&a&^&r&^&n&^&i&^&n&^&g
+
+var1 = "&^&".join(str_j)
+print(var1)
+
+var2 = var1.replace("&^&", "")
+print("var2 :", var2)
+
+####################################
+print("_"*50)
+# isalpha method will return if string only contains alphabates
+str_a = "Hello"
+print(str_a.isalpha()) # True
+
+# isnumeric : This method return true if string only contains numberic value
+str_b = "34567"
+print("check is numeric :", str_b.isnumeric()) # True
+
+str_b1 = "34567 Word"
+print("check is numeric :", str_b1.isnumeric()) # False
+
+# isalnum: This method check if string only contains number and characters.
+str_c = "234Virat"
+print("check for string and numeric values :", str_c.isalnum())  # True
+
+str_c1 = "234Virat 112"
+print("check for string and numeric values :", str_c1.isalnum()) # False
+
+# isspace: this method check given char is space or not
+str_e = "Hello good morning, I hoper you are doing good"
+
+for char in str_e:
+    print(char, ":", char.isspace())
+
+str_f = "  "
+print("check for space :", str_f.isspace())
+
+
+# isascii method:
+# ASCII characters have code points in the range U+0000-U+007F
+
+str_t = "127"
+print("is ascii :", str_t.isascii())
+print("is ascii :", "U+0001".isascii())
+
+for i in range(65, 128):
+    print(i, ":", chr(i))
+
+
+
+
 
