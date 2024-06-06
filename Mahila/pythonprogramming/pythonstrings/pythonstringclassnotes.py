@@ -117,8 +117,8 @@ print("output2 :", output2)
 output3 = str_c[-1: -15: -2] # me ecr
 print("output3 :", output3)
 
-output4 = str_c[1: -10: 1]
-print("output 4 :", output4)  # ndia is best cr
+# output4 = str_c[1: -10: 1]
+# print("output 4 :", output4)  # ndia is best cr
 
 
 #####################
