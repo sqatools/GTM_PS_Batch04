@@ -109,3 +109,65 @@ print('*'*50)
 
 s13=str_c[-2:-7:-1]
 print(s13)
+print('_'*50)
+#####################
+# Rule 5:  str[:end_index:difference]
+# default initial index will be zero if difference is positive
+# default initial index will be -1 if difference is negative
+
+print('output:',str_c[:6:1])
+print('output1:',str_c[:-5:-1])
+
+print("_"*50)
+############################
+# Rule 6: str1[initial_index::difference]
+# default end index would be end of the string if different is +ve
+# default end index would be start of the string if different is -ve
+
+str_6="Good Morning"
+
+print('op:',str_6[-1::2]) #g
+print('op1:',str_6[3::-1]) #dooG
+print('op1:',str_6[1::-1]) #oG
+
+print("_"*50)
+###################################
+# Rule 7: str1[::difference]
+# In this rule default initial index would be zero and
+#            end index would be end of string if difference is +ve
+# In this rule default initial index would be -1 and
+#            end_index would be start of string if difference is -ve
+
+str_7='Good Morning'
+print('op2:',str_7[::1])
+print('op2:',str_7[::-1])
+
+
+###################################################
+print("_"*50)
+
+# Q1:
+str1 = "Python Programming"
+# Output1 = "gython ProgramminP"
+# Output2 = "PPPython Programminggg"
+# Output3 = "Programming Python"
+
+str1='Python Programming'
+first_char=str1[0]
+last_char=str1[-1]
+remchar=str1[1:-1]
+str_op=f'{last_char}{remchar}{first_char}'
+print('str_op:',str_op)
+#"gython ProgramminP"
+
+print('_'*50)
+
+# Output2 = "PPPython Programminggg"
+str_op1=f'{first_char*3}{remchar}{last_char*3}'
+print(str_op1)
+str1 = "Python Programming"
+# Output3 = "Programming Python"
+first=str1[0:7]
+last=str1[7:]
+result=f'{last} {first}'
+print(result)
