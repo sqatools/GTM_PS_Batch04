@@ -103,8 +103,11 @@ print("output2 :", Output2)
 output3 = str_a.replace("Python", "Java").replace("Are", "Were")
 print("Output3 :", output3)
 
-output4 = output3.replace("Python", "Java")
-print("output4 :", output4)
+
+
+
+
+
 
 print("-"*50)
 ####################
@@ -202,6 +205,7 @@ print("check for space :", str_f.isspace())
 str_t = "127"
 print("is ascii :", str_t.isascii())
 print("is ascii :", "U+0001".isascii())
+
 
 for i in range(65, 128):
     print(i, ":", chr(i))
