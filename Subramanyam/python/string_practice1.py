@@ -82,3 +82,85 @@ for var1 in st:
 
 print("output:",out,te)
 
+
+
+oupt=st.split()
+
+print("longest word",max(oupt,key=len))
+print("short ward",min(oupt,key=len))
+
+
+
+df="Helllllo ffdfdas sdfsfsd sssfdddd"
+chari=" "
+counti=0
+
+temp2=1
+for va in range(len(df)-1):
+    if df[va]==df[va+1]:
+        temp2=temp2+1
+        if temp > counti:
+            counti=temp2
+            chari=df[va]
+        else:
+            temp2=1
+
+
+print("char max",chari,"\nmax count",counti)
+
+
+thei=0
+
+for i in df:
+    thei+=1
+
+print("without count len funtion",thei)
+print("with len function",len(df))
+
+
+st2="programming"
+st3=""
+
+for i in st2:
+    if i in st3:
+        st3=st3+"$"
+    else:
+        st3=st3+i
+print("result",st3)
+
+print(st2[::-1])
+print(st2[-1]+st2[1:-1]+st2[0])
+
+
+string1="its online learning"
+list1=string1.split(" ")
+
+for word2 in list1:
+    new_word=word2[-1]+word2[1:-1]+word2[0]
+    index=list1.index(word2)
+    list1[index]=new_word
+print(" ".join(list1))
+
+inp="we are learning python codding"
+lit=inp.split(" ")
+vowels="aeiou"
+dictionary=dict()
+
+for i in lit:
+    count=0
+    for j in i:
+        if j in vowels:
+            count+=1
+    dictionary[i]=count
+print(dictionary)
+
+s="sqa tools learning"
+result=" "
+vowels1=['a','e','i','o','u','A','E','I','O','U']
+
+for i in s:
+    if i in vowels1:
+        result=result+i*3
+    else:
+        result=result+i*2
+print(result)

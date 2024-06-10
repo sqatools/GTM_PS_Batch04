@@ -110,7 +110,7 @@ print()
 '''
 ########################################################
 
-num=n=int(input("enter the number: "))
+'''num=n=int(input("enter the number: "))
 total=0
 
 while n>0:
@@ -137,4 +137,70 @@ for i in range(1,limit+1):
         total+=digit**len(str(i))
         temp//=10
     if num==total:
-        print(num,end=" ")
+        print(num,end=" ")'''
+
+str1="python programming"
+rlt=str1[-1:0:-1]
+print(rlt)
+
+
+print()
+
+
+for i in range(2):
+
+    for j in range(5):
+        if i==0:
+            if j==0 or j==4:
+                print(" ",end=" ")
+            else:
+                print("*",end=" ")
+        else:
+            print("*",end=" ")
+    print()
+
+for i in range(4):
+    for j in range(5):
+        if j==2:
+            print(" ",end=" ")
+        else:
+            print("*",end=" ")
+    print()
+
+for i in range(2):
+    for j in range(5):
+        if i==1:
+            if j==0 or j==4:
+                print(" ",end=" ")
+            else:
+                print("*",end=" ")
+        else:
+            print("*",end=" ")
+    print()
+
+
+for i in range(6):
+    for j in range(5):
+        if i==3:
+            if j==3:
+                print("*",end=" ")
+            else:
+                print(" ",end="\n ")
+
+        elif i==2 or i==4:
+            if j==2 or j==4:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+
+
+print()
+for i in range(6):
+    for j in range(5):
+        if i==3:
+            if j==2 or j==4:
+                print("*",end=" ")
+            else:
+                print(" ",end=" ")
+
+    print()
