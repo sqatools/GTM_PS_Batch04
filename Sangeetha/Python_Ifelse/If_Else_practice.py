@@ -157,29 +157,51 @@ else :
 
 """
 
-#given number is in the list or not
+# #given number is in the list or not
+#
+# list1=[0,1,2,3,4,5]
+# num =int(input ("enter a number ; "))
+# if num in list1:
+#     print("its valid")
+# else:
+#     print("its not valid")
+#
+# #programm to check the largest number
+#
+# num1 =int(input("enter 1st number : "))
+# num2 =int(input("enter 2nd number : "))
+# num3 =int(input("enter 3rd number : "))
+# if num1>num2:
+#     if num1>num3:
+#         print("num1 is the greatest number")
+#     else:
+#         print("num3 is the greatest number")
+#         if num2>num3:
+#             print("num2 is the greatest number")
+#         else :
+#             print("num3 is the greatest number")
 
-list1=[0,1,2,3,4,5]
-num =int(input ("enter a number ; "))
-if num in list1:
-    print("its valid")
-else:
-    print("its not valid")
+# num=int(input("enter number : "))
+# if num>0:
+#     print("number is positive")
+# else:
+#     print("number is not positive")
+#
+#
+# num=int(input("enter a number: "))
+# if num<0:
+#     print("number is negative")
+# else :
+#     print("number is not negative")
 
-#programm to check the largest number
 
-num1 =int(input("enter 1st number : "))
-num2 =int(input("enter 2nd number : "))
-num3 =int(input("enter 3rd number : "))
-if num1>num2:
-    if num1>num3:
-        print("num1 is the greatest number")
-    else:
-        print("num3 is the greatest number")
-        if num2>num3:
-            print("num2 is the greatest number")
-        else :
-            print("num3 is the greatest number")
+
+
+
+
+
+
+
 
 
 
