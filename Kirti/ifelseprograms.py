@@ -221,16 +221,16 @@ unit = 350
 
 #for unit in range(0,251,1): can we do it with range ?
 if unit <=50 :
-        total_amount = ((unit+50)*17/100) # *
+        total_amount = ((unit*50)*17/100) 
         print("The bill amount is",total_amount)
 elif unit <=100 :
-        total_amount = ((unit+0.75)*17/100)
+        total_amount = ((unit*0.75)*17/100)
         print("The bill amount is",total_amount)
 elif unit <=250 :
-        total_amount = ((unit+1.25)*17/100)
+        total_amount = ((unit*1.25)*17/100)
         print("The bill amount is",total_amount)
 elif unit >250 :
-        total_amount = ((unit + 1.50) * 17 / 100)
+        total_amount = ((unit*1.50) * 17 / 100)
         print("The bill amout is ",total_amount) '''
 
 print("_"*50)
