@@ -5,13 +5,11 @@ We are learning Python Programming
 its very easy to learn
 """
 
-print(str1, type(str1))           #Hello <class 'str'>
+print(str1, type(str1))
 print("_" * 50)
-print(str2, type(str2))           #Python Programming <class 'str'>
+print(str2, type(str2))
 print("_" * 50)
-print(str3, type(str3))           #We are learning Python Programming
-                                   #its very easy to learn
-                                    #<class 'str'>
+print(str3, type(str3))
 
 str5 = "PROGRAM"
 
@@ -21,9 +19,9 @@ P  R  O  G  R  A  M
 -7 -6 -5 -4 -3 -2 -1 -ve
 """
 
-print(str5[3])                        # G
+print(str5[3])  # G
 
-print(str5[-4])                        # G
+print(str5[-4])  # G
 
 print("_" * 50)
 
@@ -119,9 +117,11 @@ print("output2 :", output2)
 output3 = str_c[-1: -15: -2] # me ecr
 print("output3 :", output3)
 
-output4 = str_c[1: -10: 1]
-print("output 4 :", output4)  # ndia is best cr
+# output4 = str_c[1: -10: 1]
+# print("output 4 :", output4)  # ndia is best cr
 
+
+#######################
 
 print("_"*50)
 #####################
