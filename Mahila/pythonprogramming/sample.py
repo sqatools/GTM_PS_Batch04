@@ -1,3 +1,7 @@
-str1= "Python Programming"
-output6 = str1[-6:-4]
-print("output6 :", output6)
+
+list_11 = [4, 6, 8, 22, 55, 12]
+result = list_11.remove(55)
+print("Result :", result)
+print("list_11 :", list_11)
+
+
