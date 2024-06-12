@@ -41,3 +41,120 @@ for i in even_odd:
 
 print("even numbers: ",even)
 print("odd numbers: ",odd)
+
+
+lst1=[1,3,5,8,7,4,6,5,2]
+
+stl=[]
+
+for i in lst1:
+    if i not in stl:
+        stl.append(i)
+
+print(stl)
+
+import itertools
+
+var1=10
+
+vit=[]
+
+for i in range(len(lst1)):
+    for combi in itertools.combinations(lst1,i):
+        if sum(combi)==var1:
+            vit.append(combi)
+
+print(vit)
+
+
+even=[]
+odd=[]
+
+for i in lst1:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+odd.extend(even)
+print(odd)
+
+
+dup1=[4,5,2,6,3,1]
+dup2=[5,1,9,7,8,0]
+
+com=[]
+
+for i in dup1:
+    if i  in dup2:
+        com.append(i)
+
+
+print(com)
+
+for i in range(len(dup2)-1,-1,-1):
+    print(dup2[i],end=" ")
+print()
+count = len(dup2)-1
+while count >=0:
+    print(dup2[count],end=" ")
+    count-=1
+print()
+l=[2,3,4,5,6,7,8]
+for i in l:
+    if i%2==0:
+        print(i,":",i**2)
+
+print()
+
+ls1=[2,3,4,5,6]
+
+ls2=ls1[::-1]
+
+print(ls2)
+
+
+print("using reversed:",list(reversed(ls1)))
+
+ls1.reverse()
+print("using reverse: ",ls1)
+
+l1=[]
+
+for i in ls1:
+    l1.append(i)
+print(l1)
+
+for i in dup1:
+    if i in dup2:
+        print(True)
+
+lt=[3,5,7,8,6,9,2,1]
+
+lt=[element for (value,element) in enumerate(lt) if value not in (2,4,6) ]
+
+print(lt)
+
+lt1=[1,2,3,-5,5,1,-6,-5,1]
+for i in lt1:
+    if i>=0:
+        print(i,end=" ")
+print()
+lt2=[]
+for i in lt:
+    if i%3==0 or i%7==0:
+        lt2.append(i)
+
+print(lt2)
+
+
+lista=[4,6,8,3,7,11,14]
+output=[]
+
+for i in lista:
+    if i%2!=0:
+        output.append(i**3)
+    else:
+        output.append(i**2)
+
+print(output)
