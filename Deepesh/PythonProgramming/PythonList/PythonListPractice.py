@@ -151,8 +151,14 @@ print("list_7:", list_7)  # [25, 34]
 
 
 
+list_a=[4,6,8,3,7,11,14]
+output=[]
 
-
+for i in range in (list_a):
+    if i%2==0:
+        print(i, i**2)
+    else:
+        print(i, i**3)
 
 
 

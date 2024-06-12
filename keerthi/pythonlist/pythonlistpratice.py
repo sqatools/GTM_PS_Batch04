@@ -41,4 +41,14 @@ print(lista[::-2])
 print(lista[::-1])
 
 ##########list methods#####
-print()
+print('*'*50)
+
+list_a=[4,6,8,3,7,11,14]
+output=[]
+
+for i in range(list_a):
+    if i%2==0:
+        output.append(i**2)
+    else:
+        output.append(i**3)
+print("output is:",output)
