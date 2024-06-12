@@ -146,3 +146,15 @@ for i in lt:
         lt2.append(i)
 
 print(lt2)
+
+
+lista=[4,6,8,3,7,11,14]
+output=[]
+
+for i in lista:
+    if i%2!=0:
+        output.append(i**3)
+    else:
+        output.append(i**2)
+
+print(output)
