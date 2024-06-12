@@ -1,12 +1,9 @@
-print("Hello world")
+list_1 = [4, 6, 8, 3, 7, 11, 14]
+output = []
 
-print('*'*50)
-
-a = 70
-b = 100
-print(a == b)
-if a == b:
-    print("A and B have equal value")
-else:
-    print("A and B have different value")
-
+for val in list_1:
+    if val % 2 == 0:
+        output.append(val ** 2)
+    else:
+        output.append(val ** 3)
+print(output)
