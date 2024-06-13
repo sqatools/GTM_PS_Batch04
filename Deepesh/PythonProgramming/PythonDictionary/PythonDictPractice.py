@@ -13,6 +13,7 @@ Properties :
 dict1 = {'a': 123, 'b': 345, 'c': 464, 'a': 500}
 print("dict1 :", dict1, type(dict1))
 
+
 dict1['d'] = 600
 print(dict1)  # {'a': 500, 'b': 345, 'c': 464, 'd': 600}
 # adding duplicate values

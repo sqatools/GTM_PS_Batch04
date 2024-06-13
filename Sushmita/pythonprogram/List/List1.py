@@ -107,4 +107,6 @@ result2 = [(val, "even") if val%2 ==0 else (val, "odd") for val in list_c]
 print(result2)
 # [(3, 'odd'), (22, 'even'), (45, 'odd'), (33, 'odd'), (2, 'even'), (6, 'even'), (8, 'even'), (11, 'odd'), (23, 'odd'), (43, 'odd')]
 
-
+print('_'*50)
+tuple2=(4,6,8,1,18,25,35)
+print(tuple2[-1:5:1])
