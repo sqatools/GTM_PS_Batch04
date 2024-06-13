@@ -41,3 +41,38 @@ print("Square of 2:",a**2)
 print("Cube of 3:",b**3)
 
 
+########Program to interchange values between variables###############
+a=2
+b=3
+a,b=b,a
+print("a value is:",a)
+print("b value is:",b)
+
+
+
+#########Python program to solve this Pythagorous theorem.######
+import math
+a=5
+b=4
+hypo=a**2+b**2
+print("hypoteneous is:", math.sqrt(hypo))
+
+
+
+##########pgm to get the median of given number#####
+list2=[8,9,6,7,4,4,5]
+list2.sort()
+a=(len(list2))/2
+print("Median is :",list2[int(a)])
+
+#########Python program to solve this Pythagorous theorem.#####
+import math
+v=4
+i=5
+d=v**2+i**2
+print("Hypoteneous id",math.sqrt(d))
+
+
+
+
+
