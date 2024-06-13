@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="addind division.py file">
+      <change afterPath="$PROJECT_DIR$/Vidyakjain/Python basic programming.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mahila/pythonprogramming/pythonifelsecondition/ifelsecondition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mahila/pythonprogramming/pythonifelsecondition/ifelsecondition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,12 +29,12 @@
     &quot;assignee&quot;: &quot;Subra133&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sqatools/GTM_PS_Batch04.git",
-    "accountId": "e285bcb5-973c-4d25-8428-c5c383cb8b36"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sqatools/GTM_PS_Batch04.git&quot;,
+    &quot;accountId&quot;: &quot;e285bcb5-973c-4d25-8428-c5c383cb8b36&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -41,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Python basic programming.executor": "Run",
     "Python.division.executor": "Run",
     "Python.division.py.executor": "Run",
     "Python.ifelsecondition.executor": "Run",
@@ -49,7 +57,29 @@
     "last_opened_file_path": "C:/Git_Repo/GTM_PS_Batch04/Subramanyam/division.py"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.ifelsecondition">
+  <component name="RunManager" selected="Python.Python basic programming">
+    <configuration name="Python basic programming" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch04" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vidyakjain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vidyakjain/Python basic programming.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="division" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Python basic programming" />
         <item itemvalue="Python.ifelsecondition" />
       </list>
     </recent_temporary>
