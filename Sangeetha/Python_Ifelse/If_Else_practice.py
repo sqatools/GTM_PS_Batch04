@@ -1,5 +1,6 @@
 ##program to check given number is divided by 3 or not.
 
+"""
 num1=21
 
 if num1%3==0:
@@ -59,9 +60,9 @@ if num4 % 2 == 0:
 else:
     print("number is odd ")
 
-print("_"*40)
 
 #Python program to check authentication with the given username and password.
+print("_"*40)
 
 name=input("enter name : ")
 password=input("password : ")
@@ -69,10 +70,148 @@ if name==password:
     print("it is  valid ")
 else :
     print("it is not valid")
-
+"""
+"""
+###Python program to validate user_id in the list of user_ids.
 print("_"*40)
 
-###Python program to validate user_id in the list of user_ids.
+id_list=[1,2,3,4,5,6]
+id_=input("enter id number :")
+if int(id_) in id_list:
+    print("valid id")
+else :
+    print("invalid id")
+
+##program to print a square or cube if the given number is divided by 2 or 3 respectively
+
+"""
+"""
+num4=int(input("enter a number : "))
+if num4%2 == 0 :
+    print("square :" , num4**2)
+elif num4%3 == 0 :
+    print ("cube : "  , num4**3)
+
+"""
+"""
+
+####program to determine whether a given number is available in the list of numbers or not.
+
+list1=[11,22,33,43,57,69,]
+num = int(input("Enter a number: "))
+if num==list1 :
+    print("number is in the list")
+else :
+####Python program to describe the interview process.
+
+"""
+"""
+round1="pass"
+round2="pass"
+round3="pass"
+if round1=="pass" :
+    print("congrats you cleared  round1")
+    if round2 == "pass":
+        print("congrats you cleared round 2")
+        if round3 == "pass":
+            print("congrats you cleared the interview , our HR will call you")
+        else:
+            print("you didn't clear the third round HR will get back to you")
+    else:
+        print("you didn't clear the second round hard luck next time")
+else:
+    print("you didn't clear the first round hard luck next time")
+
+"""
+# # check number is palindrome or not
+# num1 = 232
+# num2 = str(num1)
+# if num1 == int(num2 [::-1]):
+#     print("its a palindormic number")
+# else :
+#     print("its not a palindromic number")
+#
+# # check number is palindrome or not
+#
+# str1= "kayak"
+# str2=str1[::-1]
+# if str1==str2 :
+#     print("its a palindromic word")
+# else :
+#     print ("its not a palindromic word ")
+
+#program to get all the numbers divided by 3 from 1 to 30.
+
+for i in range (1,31):
+    if i%3 == 0:
+        print(i, end=" ")
+
+#program to check given number is a prime number or not
+"""
+fib=[0,1,2,3,4,5,6,7,8,9,10]
+num=int (input ("enter a number: "))
+if num in fib :
+    print("it is a part of series  ")
+else :
+    print ("its not a part of series ")
+
+"""
+
+# #given number is in the list or not
+#
+# list1=[0,1,2,3,4,5]
+# num =int(input ("enter a number ; "))
+# if num in list1:
+#     print("its valid")
+# else:
+#     print("its not valid")
+#
+# #programm to check the largest number
+#
+# num1 =int(input("enter 1st number : "))
+# num2 =int(input("enter 2nd number : "))
+# num3 =int(input("enter 3rd number : "))
+# if num1>num2:
+#     if num1>num3:
+#         print("num1 is the greatest number")
+#     else:
+#         print("num3 is the greatest number")
+#         if num2>num3:
+#             print("num2 is the greatest number")
+#         else :
+#             print("num3 is the greatest number")
+
+# num=int(input("enter number : "))
+# if num>0:
+#     print("number is positive")
+# else:
+#     print("number is not positive")
+#
+#
+# num=int(input("enter a number: "))
+# if num<0:
+#     print("number is negative")
+# else :
+#     print("number is not negative")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

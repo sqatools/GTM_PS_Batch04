@@ -42,11 +42,11 @@ marks 90 – 100: grade Excellent
 marks > 100: Invalid marks
 '''
 
-marks = 32
+marks = 30
 
 if marks>100:
     print("invalid marks")
-elif 30 <= marks <= 40:
+elif 30 < marks <= 40:
     print("pass with grade c")
 elif 40 < marks <= 50:
     print("pass with grade b")
@@ -244,3 +244,72 @@ if m==int(h[::-1]):
 else:
     print(f"{h} not palinadrome2")
 '''
+# Python program to check if any given string is palindrome or not.
+# Input: ‘jaj’
+# output = palindrome
+
+str = "jaj"
+if str==str[::-1]:
+    print(f"{str} is palinodrome")
+else:
+    print(f"{str} is Not palinodrome")
+
+# Python program to check whether a student has passed the exam. If marks are greater than 35 students have passed the exam.
+
+marks1 = 34
+
+
+if marks1>35:
+    print(f" student is passed with {marks1} in the exam ")
+else:
+    print(f" student failed with {marks1} in the exam")
+
+# Python program to check whether the given number is positive or not.
+
+d =9
+
+if d>0:
+    print("True")
+else:
+    print("False")
+
+#  Python program to check whether the given number is negative or not.
+
+e=-45
+if e<0:
+    print("True")
+else:
+    print("False")
+
+# Python program to check whether the given number is positive or negative and even or odd.
+
+num = int(input("Enter the Number: "))
+
+if num>0:
+    if num%2==0:
+        print("The given number is positive and even")
+    else:
+        print("the given number is positive and odd")
+else:
+    if num%2==0:
+        print("The given number is negitive and even")
+    else:
+        print("the given number is negitive and odd")
+
+# Python program to print the largest number from two numbers.
+
+x = 69
+x1 =61
+
+if x>x1:
+    print(f'{x}is largest')
+else:
+    print(f'{x1} is largest')
+
+# Python program to check whether a given character is uppercase or not.
+
+st = "A"
+if st.isupper():
+    print("is true")
+else:
+    print("is false")

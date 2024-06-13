@@ -15,10 +15,3 @@ elif marks >=90 and marks <=100:
     print("Grade Excellent")
 else :
     print("Invalid narks")
-
-
-
-
-
-
-

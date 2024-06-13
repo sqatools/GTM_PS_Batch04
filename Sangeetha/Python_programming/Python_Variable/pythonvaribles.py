@@ -1,3 +1,4 @@
+"""""""""
 a = 1
 b = 2
 print(a + b)
@@ -18,7 +19,7 @@ print("SQATOOLS" * 5)
 
 ##############
 str1 = "sangeetha"
-print("sangeetha" * 5)
+print("\nsangeetha" * 5)
 
 ##################
 a = 40
@@ -31,6 +32,44 @@ num1 = 9
 print("square of 9 :", 9**2)
 print("cube of 9 :", 9**3)
 
+"""
+"""
 
+list = [55,34,67,89,10]
+list.sort()
+print(list)
+median =(len(list))/2
+print("median : ", list[int(median)])
+
+"""
+"""
+
+#(a2 + b2 = c2)
+
+import math
+side1 = 3
+side2 = 4
+hype=side1**2 + side2**2
+side3=math.sqrt(hype)
+print (side3)
+
+import random
+
+for i in range(5):
+    print(random.random())
+"""
+
+
+import datetime
+
+date=datetime.datetime.now()
+print(date.strftime("%Y_%m_%d_%H_%M_%S"))
+
+
+num = int(input("Enter a number: "))
+
+reverse = str(num)
+
+print("Reverse: ",reverse[::-1])
 
 

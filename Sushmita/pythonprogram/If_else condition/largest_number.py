@@ -7,4 +7,3 @@ elif n2>n1 and n2>n3 :
     print(f'{n2} is largest number')
 elif n3>n1 and n3>n2 :
     print(f'{n3} is largest number')
-
