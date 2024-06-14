@@ -65,3 +65,12 @@ print("all even numbers",result2)
 list_z= [4,56,2,2]
 result1= [(val,"even") if val%2==0 else (val,"odd") for val in list_z]
 print(result1)
+
+output= []
+list_a= [4,6,8,3,7,11,14]
+for i in list_a:
+    if i%2==0:
+        print("square of even:", i**2)
+    elif i%2!=0:
+        print("cube of odd", i**3)
+print(output.append(i))   # doubt
