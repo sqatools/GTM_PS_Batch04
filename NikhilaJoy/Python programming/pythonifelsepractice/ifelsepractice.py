@@ -66,11 +66,14 @@ else:
     print("it is a prime number")
 """
 #9). Python program to check authentication with the given username and password.
-"""
+""
 username=input("enter your username")
 password=input("enter your password")
+if username==password:
+    print(authenticated)
+else:
+    print(Not matching)
 
-"""
 """
 29). Python program to find the electricity bill. According to the following conditions:
 Up to 50 units rs 0.50/unit
@@ -87,27 +90,25 @@ bill=0
 if 0<n<=50:
     bill=n*.5
 elif 50<n<=100:
-    bill=n*.5 + (n-50)*.75
+    bill=50*.5 + (n-50)*.75
 elif 100<n<=250:
     bill=50*.5 + 50*.75 + (n-100)*1.25
 else:
     bill=50*.5 + 50*.75 + 150*1.25 + (n-250)*1.5
 print(bill+bill*.17)
 """
-total_unit = int(input("Total units Consumed="))
-bill_amount = 0
+#28). Python program to print all the numbers from 10-15 except 13
 
-# If each unit we will add to rate amount in total bill amount
-for bill_unit in range(1, total_unit+1):
-    if bill_unit <= 50:
-        bill_amount = bill_amount + 0.50
-    elif bill_unit > 50 and bill_amount <= 100:
-        bill_amount = bill_amount + 0.75
-    elif bill_unit > 100 and bill_amount <= 250:
-        bill_amount = bill_amount + 1.25
-    elif bill_unit > 250:
-        bill_amount = bill_amount + 1.5
-
-# Addition 17% surcharge on total bill amount
-bill_amount_sur = bill_amount + bill_amount * (17/100)
-print("Bill amount with surcharge :", bill_amount_sur)
+"""
+for i in range(10,15):
+    if i!=13 :
+        print(i)
+"""
+#30).  Python program to check whether a given year is a leap or not.
+"""
+year=int(input("Enter the year"))
+if year % 4==0 and (year % 100 != 0 or year % 400 ==0 ):
+    print("it is a leap year")
+else:
+    print("it is not a leap year")
+"""
