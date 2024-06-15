@@ -220,10 +220,96 @@ for word in list_c:
 
 output = print(" ".join(list_c))
 
-"""
+
 #Write a python to count vowels from each word in the given string show as dictionary output.
-#Input = “We are Learning  Python Codding”
+#Input = “We are Learning Python Codding”
 #output = {“We” : 1, “are” : 2, “Learning” : 3, “Python”:1, “Codding”}
+
+
+str_d = "We are Learning Python Codding"
+str = str_d.split(" ")
+vowels = "aeiou"
+new_str= {}
+count = 0
+
+for word in str:
+    for char in word:
+        if char in vowels:
+            count = count+1
+            new_str[word] = count
+        else:
+            continue
+print(new_str)
+
+#Write a python to repeat vowels 3 times and consonants 2 times.
+#Input = “Sqa Tools Learning”
+#Ouput = “SSqqaaa TToooooollss LLeeeaaarrnniiinngg”
+
+str_e = "Sqa Tools Learning"
+vowels = ["a","e","i","o","u",
+          "A","E","I","O","U"]
+result = ""
+
+for word in str_e:
+    if word in vowels:
+        result = result + word*3
+    else:
+        result = result + word*2
+print(result)
+
+
+#Write a  python program to re-arrange the string.
+#Input = “Cricket Plays Virat”
+#Output = “Virat Plays Cricket”
+
+str_e = "Cricket Plays Virat"
+str = str_e.split(" ")
+str.reverse()
+
+print(" ".join(str))
+
+#Write a  python program to get all the digits from the given string.
+#Input = “””
+#Sinak’s 1112 aim is to 1773 create a new generation of people who
+#understand 444 that an organization’s 5324 success or failure is
+#based on 555 leadership excellence and not managerial
+#acumen
+#“””
+#Output = [1112, 5324, 1773, 5324, 555]
+
+#str_f =  """#Sinak’s 1112 aim is to 1773 create a new generation of people who
+#understand 444 that an organization’s 5324 success or failure is
+#based on 555 leadership excellence and not managerial
+#acumen"""
+"""
+output = [ ]
+str = str_f.split(" ")
+print(str)
+
+for word in str:
+    if word.isnumeric():
+        output.append(word)
+print(output)
+
+
+#Write a python program to replace the words “Java” with “Python” in the given string.
+#Input = “JAVA is the Best Programming Language in the Market”
+#Output = “Python is the Best Programming Language in the Market”
+
+str_g = "JAVA is the Best Programming Language in the Market"
+str = str_g.split(" ")
+print(str)
+new_str = " "
+
+for word in str:
+    if word == "JAVA":
+        index = str.index(word)
+        str[index] = "Python"
+
+new_str = " ".join(str)
+print(new_str)
+
+"""
 
 
 
