@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="list programs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archana/Dictionary Programs.py" beforeDir="false" afterPath="$PROJECT_DIR$/archana/Dictionary Programs.py" afterDir="false" />
-    </list>
+    <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="list programs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718470471212</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="list programs">
+      <option name="closed" value="true" />
+      <created>1718555152767</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718555152768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
