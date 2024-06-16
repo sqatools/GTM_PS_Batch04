@@ -91,6 +91,32 @@ for b in a:
         print(b,":",b**3)
 print("_"*50)
 
+"""Problem to split the list into two-part"""
+list4=[2,4,6,7,9,12,78]
+odd=[]
+even=[]
+for var in list4:
+    if var%2==0:
+        even.append(var)
+    else:
+        odd.append(var)
+odd.extend(even)
+print(odd)
+print("_"*50)
+
+"""Problem to get common elements from two lists."""
+lis1=[2,3,4,9]
+lis2=[2,6,9,4]
+e=[]
+for b in lis1:
+    if b in lis2:
+        e.append(b)
+print(e)
+print("_"*50)
+""""""
+
+
+
 
 
 
