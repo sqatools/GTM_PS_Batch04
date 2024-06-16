@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="list programs">
-      <change afterPath="$PROJECT_DIR$/archana/Dictionary Programs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archana/Dictionary Programs.py" beforeDir="false" afterPath="$PROJECT_DIR$/archana/Dictionary Programs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Dictionary Programs.executor": "Run",
-    "Python.List Programs.executor": "Run",
-    "Python.Python Basic pgm 2.executor": "Run",
-    "Python.Python basic programming.executor": "Run",
-    "Python.String Programs.executor": "Run",
-    "Python.division.executor": "Run",
-    "Python.division.py.executor": "Run",
-    "Python.ifelsecondition.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Git_Repo/GTM_PS_Batch04/Subramanyam/division.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Dictionary Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.List Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python Basic pgm 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python basic programming.executor&quot;: &quot;Run&quot;,
+    &quot;Python.String Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.division.executor&quot;: &quot;Run&quot;,
+    &quot;Python.division.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ifelsecondition.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Git_Repo/GTM_PS_Batch04/Subramanyam/division.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Python Basic pgm 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch04" />

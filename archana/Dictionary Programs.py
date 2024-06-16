@@ -80,3 +80,98 @@ for char in str6:
 print(dict9)
 
 print("-"*50)
+dict10= {'d':21,'b':53,'c':41,'a':13}
+for key in sorted(dict10):
+    print(key,dict10[key],end=" ")
+
+print("-"*50)
+dict11= {1:'a',2:'b'}
+dict11.update({3:'c'})
+print(dict11)
+
+print("-"*50)
+dict12= {'name':'yash','city':'pune'}
+dict13= {'course':'python','institute':'sqatools'}
+dict12.update(dict13)
+print(dict12)
+
+print("-"*50)
+dict13= {'name':'yash','city':'pune'}
+dict14={}
+for key,value in dict13.items():
+    dict14[value]=key
+print(dict14)
+
+print("-"*50)
+dict15={'x':23,'y':10,'z':7}
+total=0
+for val in dict15.values():
+    total+=val
+print(total)
+
+print("-"*50)
+dict16={'city':'pune','state':'maharastra','country':'india'}
+count=0
+for key in dict16.keys():
+    if key==('country'):
+        count+=1
+
+if count>0:
+    print("key exists")
+else:
+    print("key does not exists")
+
+print("-"*50)
+dict17={'food':'burger','type':"fast food"}
+for val in dict17:
+    print(val,dict17[val])
+
+print("-"*50)
+dict18={'course':'python','institute':'sqatools'}
+dict19= {'name':'omkar'}
+dict19.update(dict18)
+print(dict19)
+
+print("-"*50)
+dict20={}
+for i in range(1,6):
+    dict20[i]=i**2
+print(dict20)
+
+print("-"*5)
+dict21={'a':2,'b':4,'c':5}
+result= 1
+for val in dict21.values():
+    result*=val
+print(result)
+
+print("-"*50)
+dict22={'a':2,'b':4,'c':5}
+dict22.popitem()
+print(dict22)
+
+print("-"*50)
+dict23={'a':2,'b':4,'c':5}
+dict24={}
+for key,val in dict23.items():
+    if key!='c':
+        dict24[key]=val
+print(dict24)
+
+print("-"*50)
+
+list25=['name','sport','rank','age']
+list26= ['virat','cricket',1,32]
+new_dict = tuple(zip(list25,list26))
+print(new_dict)
+
+print("-"*50)
+dict25={'a':10,'b':44,'c':60,'d':25}
+list27=[]
+for val in dict25.values():
+    list27.append(val)
+list27.sort()
+
+print("min",list27[0])
+print("max",list27[-1])
+
