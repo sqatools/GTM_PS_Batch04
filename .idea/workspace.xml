@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="basic pgm">
-      <change afterPath="$PROJECT_DIR$/archana/List Programs.py" afterDir="false" />
+    <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="list programs">
+      <change afterPath="$PROJECT_DIR$/archana/Dictionary Programs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archana/String Programs.py" beforeDir="false" afterPath="$PROJECT_DIR$/archana/String Programs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Dictionary Programs.executor": "Run",
     "Python.List Programs.executor": "Run",
     "Python.Python Basic pgm 2.executor": "Run",
     "Python.Python basic programming.executor": "Run",
@@ -210,14 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718302415527</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="list programs">
+      <option name="closed" value="true" />
+      <created>1718470471212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718470471212</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="if else practise" />
     <MESSAGE value="addind division.py file" />
     <MESSAGE value="basic pgm" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic pgm" />
+    <MESSAGE value="list programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="list programs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
