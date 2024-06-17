@@ -58,14 +58,13 @@ import random
 for i in range(5):
     print(random.random())
 """
-"""
+
 
 import datetime
 
 date=datetime.datetime.now()
- print(date.strftime(" %y %M %d "))
+print(date.strftime("%Y_%m_%d_%H_%M_%S"))
 
-"""
 
 num = int(input("Enter a number: "))
 

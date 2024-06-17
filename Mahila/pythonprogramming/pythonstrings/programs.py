@@ -23,6 +23,8 @@ for var1 in str1:
         output = output + var1
         count += 1
     else:
+
+
         continue
 
 print("output :", output, count)

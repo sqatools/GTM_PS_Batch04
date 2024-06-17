@@ -23,7 +23,6 @@ print(str2[-2:]*4) #amamamam
 # Python string program to reverse a string if it’s length is a multiple of 4.
 
 str4="programming" #output not printing
-if len(str4)%4 == 0:
-    print(str4[-1: -11: -1])
+print(str4[::-1]*4)
 
 # Python string program to count occurrences of a substring in a string.

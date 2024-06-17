@@ -72,18 +72,51 @@ for val in list1:
 """
 #program to find those numbers which are divisible by 7 and multiple of 5
 
-for i in range(1500,2701):
-    if i % 7 == 0 and i % 5 == 0:
-        print(i, end=" ")
+# # for i in range(1500,2701):
+# #     if i % 7 == 0 and i % 5 == 0:
+# #         print(i, end=" ")
+# #
+# # num1 = 1
+# # while num1 <=10:
+# #     print(num1)
+# #     num1 += 1
+# #
+# # num2 =1
+# # while num2 <=5:
+# #     print("sangeetha")
+#     num2 +=1
+#increasing triangle
+# n = 5
+# count = 0
+# for i in range(n):
+#     for j in range(i):
+#         print("*",end='  ')
+#         count += 1
+#     print()
+#
+# print("Total start count :", count)
 
-num1 = 1
-while num1 <=10:
-    print(num1)
-    num1 += 1
+#Decresing triangle
 
-num2 =1
-while num2 <=5:
-    print("sangeetha")
-    num2 +=1
+# # n = 5
+# # count = 0
+# # for i in range(n):
+# #     for j in range(i,n):
+# #         print("*",end='  ')
+# #         count += 1
+# #     print()
+#
+# print("Total start count :", count)
 
+#pattern
+n=6
+for i in range(6):
+    print(i*"*")
+for i in range(4,-1,-1):
+    print(i*"*")
 
+word=input("enter the word: ")
+str1=""
+for i in range(len(word)):
+    str1 += word[i]
+print(str1)
