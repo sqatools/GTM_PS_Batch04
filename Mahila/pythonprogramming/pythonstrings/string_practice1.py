@@ -309,7 +309,62 @@ for word in str:
 new_str = " ".join(str)
 print(new_str)
 
+
+#Write a  Python program to get all the palindrome words from the string.
+#Input = “Python efe language aakaa hellolleh”
+#output = [“efe”, “aakaa”, “hellolleh”]
+
+str_z = "Python efe language aakaa hellolleh"
+str = str_z.split(" ")
+new_str = [ ]
+for val in str:
+    if val == val[::-1]:
+        new_str.append(val)
+    else:
+        continue
+print(new_str)
+
+#Write a  Python program to create a string with a given list of words.
+
+#Input = [“There”, “are”, “Many”, “Programming”, “Language”]
+#Output = There are many programming languages.
+
+list1 = ["There", "are", "Many", "Programming", "Language"]
+
+#Printing output
+print(" ".join(list1))
+
+#Write a Python program to remove duplicate words from the string.
+#Input = “John jany sabi row john sabi”
+#output = “John jany sabi row”
+
+str_c = "john jany sabi row john sabi"
+str = str_c.split(" ")
+new_str= [ ]
+
+for val in str:
+    if val not in new_str:
+        new_str.append(val)
+    else:
+        continue
+print(" ".join(new_str))
+
 """
+#Write a Python to remove unwanted characters from the given string.
+#Input = “Prog^ra*m#ming”
+#Output = “Programming”
+
+#Input = “Py(th)#@&on Pro$*#gram”
+#Output = “PythonProgram”
+
+list = "Py(th)#@&on Pro$*#gram"
+list_2 = list.split(" ")
+list_1 = []
+
+for letter in list:
+    if letter.isalnum():
+        list_1.append(letter)
+print(" ".join(list_1))
 
 
 
