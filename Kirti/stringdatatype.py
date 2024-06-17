@@ -154,23 +154,105 @@ for i in range (len(String)-1) :
 #     print("Exit")
 
 #5). Python string program to count occurrences of a substring in a string. Getting blank out put
-
+#
 # string = "My name is kirti, i am learing python"
 # substring = "My"
 #
-#substring in string  how to do this using range
+# #substring in string  how to do this using range
 #
-# string.count("kirti")  # print statement will refer to what ?
+# output = string.count("kirti")  # print statement will refer to what ?
+# print(output)
 
 #7). Find the longest and smallest word in the input string. # how min max function work in solution?
 
-a = "python programming is easy to lear and understand"
-
-#print("count",a.count(a)) # for this out put is 1
-# words = a.split(" ")
-# print(words)
+# string = "python programming is easy to lear and understand"
 #
-# for letters in a (0:9)
-#     count
+# length_of_word = ""
+# maxlength = 0
+# minlength  to try with
+#
+# #print("count",a.count(a)) # for this out put is 1
+# wordslist = string.split(" ")
+# print(wordslist)
+#
+# for word in wordslist:
+#    # print(word)
+#     length_of_word = len(word)
+#     #print(length_of_word)
+#     if length_of_word > maxlength:
+#         maxlength = length_of_word
+#         length_of_word = word
+#     else:
+#         continue
+#     print(length_of_word,maxlength) # back sapce issue
 
 
+# Smallest word
+#
+# a = "python programming is easy to lear and understand"
+#
+# minlenth = 50
+# minword = " "
+#
+# allwords = a.split(" ")
+#
+# print(allwords)
+#
+# for words in allwords:
+#     #print(words)
+#     lengthofword = len(words)
+#     #print(lengthofword)
+#     if lengthofword <= minlenth:
+#         minlenth = lengthofword
+#         minword = words
+# print(minlenth,minword)
+
+
+
+#10). Write a Python program to replace the second occurrence of any char with the special character $.
+
+# str1 ="Programming"
+# empstr =" "
+# for i in str1 :
+#     if i in empstr:
+#         empstr = empstr + "$"
+#     else:
+#         empstr = empstr + i
+# print(empstr)
+
+
+# 11). Write a  python program to get to swap the last character of a given string. # have swapped last two words of string
+
+# q = "Kirti Kaur is my name"
+#
+# print(q)
+#
+# a = q.split(" ")
+# first_word = a[0]
+# last_word = a[-1]
+#
+# a[0]= last_word
+# a[-1] = first_word
+#
+# print(a)
+# print(" ".join(a))
+# print("Last character : ", a[-1])
+# print("second last char : ",a[-2])
+#
+# print(a[0],a[1],a[2],a[-1],a[-2])
+# print(a[-1],a[1:4],a[0])
+
+# 14). Write a python to repeat vowels 3 times and consonants 2 times
+
+# a = "programming"
+#
+# vowels = "aeiou"
+# conso = " "
+#
+# for char in a:
+#     if char in vowels:
+#         print(char*3)
+#
+#     else :
+#         conso = char
+#         print(conso*2)
