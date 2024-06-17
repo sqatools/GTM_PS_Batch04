@@ -83,7 +83,7 @@ b.reverse()
 print("b:",b)
 
 #sort method
-#this is used to chnage the numbers in ascending to descending order
+#this is used to change the numbers in ascending to descending order
 c=[12,4,7,8,21,]
 c.sort()
 print("c:",c)

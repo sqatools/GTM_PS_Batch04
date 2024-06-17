@@ -84,4 +84,43 @@ print(list)
 str1= """Sinak’s 1112 aim is to 1773 create a new generation of people who understand 444 that an organization’s
         5324 success or failure is based on 555 leadership excellence and no"""
 
+list1= str1.split(" ")
+list2=[]
+for val in list1:
+    if val.isdigit():
+        list2.append(val)
+print(list2)
 
+print("-"*50)
+
+list2= "JAVA is the JAVA Programming Language in the Market"
+output= list2.replace("JAVA","PYTHON")
+print(output)
+
+list1= list2.split(" ")
+for word in list1:
+    if word=="JAVA":
+        index= list1.index(word)
+        list1[index]="PYTHON"
+print(list1)
+
+print("-"*50)
+string= "Python efe language aakaa hellolleh"
+list= string.split()
+new_list=[]
+
+for val in list:
+    if val== val[::-1]:
+        new_list.append(val)
+print(new_list)
+
+string= ["There", "are", "Many", "Programming", "Language"]
+print(" ".join(string))
+
+str= "John jany sabi row John sabi"
+list1= str.split()
+list2=[]
+for val in list1:
+    if val not in list2:
+        list2.append(val)
+print(" ".join(list2))
