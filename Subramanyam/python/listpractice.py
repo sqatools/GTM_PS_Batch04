@@ -158,3 +158,64 @@ for i in lista:
         output.append(i**2)
 
 print(output)
+
+
+#lista.sort(reverse=True)
+output1=[(num**2) if num%2==0 else (num**3) for num in lista]
+print(output1)
+
+listb=[2,3,4,5,2,3,4,6,7,8,9]
+op=[]
+for i in listb:
+    if i not in op:
+        op.append(i)
+    else:
+        continue
+print(op)
+
+
+op1=set(listb)
+print(list(op1))
+
+
+list2 = [2, -1, 5, -4, -7, 12.23, 51, 25, -8]
+li=[]
+for i in list2:
+    if i>0:
+        li.insert(0,i)
+    else:
+        li.append(i)
+
+print(li)
+
+
+list_b = [3, 30, 6, 20, 7, 80, 1, 4]
+
+for i in range(len(list_b)):
+    for j in range(i+1,len(list_b)):
+        if list_b[i]>list_b[j]:
+            temp=list_b[i]
+            list_b[i]=list_b[j]
+            list_b[j]=temp
+
+print(list_b)
+
+ls=[1,2,3,4,5]
+count=1
+for i in ls:
+    count*=i
+
+print(count)
+# total=0
+# while count<len(ls):
+#     total+=ls[count]
+#     count+=1
+# print(total)
+final=[]
+
+for (a,b) in zip(lista,list_b):
+    final.append(list((a,b)))
+
+print(final)
+
+print(["sqa{0}".format(value) for value in ls])
