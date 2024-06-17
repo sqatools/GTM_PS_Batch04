@@ -108,4 +108,15 @@ for val in list1:
 #
 # print("Total start count :", count)
 
+#pattern
+n=6
+for i in range(6):
+    print(i*"*")
+for i in range(4,-1,-1):
+    print(i*"*")
 
+word=input("enter the word: ")
+str1=""
+for i in range(len(word)):
+    str1 += word[i]
+print(str1)

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vidyakjain/Python basic programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vidyakjain/Python basic programming.py" afterDir="false" />
-    </list>
+    <list default="true" id="70f918f6-0cf5-4e0a-8f5f-6a81a6d5d8af" name="Changes" comment="list programs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +32,9 @@
     &quot;accountId&quot;: &quot;e285bcb5-973c-4d25-8428-c5c383cb8b36&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -46,18 +46,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Python basic programming.executor": "Run",
-    "Python.division.executor": "Run",
-    "Python.division.py.executor": "Run",
-    "Python.ifelsecondition.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Git_Repo/GTM_PS_Batch04/Subramanyam/division.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Dictionary Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.List Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python Basic pgm 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python basic programming.executor&quot;: &quot;Run&quot;,
+    &quot;Python.String Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.division.executor&quot;: &quot;Run&quot;,
+    &quot;Python.division.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ifelsecondition.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Git_Repo/GTM_PS_Batch04/Subramanyam/division.py&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Python basic programming">
+}</component>
+  <component name="RunManager">
+    <configuration name="Python Basic pgm 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch04" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Vidyakjain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vidyakjain/Python Basic pgm 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python basic programming" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch04" />
       <option name="ENV_FILES" value="" />
@@ -126,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Python Basic pgm 2" />
         <item itemvalue="Python.Python basic programming" />
         <item itemvalue="Python.ifelsecondition" />
       </list>
@@ -134,7 +162,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -171,14 +199,39 @@
       <option name="project" value="LOCAL" />
       <updated>1718301775199</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="basic pgm">
+      <option name="closed" value="true" />
+      <created>1718302415527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718302415527</updated>
+    </task>
+    <task id="LOCAL-00005" summary="list programs">
+      <option name="closed" value="true" />
+      <created>1718470471212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718470471212</updated>
+    </task>
+    <task id="LOCAL-00006" summary="list programs">
+      <option name="closed" value="true" />
+      <created>1718555152767</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718555152768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="if else practise" />
     <MESSAGE value="addind division.py file" />
     <MESSAGE value="basic pgm" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic pgm" />
+    <MESSAGE value="list programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="list programs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
