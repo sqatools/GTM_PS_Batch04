@@ -72,6 +72,7 @@ for key, value in a1.items():
     if a1 not in a2.values():
         a2[key]=value
 print(a2)
+print("_"*50)
 
 
 
