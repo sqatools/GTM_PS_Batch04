@@ -23,3 +23,28 @@ print(dic4)
 print("_" *50)
 
 """Program to concatenate two dictionaries"""
+d1={'name': 'Swapna', 'Age':'30'}
+d2={'Coun  try':'India', 'passport':'Yes'}
+d1.update(d2)
+print(d1)
+print("_" *50)
+
+"""Program to get a list of odd and even keys from the dictionary"""
+d4={1:'we',3:"qwe", 4:'poa',6:90}
+
+for b in d4:
+    if b%2==0:
+        print("Even keys:",b,d4[b])
+    else:
+        print("Odd keys:",b,d4[b])
+
+print("_" *50)
+"""Python Program to create a dictionary from two lists."""
+l1=["hi",3,'hello']
+l2=[78,89,90]
+dic0={}
+for x,y in zip(l1,l2):
+    dic0[y]=x
+print(dic0)
+
+
