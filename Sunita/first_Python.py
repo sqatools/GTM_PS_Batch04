@@ -7,3 +7,14 @@ for val in list_1:
     else:
         output.append(val ** 3)
 print(output)
+
+
+str1="Good 12 Morning 45 , Hope 2 you are 30 doing good"
+print("Good 12 Morning 45 , Hope 2 you are 30 doing good")
+sum=0
+x=str1.split()
+print(x)
+for i in x:
+   if x.isnumeric():
+       sum+=int(i)
+       print(sum)
