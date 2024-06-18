@@ -46,5 +46,34 @@ dic0={}
 for x,y in zip(l1,l2):
     dic0[y]=x
 print(dic0)
+print("_"*50)
+"""Store squares of even and cubes of odd numbers in a dictionary using dictionary comprehension."""
+l0=[2,4,6,3,5]
+d1={}
+for y in l0:
+    if y%2==0:
+     d1[y]=y**2
+    else:
+        d1[y]=y**3
+print(d1)
+print("_"*50)
+
+"""Python program to clear all items from the dictionary."""
+a={'Name':'Swapna', 'Location':'Blore','Working at':'TCS'}
+a.clear()
+print(a)
+
+print("_"*50)
+"""Python program to remove duplicate values from Dictionary."""
+
+a1={'Name':'Swapna', 'Location':'Blore','Working at':'TCS', 'Working at':'TCS'}
+a2={}
+for key, value in a1.items():
+    if a1 not in a2.values():
+        a2[key]=value
+print(a2)
+
+
+
 
 
