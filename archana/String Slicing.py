@@ -39,3 +39,51 @@ for i in str:                       #doubt- print longest str
     if a>count:
         count= a
 print(count)
+'''
+print("-"*50)
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+list1 = str1.split()
+print(list1)
+for i in list1:
+    if i!=
+'''
+
+print("-"*50)
+'''
+str2= "python programming is very easy to learn"
+str3= str2.title()
+print(str3)
+str4= str3.split()
+print(str4)
+for i in str4:
+    if str4[i]== str4[::-1]:
+        str4.split()
+print(str4)
+'''
+
+print("-"*50)
+str5 = "India is best cricket teams"
+str6={}
+output= str5.split()
+print("output")
+for word in output:
+    word_len=len(word)
+    str6[word]= word_len
+print(str6)
+
+'''
+print("-"*50)
+list1 = [13, 56, 77, 23, 29, 11]
+prime= True
+for i in list1:
+    if list1[i]%i ==0:
+        prime= False
+        break
+    else:
+        continue
+    if prime:
+        print("prime")
+    else:
+        print("not prime")
+
+'''
