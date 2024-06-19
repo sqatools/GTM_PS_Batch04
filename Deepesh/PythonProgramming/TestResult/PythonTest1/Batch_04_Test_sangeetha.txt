@@ -1,0 +1,46 @@
+1. Write a python python program to calculate sum of all the numbers in the string.
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+output = 89
+
+2. Write a python Program to convert first and last character to upper case.
+str1= "python programming is very easy to learn"
+output = "PythoN ProgramminG IS VerY EasY TO LearN"
+
+3. Write a Python Program to find out prime number from give list of values
+list1 = [13, 56, 77, 23, 29, 11]
+output = [13, 23, 29, 11]
+
+4. Write a python program to create below output dictionary with given string.
+str1 = "India is best cricket teams"
+output = {5: "IndiA", 2: "IS", 4: "BesT", 7:"CrickeT", 5: "TeamS"}
+
+1. Write a python python program to calculate sum of all the numbers in the string.
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+output = 89
+
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+sum=0
+for char in str1:
+    if char.isnumeric():
+        sum+=int(char)
+print(sum)
+
+****** am receiving  output as 17
+
+2. Write a python Program to convert first and last character to upper case.
+str1= "python programming is very easy to learn"
+output = "PythoN ProgramminG IS VerY EasY TO LearN"
+
+str1= "python programming is very easy to learn"
+ for char in str1.split():
+     print(char[0].upper()+char[1:-1]+char[-1].upper())
+
+
+3. Write a Python Program to find out prime number from give list of values
+list1 = [13, 56, 77, 23, 29, 11]
+output = [13, 23, 29, 11]
+
+list1 = [13, 56, 77, 23, 29, 11]
+for val in list1:
+    if val%2 == 0:
+        print(val)

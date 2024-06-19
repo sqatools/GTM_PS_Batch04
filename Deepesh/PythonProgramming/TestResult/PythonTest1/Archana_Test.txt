@@ -1,0 +1,23 @@
+1. Write a python python program to calculate sum of all the numbers in the string.
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+output = 89
+
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+list1= split(str1)
+ 
+
+
+
+2. Write a python Program to convert first and last character to upper case.
+str1= "python programming is very easy to learn"
+output = "PythoN ProgramminG IS VerY EasY TO LearN"
+
+3. Write a Python Program to find out prime number from give list of values
+list1 = [13, 56, 77, 23, 29, 11]
+output = [13, 23, 29, 11]
+
+4. Write a python program to create below output dictionary with given string.
+str1 = "India is best cricket teams"
+output = {5: "IndiA", 2: "IS", 4: "BesT", 7:"CrickeT", 5: "TeamS"}
+
+

@@ -1,0 +1,66 @@
+Subramanyam 
+
+"""1. Write a python python program to calculate sum of all the numbers in the string.
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+output = 89"""
+
+str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
+word_list=str1.split(" ")
+output=[]
+count=0
+
+for word in word_list:
+    if word.isnumeric():
+        output.append(word)
+        count+=word
+
+print(count)
+
+Marks = 4
+
+#print("output: ",sum(str(count)))
+
+"""2. Write a python Program to convert first and last character to upper case.
+str1= "python programming is very easy to learn"
+output = "PythoN ProgramminG IS VerY EasY TO LearN"""
+
+str2= "python programming is very easy to learn"
+list_word=str2.split(" ")
+out=[]
+
+for word1 in list_word:
+    out.append(word1[0].upper()+word1[1:-1]+word1[-1].upper())
+
+print(" ".join(out))
+
+Marks = 5
+
+'''
+3. Write a Python Program to find out prime number from give list of values
+list1 = [13, 56, 77, 23, 29, 11]
+output = [13, 23, 29, 11]
+'''
+list1 = [13, 56, 77, 23, 29, 11]
+count2=0
+lst=[]
+for num in range(0,list1):
+    if list1 % num==0:
+        print(list1)
+
+
+
+"""4. Write a python program to create below output dictionary with given string.
+str1 = "India is best cricket teams"
+output = {5: "IndiA", 2: "IS", 4: "BesT", 7:"CrickeT", 5: "TeamS"}"""
+
+str3 = "India is best cricket teams"
+list2=str3.split(" ")
+dict1={}
+temp=0
+for k,v in range(len(list2)):
+    #dict1[v,k]=list2[v,k]
+    #dict1.index(list2)=dict1[v.k]
+
+
+
+
