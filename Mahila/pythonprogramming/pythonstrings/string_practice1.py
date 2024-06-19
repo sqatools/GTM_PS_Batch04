@@ -278,9 +278,9 @@ print(" ".join(str))
 #Output = [1112, 5324, 1773, 5324, 555]
 
 #str_f =  """#Sinak’s 1112 aim is to 1773 create a new generation of people who
-#understand 444 that an organization’s 5324 success or failure is
-#based on 555 leadership excellence and not managerial
-#acumen"""
+understand 444 that an organization’s 5324 success or failure is
+based on 555 leadership excellence and not managerial
+acumen"""
 """
 output = [ ]
 str = str_f.split(" ")
