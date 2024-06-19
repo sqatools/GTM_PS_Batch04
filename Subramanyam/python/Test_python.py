@@ -54,9 +54,11 @@ dict1={}
 dict2={}
 
 
-for i in list2:
-    word_len=len(i)
-    dict1[i]=word_len
+for word in list2:
+    word_len=len(word)
+    dict1[word_len]=f"{word[0].upper()}{word[1:-1]}{word[-1].upper()}"
+
+print(dict1)
 
 k1=dict1.keys()
 val=dict1.values()
