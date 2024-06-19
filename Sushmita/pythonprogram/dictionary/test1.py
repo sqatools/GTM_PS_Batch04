@@ -8,7 +8,8 @@ list1=[]
 sum=0
 for val in str2:
     if val.isdigit():
-        list1.append(val)
+        sum=sum+int(val)
+print(sum)
 
-print(list1)
+#print(list1)
 
