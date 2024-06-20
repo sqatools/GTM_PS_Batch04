@@ -155,6 +155,75 @@ set_E.intersection_update(set_F)
 
 print("set_E :", set_E) # {88, 33, 2}
 
+print("_"*50)
+#########
+# symmetric_difference : this method return the difference values from both sets.
+
+set_g = {33, 2, 7, 8, 12, 55, 88}
+set_h = {33, 2, 14, 18, 22, 15, 88}
+
+result = set_g.symmetric_difference(set_h)
+print("symmetric_difference :", result)  # {7, 8, 12, 14, 15, 18, 22, 55}
+
+result2 = set_h.symmetric_difference(set_g)
+print("Symmetric difference :", result2) # {7, 8, 12, 14, 15, 18, 22, 55}
+
+######################
+
+
+
+# symmetric_difference_update: This method update the set with difference value of the both the sets.
+
+set_g.symmetric_difference_update(set_h)
+print("set_g :", set_g)
+print("set_h :", set_h)
+
+
+####### subset and super set ############
+
+set_j = {33, 2, 7, 8, 12, 55, 88}
+set_k = {2, 7, 8}
+set_l = {7, 33, 66}
+
+print(" is super set:", set_j.issuperset(set_k))  # True
+print(" is sub set:", set_k.issubset(set_j)) # True
+
+print("is superset :", set_j.issuperset(set_l)) # False
+print("is subset :", set_l.issubset(set_j)) # False
+
+print("_"*50)
+######## Copy ##########
+
+# shallow copy
+set_r = {5, 7, 2, 8}
+set_y = set_r
+set_y.add(100)
+set_r.add(300)
+
+print("set_y :", set_y)
+print("set_r :", set_r)
+
+print("_"*50)
+# Deep copy
+
+set_q1 = {4, 7, 2, 8, 12}
+set_p1 = set_q1.copy()
+set_p1.add(400)
+
+print("set_p1 :", set_p1)  # set_p1 : {400, 2, 4, 7, 8, 12}
+print("set_q1 :", set_q1)  # {2, 4, 7, 8, 12}
+
+
+# a = 40
+# b = 50
+# #
+# c = a
+# a = b
+# b = c
+#
+# a ,b = b, a
+#
+
 
 
 
