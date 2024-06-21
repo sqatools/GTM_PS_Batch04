@@ -1,10 +1,8 @@
-str2= "python programming is very easy to learn"
-str3= str2.title()
-print(str3)
-str4= str3.split()
-print(str4)
 
-
-for i in str4:
-    if (str4[i] == str4[::-1]):
-print(str4)
+str1= "python programming is very easy to learn"
+str2= str1.title()
+str3=str2.split()
+list1=[]
+for char in str3:
+    list1.append(char[0:-1]+char[-1].upper())
+print(" ".join(list1))
