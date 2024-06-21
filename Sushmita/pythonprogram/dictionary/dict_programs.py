@@ -16,16 +16,32 @@ print(D2)
 #str1 = "India is best cricket teams"
 #output = {5: "IndiA", 2: "IS", 4: "BesT", 7:"CrickeT", 5: "TeamS"}
 
-str1='India is best cricket teams'
-str2=str1.split(" ")
-dict1=dict()
+# str1='India is best cricket teams'
+# str2=str1.split(" ")
+# dict1={}
+#
+# for val in str2:
+#     count=0
+#     count=count+1
+#     dict1[val]=count
+#
+# print(dict1)
+str3 = "India is best cricket teams"
+list2=str3.split(" ")
+dict1={}
+dict2={}
 
-for val in str2:
-    count=0
-    count=count+1
-    dict1[val]=count
+
+for word in list2:
+    word_len=len(word)
+    dict1[word_len]=f"{word[0].upper()}{word[1:-1]}{word[-1].upper()}"
 
 print(dict1)
+
+# k1=dict1.keys()
+# val=dict1.values()
+# final_output=dict(zip(val,k1))
+# print(final_output)
 
 #Write a python python program to calculate sum of all the numbers in the string.
 #str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
