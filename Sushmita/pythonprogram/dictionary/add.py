@@ -51,3 +51,32 @@ for val in list3:
         dict4[val]=val**3
 print(dict4)
 
+print('_'*50)
+#Python program to create a dictionary from the string.
+string='python'
+dict_a={}
+for char in string:
+    dict_a[char]=string.count(char)
+
+print(dict_a)
+
+print('_'*50)
+#Python program to add a key in a dictionary.
+dict_b={'a':10,'b':20}
+dict_b.update({'c':40})
+print(dict_b)
+
+print('_'*50)
+#Program to swap the values of the keys in the dictionary.
+dict_c={'name':'sush','age':'25'}
+d2={}
+for key,value in dict_c.items():
+    d2[value]=key
+print(d2)
+
+#Get the sum of all the items in a dictionary.
+d1={'a':10,'b':20}
+count=0
+for val in d1.values():
+    count=count+val
+print(count)
