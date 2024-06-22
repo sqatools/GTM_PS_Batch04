@@ -553,18 +553,29 @@
 #         total= total+num
 # print(total, end=" ")
 
-str1= "Good 12 Morning 45, Hope 2 you are 30 doing good"
-str1= str1.replace(","," ")
-str2= str1.split()
-print(str2)
-print(type(str2))
+# str1= "Good 12 Morning 45, Hope 2 you are 30 doing good"
+# str1= str1.replace(","," ")
+# str2= str1.split()
+# print(str2)
+# print(type(str2))
+#
+# list1=[]
+# sum=0
+# for val in str2:
+#     if val.isdigit():
+#         list1.append(int(val))
+#         sum =sum+int(val)
+#
+# print(list1)
+# print(sum)
+list1 = [13, 56, 77, 23, 29, 11]
+list2=[]
 
-list1=[]
-sum=0
-for val in str2:
-    if val.isdigit():
-        list1.append(int(val))
-        sum =sum+int(val)
-
-print(list1)
-print(sum)
+for num in list1:
+    count=0
+    for i in range(2,num):
+        if num % i==0:
+            count+=1
+    if count==0:
+        list2.append(num)
+print(list2)
