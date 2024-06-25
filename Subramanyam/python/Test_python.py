@@ -16,7 +16,8 @@ print(sum(output)) # 89
 
 # """2. Write a python Program to convert first and last character to upper case.
 # str1= "python programming is very easy to learn"
-# output = "PythoN ProgramminG IS VerY EasY TO LearN"""
+# output = "PythoN ProgramminG IS VerY EasY TO LearN"
+# """
 #
 str2= "python programming is very easy to learn"
 list_word=str2.split(" ")
@@ -24,8 +25,20 @@ out=[]
 
 for word1 in list_word:
     out.append(word1[0].upper()+word1[1:-1]+word1[-1].upper())
+# print(out,end=" ")
+# print()
 
 print(" ".join(out))
+
+str1= "python programming is very easy to learn"
+output =" "
+
+str2=str1.split(" ")
+print(str2)
+for char in str2:
+       output=output+char[0].upper()+char[1:-1]+char[-1].upper()
+       #print(end=" ")
+print(output,type(output))
 
 # '''
 # 3. Write a Python Program to find out prime number from give list of values
@@ -50,21 +63,24 @@ print(output)
 
 str3 = "India is best cricket teams"
 list2=str3.split(" ")
-dict1={}
-dict2={}
-
-
-for word in list2:
-    word_len=len(word)
-    dict1[word_len]=f"{word[0].upper()}{word[1:-1]}{word[-1].upper()}"
-
-print(dict1)
-
-k1=dict1.keys()
-val=dict1.values()
-final_output=dict(zip(val,k1))
-print(final_output)
-
+# dict1={}
+# dict2={}
+#
+#
+# for word in list2:
+#     word_len=len(word)
+#     dict1[word_len]=f"{word[0].upper()}{word[1:-1]}{word[-1].upper()}"
+#
+# print(dict1)
+#
+# k1=dict1.keys()
+# val=dict1.values()
+# final_output=dict(zip(val,k1))
+# print(final_output)
+op={}
+for wor in list2:
+    op[len(wor)]=wor[0].upper()+wor[1:-1]+wor[-1].upper()
+print(op)
 
 
 
