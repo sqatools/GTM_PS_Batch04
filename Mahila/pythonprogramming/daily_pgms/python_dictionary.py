@@ -18,10 +18,11 @@
 # Input  = {“a” : “Python”, “b”: “Programming”, “c”: “Learning”}
 # Output = {“_a_”: “nythonP”, “_b_” : “gnimmargorP”, “_c_”: “gearninL”}
 
-D1 = {'a':'Python','b':'Programming','c':'Learning'}
-D2 = {}
-
-for k,v in D1.items():
-    D2['_'+k+'_'] = v[::-1]
-
-print(D2)
+# D1 = {'a':'Python','b':'Programming','c':'Learning'}
+# D2 = {}
+#
+# for k,v in D1.items():
+#     D2['_'+k+'_'] = v[::-1]
+#
+# print(D2)
+#---------------------------------------------------------------------------
