@@ -1,6 +1,4 @@
-# documentation of function
-
-def factorials(n: int):
+def factiorial(n: int):
     """
     This function will provide the factorials any given number.
     e.g fact of 5 = 5*4*3*2*1
@@ -10,18 +8,13 @@ def factorials(n: int):
     fact = 1
     for i in range(n, 0, -1):
         fact = fact * i
+    print(f'factiorial of given number:{n} {fact}')
 
-    print(f"factorials of given number :{n} {fact}")
 
+factiorial(4)
+# factorial("Hello")
 
-# factorials(6)
-# factorials("Hello")
-#
-# print(factorials.__doc__)
-#
-# str1 = "Hello"
-# str1.upper()
-
+# print(factiorial.__doc__)
 
 """
 Variables scope:
@@ -42,7 +35,7 @@ Notes :
 Non-local variable :
 """
 
-var_x = 100  # global variable
+var_x = 100
 
 
 def function1():
@@ -64,38 +57,32 @@ def function2():
 # function2()
 # function1()
 # function2()
+#############################
 
-
-#########################################
-
-var_p = 200  # global variable
+var_a = 100  # global variable
 
 
 def outer_function():
-    var_q = 300  # non local variable
+    var_b = 200  # non local variable
 
     def inner_function1():
-        print("_______inner_function1______\n")
-        global var_p
-        nonlocal var_q
-        var_r = 400  # local variable
-        var_p = 250
-        var_q = 700
+        global var_a
+        print('----inner function 1\n')
+        var_c = 300  # local varible
+        var_a = 400
+        var_b = 500
 
-        print("global variable var_p :", var_p)
-        print("Non local variable var_q :", var_q)
-        print("local variable var_r :", var_r)
+        print('Global variable:', var_a)
+        print('local variable:', var_c)
+        print('non local :', var_b)
 
     def inner_function2():
-        print("_______inner_function2______\n")
-        var_s = 500  # local variable
-        print("global variable var_p :", var_p)
-        print("Non local variable var_q :", var_q)
-        print("local variable var_s :", var_s)
+        var_d = 600  # local variable
+        print('----inner function 1')
+        print('Global variable:', var_a)
+        print('local variable:', var_d)
+        print('non local :', var_b)
 
     inner_function2()
     inner_function1()
     inner_function2()
-
-
-outer_function()
