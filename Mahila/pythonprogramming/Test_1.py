@@ -1,18 +1,47 @@
+A=100
+def function1():
+    global A
+    B=200
+    A=200
+    print(A+B)
+function1()
+
+def function2():
+    C=500
+    F=230
+    print(C+A)
+function2()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Write a python python program to calculate sum of all the numbers in the string.
 # str1= "Good 12 Morning 45 , Hope 2 you are 30 doing good"
 # output = 89
 #import json
 
-def args_multiply(*keerthi):
-    mul_val = 1
-    for val in keerthi:
-        mul_val = mul_val * val
-
-    print("output :", mul_val)
-
-
-args_multiply(4, 5)
-args_multiply(12, 26, 35, 11, 22)
+# def args_multiply(*keerthi):
+#     mul_val = 1
+#     for val in keerthi:
+#         mul_val = mul_val * val
+#
+#     print("output :", mul_val)
+#
+#
+# args_multiply(4, 5)
+# args_multiply(12, 26, 35, 11, 22)
 
 
 
