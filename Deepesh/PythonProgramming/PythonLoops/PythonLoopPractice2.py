@@ -55,6 +55,7 @@ else:
     print("This is not prime number", n)
 
 
+
 print("_"*40)
 # write a program to get list prime numbers from 1 to 100
 
