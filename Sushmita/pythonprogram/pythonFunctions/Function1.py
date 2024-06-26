@@ -86,3 +86,5 @@ def outer_function():
     inner_function2()
     inner_function1()
     inner_function2()
+
+outer_function()
