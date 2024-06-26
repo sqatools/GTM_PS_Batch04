@@ -106,16 +106,22 @@
 #     list1.append(char[0:-1]+char[-1].upper())
 # print(list1)
 
+#
+# str5 = "India is best cricket teams"
+# str6={}
+# str7={}
+# output= str5.split()
+# print("output")
+# for word in output:
+#     word_len=len(word)
+#     str6[word]= word_len
+#     str7.update(str6)
+# for k,v in str7.items():
+#     str7[v]=k
+# print(str7)
+str1 = "Hello \n Good \n Morning"
+print(str1)
 
-str5 = "India is best cricket teams"
-str6={}
-str7={}
-output= str5.split()
-print("output")
-for word in output:
-    word_len=len(word)
-    str6[word]= word_len
-    str7.update(str6)
-for k,v in str7.items():
-    str7[v]=k
-print(str7)
+
+str2 = "Hello \t \t Good \t\t Morning"
+print(str2)

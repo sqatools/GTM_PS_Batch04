@@ -170,9 +170,7 @@ print(list2[6], type(list2[6]))  # {'a': 123, 'b': 345} <class 'dict'>
 print("_"*50)
 str1 = "Hello \n Good \n Morning"
 print(str1)
-
-str2 = "Hello \t \t Good \t\t Morning"
-print(str2)
+f
 
 print("_"*50)
 p = [44, 77, 88]
