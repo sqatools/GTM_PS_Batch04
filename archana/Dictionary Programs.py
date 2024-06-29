@@ -174,4 +174,4 @@ list27.sort()
 
 print("min",list27[0])
 print("max",list27[-1])
-
+#
