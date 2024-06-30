@@ -1,0 +1,14 @@
+1. Other Git for Windows downloads
+2. Standalone Installer
+3. 32-bit Git for Windows Setup.
+4. 64-bit Git for Windows Setup.
+5. Portable ("thumbdrive edition")
+6. 32-bit Git for Windows Portable.
+7. 64-bit Git for Windows Portable.
+8. Using winget tool
+9. Install winget tool if you don't
+10. already have it, then type this
+
+Appending data to existing file
+
+Appending data to existing file
