@@ -1,0 +1,5 @@
+a). Other Git for Python downloads
+b). Standalone Installer
+c). 32-bit Git for Python Setup.
+d). 64-bit Git for Python Setup.
+e). Portable ("thumbdrive edition")
