@@ -1,7 +1,8 @@
-A=100
-B=200
+var_p = 500
+var_q = 600
 
-def funtion1(num1,num2):
+
+def addition(num1,num2):
     print("addition :",num1+num2)
 
 def multiplication(num1,num2):
