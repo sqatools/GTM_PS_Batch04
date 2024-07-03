@@ -94,3 +94,18 @@ update_excel_sheet_data("test_data.xlsx", "Sheet1", "B12", "=SUM(B2:B10)")
 
 #Q1 write a python program to enter all even number from 1 to 20 in A colom
 #Q2 write a python program to enter a table of 5 in excel sheet
+"""
+num = 5
+for i in range(1, 11):
+    v1 = f"{num}*{i}"
+    v2 = num*i
+    update_excel_sheet_data("test_data.xlsx", "Sheet3", f"A{i}", v1)
+    update_excel_sheet_data("test_data.xlsx", "Sheet3", f"B{i}", v2)
+"""
+
+#Q1 write a python program to enter all even number from 1 to 20 in A column
+count = 1
+for i in range(1, 21): # i = 1, 2, 3, 4 count = 1, 2, 3
+    if i%2 == 0:
+        update_excel_sheet_data("test_data.xlsx", "Sheet3", f"C{count}", i)
+        count = count + 1
