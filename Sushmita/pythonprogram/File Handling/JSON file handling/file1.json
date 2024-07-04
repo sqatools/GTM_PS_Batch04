@@ -1,0 +1,28 @@
+{
+  "name" : "Rahul",
+  "surname" : "Gupta",
+  "email" : "rahul@gmail.com",
+  "phone" : 465465466,
+  "address" : "Pune",
+  "country" : "India",
+
+  "test_data" : {
+
+    "test_01" : {
+      "username" : "testuser1",
+      "password" : "testuser@123"
+    },
+    "test_02" : {
+      "username" : "testuser2",
+      "password" : "P@12345"
+    },
+
+    "test_03" : {
+      "username" : "testuser3",
+      "password" : "P@ssw0rdpassword"
+    }
+
+
+
+  }
+}
