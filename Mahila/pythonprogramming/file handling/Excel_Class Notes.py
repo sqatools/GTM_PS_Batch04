@@ -100,10 +100,11 @@ import openpyxl
 def update_excel_sheet_data(filename, sheet_name, cell_name, new_data):
     wb = openpyxl.load_workbook(filename)
     sheet = wb[sheet_name]
-    sheet[cell_name] = new_data
+    sheet[cell_name] = new_data = i*2
     wb.save(filename)
 for i in range(2,21,2):
-    update_excel_sheet_data("test_data2.xlsx", "Sheet1", "A1", "i")
+    if i%2==0:
+    update_excel_sheet_data("test_data2.xlsx", "Sheet1", "A1", "i*2")
 
 
 # #Q2 write a python program to enter a table of 5 in excel sheet
