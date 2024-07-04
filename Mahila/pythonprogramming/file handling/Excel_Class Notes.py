@@ -95,17 +95,38 @@ import openpyxl
 
 # #Q1 write a python program to enter all even number from 1 to 20 in A colom
 
+# #Q2 write a python program to enter a table of 5 in excel sheet
+
+#Q1 write a python program to enter all even number from 1 to 20 in A colom
+#Q2 write a python program to enter a table of 5 in excel sheet
+
+# import openpyxl
+#
+# def update_excel_sheet_data(filename, sheet_name, cell_name, new_data):
+#     wb = openpyxl.load_workbook(filename)
+#     sheet = wb[sheet_name]
+#     sheet[cell_name] = new_data
+#     wb.save(filename)
+# num = 5
+# for i in range(1, 11):
+#     v1 = f"{num}*{i}"
+#     v2 = num*i
+#     update_excel_sheet_data("test_data2.xlsx", "Sheet1", f"A{i}", v1)
+#     update_excel_sheet_data("test_data2.xlsx", "Sheet1", f"B{i}", v2)
+
+
+
+# #Q1 write a python program to enter all even number from 1 to 20 in A column
+
 import openpyxl
 
 def update_excel_sheet_data(filename, sheet_name, cell_name, new_data):
     wb = openpyxl.load_workbook(filename)
     sheet = wb[sheet_name]
-    sheet[cell_name] = new_data = i*2
+    sheet[cell_name] = new_data
     wb.save(filename)
-for i in range(2,21,2):
-    if i%2==0:
-    update_excel_sheet_data("test_data2.xlsx", "Sheet1", "A1", "i*2")
-
-
-# #Q2 write a python program to enter a table of 5 in excel sheet
-#
+count = 1
+for i in range(1, 21): # i = 1, 2, 3, 4 count = 1, 2, 3
+    if i%2 == 0:
+        update_excel_sheet_data("test_data2.xlsx", "Sheet1", f"C{count}", i)
+        count = count + 1
