@@ -73,4 +73,32 @@
 # lcm(a,b)
 #----------------------------------------------------------------------------
 
+#38) Python program to find HCF.
+
+# num1 = int(input("Enter num1 : "))
+# num2 = int(input("Enter num2 : "))
+
+#smallest = min(num1,num2)
+# if num1 >  num2:
+#     smallest = num2
+# else:
+#     smallest = num1
+#
+# for i in range(1,(smallest+1)):
+#     if (num1%i==0 and num2%i==0):
+#         hcf=i
+# print(f"hcf of {num1} and {num2} :" ,hcf)
+#------------------------------------------------------------------------------------------
+
+#37) Python program to find the sum of natural numbers
+
+# num = int(input("Enter a natural number : "))
+# total =0
+#
+# for i in range(1,num+1):
+#     total += i
+# print("sum of the given natural number : " , total)
+
+#Enter a natural number : 10
+#sum of the given natural number :  55
 
