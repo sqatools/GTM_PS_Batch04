@@ -76,7 +76,7 @@ def update_excel_sheet_data(filename, sheet_name, cell_name, new_data):
     sheet[cell_name] = new_data
     wb.save(filename)
 
-update_excel_sheet_data("test_data1.xlsx", "Sheet1", "A1", "Chennai")
+#update_excel_sheet_data("test_data1.xlsx", "Sheet1", "A1", "Chennai")
 #update_excel_sheet_data("test_data1.xlsx", "Sheet1", "B12", "=SUM(B2:B10)")
 
  #=SUM(B2:B10)
@@ -86,16 +86,16 @@ update_excel_sheet_data("test_data1.xlsx", "Sheet1", "A1", "Chennai")
 
 #Q1 write a python program to enter all even number from 1 to 20 in A colom
 
-def even_number(filename,sheet_name,cell_name,new_data):
-  wb = openpyxl.load_workbook(filename)
-  sheet = wb[sheet_name]
-  sheet[cell_name] = new_data
-  wb.save(filename)
-for cell in rows:
+# num = 5
+# for i in range(1, 11):
+#     v1 = f"{num}*{i}"
+#     v2 = num*i
+#     update_excel_sheet_data("test_data.xlsx", "Sheet3", f"A{i}", v1)
+#     update_excel_sheet_data("test_data.xlsx", "Sheet3", f"B{i}", v2)
 
-even_number(("test_data1.xlsx", "Sheet1", "c2", "Chennai"))
-
-#
-wb = openpyxl.Workbook()
-sheet = wb['Sheet'] # or wb.active
-n = int(input('enter n| '))
+count = 1
+for i in range(1, 21): # i = 1, 2, 3, 4 count = 1, 2, 3
+    if i%2 == 0:
+        update_excel_sheet_data("test_data1.xlsx", "Sheet3", f"C{count}", i)
+        count = count + 1
+print(count)
