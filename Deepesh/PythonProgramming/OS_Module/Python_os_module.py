@@ -7,20 +7,22 @@ print(dir_path)
 # E:\Trainings\GTM_PS_Batch04_13May24\GTM_PS_Batch04\Deepesh\PythonProgramming\OS_Module
 
 # Change working directory
-
-"""
-os.chdir("E:\\Filesdata")
+'''
+os.chdir("c:\\Filesdata")
 dir_path = os.getcwd()
 print(dir_path)
 # E:\Filesdata
-"""
+
+'''
+
+
 
 ##### create directory#####
-# os.mkdir("batch04")
+os.mkdir("batch04")
 
 #####  remove directory ######
 # os.rmdir("batch04")  # remove folder from current directory
-# os.rmdir("E:\\Filesdata\\batch04")  # remove folder from specific path
+# os.rmdir("c:\\Filesdata\\batch04")  # remove folder from specific path
 
 ##### Get list of files and folder #####
 

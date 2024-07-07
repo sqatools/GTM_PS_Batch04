@@ -1,4 +1,4 @@
-
+"""
 # execute the exception code without raising it, which does not affect further code execution
 def addition():
     try:
@@ -12,6 +12,7 @@ def addition():
 
 addition()
 
+
 # when we execute and raise the exception, then further code execution will stop working
 def addition_with_raise():
     try:
@@ -23,7 +24,8 @@ def addition_with_raise():
         print("Can not add string with integer")
         raise e
 
-#addition_with_raise()
+addition_with_raise()
+
 
 ######## try -except- else #######
 # else section code only executes, when there is no exception.
@@ -40,8 +42,8 @@ def try_except_else_condition(num1, num2):
         print(" multiply :", multiplication)
 
 
-#try_except_else_condition(50, "Hello")
-#try_except_else_condition(5, 6)
+try_except_else_condition(50, "Hello")
+try_except_else_condition(5, 6)
 
 print("Good Evening")
 
@@ -64,8 +66,8 @@ def try_except_else_finally_condition(num1, num2):
             print(num1, "*", i, ":", num1*i)
 
 
-#try_except_else_finally_condition(6, "Python")
-#try_except_else_finally_condition(6, 5)
+try_except_else_finally_condition(6, "Python")
+try_except_else_finally_condition(6, 5)
 
 
 def code_with_multiple_exception(num1 : int, num2 : int, num3: int):
@@ -89,15 +91,16 @@ def code_with_multiple_exception(num1 : int, num2 : int, num3: int):
         print(e)
 
 
-#code_with_multiple_exception(30, 'Hello', 0)
+code_with_multiple_exception(30, 'Hello', 0)
 #Required data is not provide
 
-#code_with_multiple_exception(30, 40, 0)
-# Can not divide any number with zero
+code_with_multiple_exception(30, 40, 0)
+ #Can not divide any number with zero
 
 
-#code_with_multiple_exception(30, 10, 2)
+code_with_multiple_exception(30, 10, 2)
 
+"""
 
 ###### Nested exception condition ######
 
@@ -114,10 +117,10 @@ def nested_exception_condition(num1, num2, num3):
         print(f"Can not add string with int : {e}")
 
 
-# nested_exception_condition(3, 'python', 5)
-# nested_exception_condition(3, 30, 0)
-# Can not divide number by zero
+nested_exception_condition(3, 'python', 5)
+nested_exception_condition(3, 30, 0)
+#Can not divide number by zero
 
-#
-# nested_exception_condition(3, 30, 'Hello')
+
+nested_exception_condition(3, 30, 'Hello')
 # unsupported operand type(s) for //: 'int' and 'str'
