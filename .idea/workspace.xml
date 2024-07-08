@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3670a8ca-2ed0-4961-ae44-9d89f51bbd70" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+    <list default="true" id="5f311051-96c7-4a6d-b7ab-249262f40891" name="Changes" comment="Test practice">
+      <change afterPath="$PROJECT_DIR$/Kirti/ExcelfileHW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kirti/PythonFilehandeling/xyz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kirti/PythonFilehandeling/xyz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kirti/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kirti/xyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sunita/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sunita/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kirti/Test Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kirti/Test Practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,29 +28,38 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2iC54Q5QTA9UocvO3YYxRAFT98P" />
+  <component name="ProjectId" id="2hjvOMoQp0E1DDHDriBesMzwaIm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.ExcelfileHW.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test Practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test_python.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionary_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functoin_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listprograms.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stringdatatype.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xyz.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
+    ]
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Test_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.xyz">
+    <configuration name="ExcelfileHW" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GTM_PS_Batch04" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,11 +68,99 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Subramanyam/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kirti" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Subramanyam/python/Test_python.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kirti/ExcelfileHW.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test Practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch04" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kirti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kirti/Test Practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch04" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kirti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kirti/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stringdatatype" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch04" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kirti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kirti/stringdatatype.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xyz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GTM_PS_Batch04" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kirti/PythonFilehandeling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kirti/PythonFilehandeling/xyz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Test_python" />
+        <item itemvalue="Python.xyz" />
+        <item itemvalue="Python.ExcelfileHW" />
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.Test Practice" />
+        <item itemvalue="Python.stringdatatype" />
       </list>
     </recent_temporary>
   </component>
@@ -80,74 +188,51 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="Batch_04_test_subramanyam">
+    <task id="LOCAL-00001" summary="If else and basic program and O pattern">
       <option name="closed" value="true" />
-      <created>1718743608709</created>
+      <created>1718027663082</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1718743608709</updated>
+      <updated>1718027663082</updated>
     </task>
-    <task id="LOCAL-00002" summary="Test update">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f311051-96c7-4a6d-b7ab-249262f40891" name="Changes" comment="If else and basic program and O pattern" />
+      <created>1718120272056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718120272056</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test practice">
       <option name="closed" value="true" />
-      <created>1718816916511</created>
+      <created>1718615117323</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1718816916511</updated>
+      <updated>1718615117323</updated>
     </task>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="3670a8ca-2ed0-4961-ae44-9d89f51bbd70" name="Changes" comment="Test update" />
-      <created>1718981528994</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1718981528994</updated>
-    </task>
-    <task id="LOCAL-00003" summary="function practice">
-      <option name="closed" value="true" />
-      <created>1718983612586</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718983612586</updated>
-    </task>
-    <task id="LOCAL-00004" summary="function practice">
-      <option name="closed" value="true" />
-      <created>1718983639956</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1718983639956</updated>
-    </task>
-    <task id="LOCAL-00005" summary="function practice 2 and doubts">
-      <option name="closed" value="true" />
-      <created>1719129514951</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1719129514951</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add list data type" />
-    <MESSAGE value="Batch_04_test_subramanyam" />
-    <MESSAGE value="Test update" />
-    <MESSAGE value="function practice" />
-    <MESSAGE value="function practice 2 and doubts" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="If else and basic program and O pattern" />
+    <MESSAGE value="Test practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Kirti/stringdatatype.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Kirti/stringdatatype.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
