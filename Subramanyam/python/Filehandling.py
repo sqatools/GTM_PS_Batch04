@@ -89,9 +89,74 @@
 # for word in words:
 #     if len(word)<5:
 #         print(word,end=" ")
+#
+# file=open("readcontent.txt","r")
+# data=file.read()
+# data.replace(" ",'_')
+# file1=open("file2.txt","w")
+# file1.write(data)
 
-file=open("readcontent.txt","r")
-data=file.read()
-data.replace(" ",'_')
-file1=open("file2.txt","w")
-file1.write(data)
+def read_file_byte_data(filename,num_byte):
+    with open(filename,"r") as file:
+        data=file.read(num_byte)
+        print(data)
+# read_file_byte_data("text_file",10)
+
+def read_file_byte_data(filename):
+    with open(filename,"r") as file:
+        data=file.readlines()
+        #print(data)
+    return data
+#read_file_byte_data("text_file")
+
+def odd_lines_list(filename):
+    list_lines=read_file_byte_data(filename)
+    for i in range(len(list_lines)):
+        if (i+1)%2!=0:
+            print(list_lines[i],end="")
+        else:
+            continue
+#odd_lines_list("text_file")
+
+
+
+def read_file_lines(filename,lines_num):
+    with open(filename,"r") as file:
+
+        for line in range(lines_num):
+            print(file.readline(),end="")
+
+#read_file_lines("text_file",5)
+
+
+def read_file_lines(filename):
+    with open(filename,"r") as file:
+
+        for line in filename:
+            print(file.readline(),end="")
+
+#read_file_lines("text_file")
+
+def replace_words(filename,word1,word2):
+    with open(filename,"r") as file:
+        data = file.read()
+    updated_data=data.replace(word1,word2)
+
+    with open(filename,"w") as file:
+        file.write(updated_data)
+
+#replace_words("test_data.txt","github","Git")
+
+def combination_two_file(file1,file2,file3):
+    with open(file1,'r') as file1:
+        file1_lines=file1.readlines()
+
+    with open(file2,'r') as file2:
+        file2_line=file2.readlines()
+
+    with open(file3,'a') as file3:
+        for i in range(len(file1_lines)):
+            file3.write(file1_lines[i])
+            file3.write(file2_line[i])
+
+combination_two_file("readcontent.txt",'readcontent1.txt','testfile.txt')
