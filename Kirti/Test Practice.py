@@ -218,7 +218,147 @@ Output =
 (‘c’, 41)
 (‘d’, 21)"""
 
-dict15 = {"d" : 21, "b" :53, "a" :13, "c" : 41}
+# need to execute this again
+# dict15 = {"d" : 21, "b" :53, "a" :13, "c" : 41}
+#
+# for key  in sorted(dict15):
+#     print(key,dict15[key])
 
-for key  in sorted(dict15):
-    print(key,dict15[key])
+"""14). Python Dictionary program to concatenate two dictionaries.
+Input:
+D1 = {‘name’ : ’yash’, ‘city’ :  ‘pune’}
+D1 = {‘course’ : ’ python’, ‘institute’ : ’sqatools’}
+Output :
+{ ‘name’ : ’yash’, city: ‘pune’, ‘course’ : ’python’, ‘institute’ : ’sqatools’ }
+"""
+
+
+dict15 = {"a": 1, "b" : 2, "c" : 4}
+dict16 = {"x" : "Kirti", "y" : "Ram"}
+
+dict15.update(dict16)
+
+print(dict15)
+
+print("_"*50)
+
+
+"""15). Python Dictionary program to swap the values of the keys in the dictionary.
+Input = {name:’yash’, city: ‘pune’}
+Output = {name:’pune’, city: ‘yash’}"""
+
+
+dict17 = {"Name"  :"Kirti", "Age" : 25}
+#dict18 = {"Name" : "Ram", "Age" : 35}  how to interchange the values of two dicts
+
+dict19 = {}
+
+for key,value in dict17.items():
+    dict19[value] = key
+print(dict19)
+
+
+"""16).  Python Dictionary program to get the sum of all the items in a dictionary.
+Input = {‘x’ : 23, ‘y’ : 10 , ‘z’ : 7}
+Output = 40"""
+
+dict18 = {"x" : 23, "y" :10, "z" : 7}
+Total = 0
+for values in dict18.values():
+    print(values)
+    Total += values
+print("TOTAL : ",Total)
+
+import sys
+D1 = {'name':'virat','sport':'cricket'}
+
+print("Size of dic1: " + str(sys.getsizeof(D1)) + "bytes")
+
+
+"String programs"
+"""Get all the email id’s from the given string"""
+
+
+string = """We have some employee whos john@gmail.com email id’s are randomly distributed jay@lic.com we want to get hari@facebook.com all the email mery@hotmail.com id’s from this given string"""
+
+list = string.split(" ")
+print(list,end="\n")
+list1 = []
+
+for char in list:
+    for val in char:
+        if val == "@":
+            list1.append(char)
+print(list1, end="\n")
+
+
+"""Write a program to get a list of all the mobile numbers from the given string using  python.
+Input str = “”” We have 2233 some employee 8988858683 whos 3455 mobile numbers are randomly distributed 2312245566 we want 453452 to get 4532892234 all the mobile numbers 9999234355  from this given string.””
+"""
+print("_"*50)
+
+string =  """"We have 2233 some employee 8988858683 whos 3455 mobile numbers are randomly distributed 2312245566 we want 453452 to get 4532892234 all the mobile numbers 9999234355  from this given string"""
+
+list2 = string.split(" ")
+print(list2,end="\n")
+
+list3 = []
+
+for val in list2:
+    if len(val) == 10 and val.isnumeric():
+        list3.append(val)
+print(list3, end="\n")
+
+print("_"*50)
+
+"character on new line"
+
+str1 = "python"
+for char in str1:
+    print(char, end="\n")
+
+"Print the given string 3 times"
+
+string5 = "Kirti"
+
+print(string5*3)
+
+"""102). Write a program to remove repeated characters in a string and replace it with a single letter using  python.
+Input = ‘aabbccdd’
+Output = ‘cabd’"""
+
+
+# string6 = "aabbccdd"
+#
+# string7 = string6.split("")
+# print(string7)
+
+"""101). Write a program to swap cases of a given string using  python.
+Input = ‘Learning  Python’
+Output = ‘lEARNING pYTHON’"""
+
+string8 = "Learning  Python"
+
+string9 = string8.upper()
+print(string9)
+
+string10 = string9.lower()
+print(string10)
+
+string11 = string8.swapcase()
+print(string11)
+
+
+"""100). Write a program to find the first repeated character in a string and its index.
+Input = ‘sqatools’
+Output = (s,0)"""
+
+string12 = "sqatools"
+characters = []
+
+for char in string12:
+    if char not in characters:
+        characters.append(char)
+print(characters)
+
+"List Programs"
