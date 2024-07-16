@@ -1,8 +1,3 @@
-"""
-Hierarchical Inheritance
-"""
-
-
 class father:
 
     def __init__(self, fname, fbusiness, fhouse):
@@ -20,7 +15,7 @@ class father:
         print('father house name:', self.fhouse)
 
 
-class child1(father):
+class brother(father):
 
     def __init__(self, ch1_name, fname, fbusiness, fhouse):
         super().__init__(fname, fbusiness, fhouse)
@@ -30,7 +25,6 @@ class child1(father):
     def child1_name(self):
         print(f"child1 name is:' {self.ch1_name}")
 
-
     # def child1_business(self):
     #      print('child1 business:', self.ch1_business)
 
@@ -39,7 +33,9 @@ class child1(father):
         self.show_fbusiness()
         self.show_fhouse()
         self.child1_name()
-class child2(father):
+
+
+class sister(father):
 
     def __init__(self, ch2_name, ch2_business, fname, fbusiness, fhouse):
         super().__init__(fname, fbusiness, fhouse)
@@ -60,12 +56,24 @@ class child2(father):
         self.child2_business()
 
 
+class mother(brother):
+
+    def __init__(self, mname, ch1_name, ch2_name, ch2_business,fname,fbusiness, fhouse):
+        super().__init__(ch1_name,fname,fbusiness, fhouse)
+        self.mname = mname
+        self.sobj = sister(ch2_name, ch2_business,fname,fbusiness, fhouse)
+
+    def show_m_name(self):
+        print(f"enter mname:' {self.mname}")
+
+    def show3_details(self):
+        self.show_m_name()
+        self.sobj.show_child2_details()
+        self.show_child_details()
 
 
-obj1 = child2("purna", "Doctor", "ramesh", "contractor", "villa")
-obj2 = child1("akash", "ramesh", "contractor", "villa")
+obj1 = brother('arun', 'ravi', 'co', 'villa')
+obj2 = sister('lavnya', 'doctor', 'ravi', 'co', 'villa')
+obj3 = mother('yash', 'arun', 'lavnya', 'doctor','ravi', 'co', 'villa')
 
-obj1.show_child2_details()
-obj2.show_fbusiness()
-print('*'*50)
-obj2.show_child_details()
+obj3.show3_details()

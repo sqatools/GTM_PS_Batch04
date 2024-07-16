@@ -21,10 +21,9 @@ class mother:
 class father:
 
     def __init__(self,fname,fbusiness,fhouse):
-
-      self.fname=fname
-      self.fbusiness=fbusiness
-      self.fhouse=fhouse
+        self.fname=fname
+        self.fbusiness=fbusiness
+        self.fhouse=fhouse
 
     def show_fname(self):
         print(f"father nmae is:'{self.fname}")
@@ -51,9 +50,9 @@ class child(mother,father):
         self.show_m_name()
         self.show_m_business()
         self.show_c_name()
-        self.show_fname()
-        self.show_fbusiness()
-        self.show_fhouse()
+        self.fobj.show_fname()
+        self.fobj.show_fbusiness()
+        self.fobj.show_fhouse()
 
 
 
