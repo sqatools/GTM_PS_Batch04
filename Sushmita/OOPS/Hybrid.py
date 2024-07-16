@@ -27,7 +27,11 @@ class brother(father):
 
     def show_businessname(self):
         print(f"bro business name: {self.Bbusiness}")
-
+    def show1_details(self):
+        self.show_fname()
+        self.show_fbusiness()
+        self.show_bname()
+        self.show_businessname()
 
 class sister(father):
     def __init__(self, sname, fname, fbusiness):
@@ -37,39 +41,33 @@ class sister(father):
     def show_sname(self):
         print(f"sister name is: {self.sname}")
 
-
-class mother(brother, sister):
-
-    def __init__(self, mname, bname, Bbusiness, sname, fname, fbusiness, kwargs=None):
-        super().__init__(**kwargs)
-        self.mname = mname
-        self.sobj = sister(sname)
-
-    def show_mname(self):
-        print(f"mother name : {self.mname}")
-
-    def show1_details(self):
-        self.show_fname()
-        self.show_fbusiness()
-        self.show_bname()
-        self.show_businessname()
-
     def show2_details(self):
         self.show_fname()
         self.show_fbusiness()
         self.show_sname()
 
+class mother(brother):
+
+    def __init__(self, mname, bname, Bbusiness, sname, fname, fbusiness ):
+        super().__init__(bname, Bbusiness,fname, fbusiness)
+        self.mname = mname
+        self.sobj = sister(sname,fname, fbusiness)
+
+    def show_mname(self):
+        print(f"mother name : {self.mname}")
+
     def show3_details(self):
         self.show_mname()
-        self.show_sname()
+        self.sobj.show_sname()
         self.show_businessname()
         self.show_bname()
+        self.show_fname()
+        self.show_fbusiness()
+
 
 
 obj1 = brother('arun', 'doctor', 'amith', 'contractor')
-obj2 = sister('pooja', 'mahesh', 'lawyer')
+obj2 = sister('pooja', 'amith', 'contractor')
 obj3 = mother('priya', 'arun', 'doctor', 'pooja', 'amith', 'contractor')
 
-#obj1.show1_details()
-if __name__ == '__main__':
-    obj3.show_sname()
+obj1.show3_details()
