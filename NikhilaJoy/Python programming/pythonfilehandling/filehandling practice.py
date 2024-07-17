@@ -56,6 +56,7 @@ def read_line(filename,linecount):
 read_line("file1forpractice",4)
 """
 #5). Python file program to get all the email ids from a text file.
+"""
 email_id=[]
 file=open("file2practice","r")
 file_data=file.read()
@@ -67,7 +68,23 @@ for i in word:
     else:
         continue
 print(email_id)
-
-
-
-
+"""
+#6). Python file program to get a specific line from the file.
+"""
+file=open("file2practice","r")
+file_data=file.readlines()
+print(file_data[1])
+"""
+#7). Python file program to get odd lines from files and append them to separate files.
+file=open("file2practice","r")
+f2=open("write1.txt","a")
+file_data=file.readlines()
+print(file_data)
+d=len(file_data)
+#print(d)
+for i in range(0,d):
+    if i%2!=0:
+        f2.write(file_data[i])
+    else:
+        pass
+#print(file_data[1])
