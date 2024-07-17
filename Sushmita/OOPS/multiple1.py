@@ -37,8 +37,8 @@ class child(father, mother):
         self.show_cname()
         self.show_fname()
         self.show_fbusiness()
-        self.show_m_name()
-        self.show_m_business()
+        self.mobj.show_m_name()
+        self.mobj.show_m_business()
 
 
 obj = child('amith', 'gouda', 'doctor', "priya", 'engineer')
