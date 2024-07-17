@@ -79,4 +79,5 @@ for i in range(20):
     print("last_name :", fk.last_name())
     print("email :", fk.email())
     print("phone :", fk.phone_number())
+
     print("_"*50)

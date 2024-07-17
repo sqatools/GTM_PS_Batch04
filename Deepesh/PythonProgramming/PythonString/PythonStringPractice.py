@@ -109,7 +109,8 @@ print("_"*50)
 
 str_c = "India is best cricket team"
 output1= str_c[2: 10: 1]
-print("output1 :", output1)  # dia is b
+print("output1 :", output1)
+# dia is b
 
 output2 = str_c[-1: -15: -1] # maet tekcirc t
 print("output2 :", output2)
