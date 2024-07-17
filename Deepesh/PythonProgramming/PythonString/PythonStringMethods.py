@@ -10,7 +10,8 @@ print(dir(str))
      'partition', 'removeprefix', 'removesuffix', 'replace', 
      'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip',
       'split', 'splitlines', 'startswith', 'strip', 'swapcase', 
-      'title', 'translate', 'upper', 'zfill'
+      'title', 'translate', 'upper',
+       'zfill'
 """
 
 # convert the string into upper to lower and lower to upper
