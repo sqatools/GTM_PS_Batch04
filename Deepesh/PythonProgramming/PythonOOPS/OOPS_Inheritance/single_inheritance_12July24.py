@@ -35,6 +35,7 @@ class child(father):
         self.show_son_name()
 
 
+
 # if __name__ == '__main__':
 #     obj = child('Mohit', 'Mr.Mohan', 'Construction', 'Villa')
 #     obj.show_son_name()
