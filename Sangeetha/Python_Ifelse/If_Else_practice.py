@@ -142,9 +142,9 @@ else:
 
 #program to get all the numbers divided by 3 from 1 to 30.
 
-for i in range (1,31):
-    if i%3 == 0:
-        print(i, end=" ")
+# for i in range (1,31):
+#     if i%3 == 0:
+#         print(i, end=" ")
 
 #program to check given number is a prime number or not
 """
@@ -195,6 +195,31 @@ else :
 #     print("number is not negative")
 
 
+weekday = str(input("Enter weekday : "))
+
+if weekday == "monday" :
+    print("1")
+
+elif weekday == "tuesday" :
+    print("2")
+
+elif weekday =="wednesday":
+    print("3")
+
+elif weekday == "thursday"  :
+    print("4")
+
+elif weekday == "friday" :
+    print("5")
+
+elif weekday == "saturday" :
+    print("6")
+
+elif weekday == "sunday":
+    print("7")
+
+else :
+    print("\nPlease enter any weekday number (1-7)")
 
 
 
