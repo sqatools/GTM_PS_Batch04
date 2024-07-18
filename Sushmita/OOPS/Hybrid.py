@@ -70,4 +70,4 @@ obj1 = brother('arun', 'doctor', 'amith', 'contractor')
 obj2 = sister('pooja', 'amith', 'contractor')
 obj3 = mother('priya', 'arun', 'doctor', 'pooja', 'amith', 'contractor')
 
-obj1.show3_details()
+obj3.show3_details()
