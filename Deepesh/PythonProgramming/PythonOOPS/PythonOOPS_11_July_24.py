@@ -35,7 +35,7 @@ class Car:
 
 
 if __name__ == '__main__':
-    obj = Car(car_name='XUV300', car_price="20 Lac", car_comp="Mahindra")
-    obj.show_car_details()
-    print(obj.__module__)
+     obj = Car(car_name='XUV300', car_price="20 Lac", car_comp="Mahindra")
+     obj.show_car_details()
+     print(obj.__module__)
 
