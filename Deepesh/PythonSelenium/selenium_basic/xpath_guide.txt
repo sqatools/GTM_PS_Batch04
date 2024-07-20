@@ -1,0 +1,27 @@
+xpath is the way to find the element in the dom structure by follow the tree structure of html code
+
+1). Absolute xpath:
+ /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/textarea
+
+2). Relative xpath:
+   //tagname[@attribute=value]
+   //textarea[@title='Search']
+   //textarea[@aria-label="Search"]
+   //textarea[@name="q"]
+
+   # user * instead of tagname
+   //*[@attribute=value]
+   //*[@title='Search']
+
+   # Indexing on duplicate xpath
+   # https://automationbysqatools.blogspot.com/2021/05/dummy-website.html
+   (//input[@name='firstname'])[1]
+   (//input[@type='checkbox'])[1]
+
+
+   #  xpath with parent combination
+   (//tr/td/input[@type='checkbox'])[1]
+   //div[@align='left']/ul/li/input[@value='radio_123']
+   //div[@align='left']//input[@value='radio_123']
+   (//table[@id='cities']//input)[3]
+
