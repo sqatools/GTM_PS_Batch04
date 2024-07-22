@@ -4,7 +4,7 @@
 #     print("file data: ",data)
 #     file.close()
 # read_file("text_file")
-# read_file("C:\\Users\\subra\\OneDrive\\Desktop\\Python\\Python Notes\\file handling.7")
+# #read_file("C:\\Users\\subra\\OneDrive\\Desktop\\Python\\Python Notes\\file handling.7")
 
 # def write_file(filename,contact):
 #     file=open(filename,"w")
@@ -216,7 +216,7 @@ from random import random
 # import random
 # file1=random.randint(1,25)
 # print(file1)
-f=[]
-for i in range(1,10):
-    f.append(i)
+# f=[]
+# for i in range(1,10):
+#     f.append(i)
 
