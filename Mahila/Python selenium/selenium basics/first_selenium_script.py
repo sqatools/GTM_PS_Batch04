@@ -41,3 +41,11 @@ driver.close()
 """
 
 #F12--> Directly open code for particular element
+
+"""
+each webpages are identified by elements(eg: google search). F12 to see the code. complete code structure of html is known as dom structure.
+in that entire dom ur particular element is defined somewhere with the help of tag that is html tag. each html  tag have there attribute(property that 
+is where the particular tag is defined) input- tag different attribute(class,tyoe,aria-label...)
+dom structure - document object model
+elents --> defined in tags --> there own  attribute
+"""
