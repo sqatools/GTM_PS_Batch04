@@ -14,7 +14,8 @@ class Animal:    #Abstract class
     def animal_age(self):
         pass
 
-class Dog(Animal):                #normal class implementing the abstruct class
+class Dog(Animal):
+#normal class implementing the abstruct class
 
     def animal_voice(self):
         print("bark")
@@ -35,5 +36,8 @@ class Lion(Animal):
 
     def animal_age(self):
         print("10 years")
+
+obj = Dog()                     #creating object of the class and calling.
+obj.animal_voice()
 
 #data hiding is a particular class is hiden, but here the entire impelemtation is hided.
