@@ -18,7 +18,7 @@ driver.find_element(By.ID,"billing_name").send_keys("Bhumika")
 driver.find_element(By.ID,"billing_phone").send_keys(34567)
 driver.find_element(By.ID,"billing_email").send_keys("34567@gmail.com")
 driver.find_element(By.ID,"billing_address").send_keys('shenanigan')
-driver.find_element(By.)
+
 
 
 time.sleep(10)
