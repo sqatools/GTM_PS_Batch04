@@ -100,6 +100,6 @@ class Team:
 player1=Player("vishnu")
 player2=Player("Sudha")
 team=Team()
-team.add_players(player1)
-team.add_players(player2)
+team.add_players(player1.name)
+team.add_players(player2.name)
 print(team.players)
