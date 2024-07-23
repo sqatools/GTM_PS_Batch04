@@ -4,7 +4,7 @@ xpath is the way to find the element in the dom structure by follow the tree str
  /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/textarea
 
 2). Relative xpath:
-   //tagname[@attribute=value]
+//tagname[@attribute=value]
    //textarea[@title='Search']
    //textarea[@aria-label="Search"]
    //textarea[@name="q"]
@@ -65,4 +65,3 @@ iv) preceding-sibling# chintu: elder brothers
 v) parent # chintu parent
 vi) ancestor # chintu grandfather
 vii) child # chintu's child.
-

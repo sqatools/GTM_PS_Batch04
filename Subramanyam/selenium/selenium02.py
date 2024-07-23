@@ -1,0 +1,40 @@
+import time
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver=webdriver.Chrome()
+driver.maximize_window()
+driver.implicitly_wait(10)
+driver.get("https://automationbysqatools.blogspot.com/p/home.html#")
+driver.find_element(By.XPATH,"(//div[@class='font'])[7]").click()
+# driver.find_element(By.XPATH,"(//input[@type='radio'])[1]").click()
+# driver.find_element(By.XPATH,"//input[@value='radio_345']").click()
+# driver.find_element(By.XPATH,"(//input[@value='radio_558'])[2]").click()
+# driver.find_element(By.XPATH,"(//input[@id='firstname'])[1]").send_keys("Subbu")
+driver.find_element(By.XPATH,"//input[@name='firstname']//following-sibling::input").send_keys("Dasini")
+time.sleep(10)
+# driver.find_element(By.XPATH,"(//input[@type='date'])[1]").send_keys('01-01-1990')
+# driver.find_element(By.XPATH,"//input[@id='male']").click()
+# driver.find_element(By.XPATH,"//input[@id='roundtrip']").click()
+# driver.find_element(By.XPATH,"//input[@id='fromcity']").send_keys("Chennai")
+# driver.find_element(By.XPATH,"//input[@id='destcity']").send_keys("kolkata")
+# driver.find_element(By.XPATH,"//input[@id='departdate']").send_keys('22-07-2024')
+# driver.find_element(By.XPATH,"//input[@name='returndate']").send_keys('25-07-2024')
+# driver.find_element(By.XPATH,"//input[@name='visadate']").send_keys('25-07-2024')
+# driver.find_element(By.XPATH,"(//input[@id='female'])[2]").click()
+driver.find_element(By.XPATH,"//input[@type='radio']//following-sibling::input[@id='whatsapp']").click()
+time.sleep(10)
+# driver.find_element(By.XPATH,"//input[@id='billing_name']").send_keys("Subramanyam")
+# driver.find_element(By.XPATH,"//input[@id='billing_phone']").send_keys("9966466046")
+# driver.find_element(By.XPATH,"//input[@id='billing_email']").send_keys("Subramanyam@gmail.com")
+# driver.find_element(By.XPATH,"//input[@id='billing_address']").send_keys("Andhra pradesh")
+# driver.find_element(By.XPATH,"//input[@id='street_address1']").send_keys("Tirupathi,Andhra pradesh")
+# driver.find_element(By.XPATH,"(//input[@value='checkbox'])[4]").click()
+# driver.find_element(By.XPATH,"(//input[@value='checkbox'])[5]").click()
+# driver.find_element(By.XPATH,"(//input[@value='checkbox'])[2]").click()
+# city_list=["Hyderabad","Pune","Mumbai","Delhi","Kolkata","Indore"]
+# for city in city_list:
+    #driver.find_element(By.XPATH,f"//td[text()='{city}']//preceding-sibling::td//input").click()
+#time.sleep(10)
+driver.close()
