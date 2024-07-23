@@ -16,6 +16,7 @@ driver.find_element(By.XPATH,"//input[@name='firstname'][1]").send_keys("Mahila"
 driver.find_element(By.XPATH,"//input[@name='firstname'][2]").send_keys("Mahila")
 driver.find_element(By.XPATH,"(//input[@type='date'])[1]").send_keys("21-05-1999")
 driver.find_element(By.XPATH,"//input[@id='female'][1]").click()
+driver.find_element(By.XPATH,"//select[@id='admorepass']").send_keys("add one more passenger -100%")
 element = driver.find_element(By.NAME,"fromcity").send_keys("Banglore")    #Name locator
 element = driver.find_element(By.NAME,"destcity").send_keys("Trivandrum")   #Name Locator
 driver.find_element(By.XPATH,"//input[@id='departdate']").send_keys("24-08-2024")
@@ -31,6 +32,7 @@ driver.find_element(By.XPATH,"//input[@name='postcode']").send_keys("695615")
 driver.find_element(By.XPATH,"//input[@name='prefecture']").send_keys("123456")
 driver.find_element(By.XPATH,"//input[@id='street_address1']").send_keys("A-128 Sowparnika Fleminco")
 driver.find_element(By.XPATH,"//input[@id='street_address2']").send_keys("Old fort road Banglore")
+driver.find_element(By.XPATH,"//tr/td/input[@type='checkbox'][2]").click()
 
 
 # driver.get("https://automationbysqatools.blogspot.com/p/manual-testing.html")        #LINK_TEXT
