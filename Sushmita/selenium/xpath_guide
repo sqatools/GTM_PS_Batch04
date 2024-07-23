@@ -4,3 +4,64 @@ xpath is the way to find the element in the dom structure by follow the tree str
  /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/textarea
 
 2). Relative xpath:
+//tagname[@attribute=value]
+   //textarea[@title='Search']
+   //textarea[@aria-label="Search"]
+   //textarea[@name="q"]
+
+   # user * instead of tagname
+   //*[@attribute=value]
+   //*[@title='Search']
+
+   # Indexing on duplicate xpath
+   # https://automationbysqatools.blogspot.com/2021/05/dummy-website.html
+   (//input[@name='firstname'])[1]
+   (//input[@type='checkbox'])[1]
+
+
+   #  xpath with parent combination
+   (//tr/td/input[@type='checkbox'])[1]
+   //div[@align='left']/ul/li/input[@value='radio_123']
+   //div[@align='left']//input[@value='radio_123']
+   (//table[@id='cities']//input)[3]
+
+
+# XPATH Basic Methods :
+
+# i) text method:  //tagname[text()='text value']
+                   //a[text()='Code Practice']
+                   //h1[text()=' Dummy Ticket Booking Website']
+                   //li/a[text()='Home']
+
+
+# ii) contains method: //input[contains(text(), "partial text value")]
+                       //a[contains(text(),'Practice')]
+                       //h1[contains(text(), 'Dummy')]
+                       //h3[contains(text(), 'Dummy')]
+
+                       //tagname[contains(@attribute, 'value')]
+                       //input[contains(@name, 'from')]
+                       //input[contains(@value, 'radio_1')]
+                       //input[contains(@name, 'pre')]
+
+
+# iii) xpath with and/or #   tagname[@attribute='value' and @attr2='value']
+                             //input[@name='postcode'  and @type='text']
+                             //a[text()='Home' and @class='home-link']
+                             //a[text()='Home' and contains(@class,'home') and @href]
+
+
+                             tagname[@attribute='value' or @attr2='value']
+                             //a[text()='Home' or contains(@class,'home')]
+
+
+############## Advance XPath Method ###################
+
+
+i) following: # All element below chintu
+ii) following-sibling# chintu: younger brothers
+iii) preceding # All elements above the chintu
+iv) preceding-sibling# chintu: elder brothers
+v) parent # chintu parent
+vi) ancestor # chintu grandfather
+vii) child # chintu's child.
