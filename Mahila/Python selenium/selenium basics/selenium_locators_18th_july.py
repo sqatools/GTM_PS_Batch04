@@ -2,8 +2,6 @@
 import time
 
 from selenium import
-
-
 from selenium.webdriver.common.by import By
 
 """
