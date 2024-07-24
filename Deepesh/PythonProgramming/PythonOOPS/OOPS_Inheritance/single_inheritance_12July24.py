@@ -36,8 +36,8 @@ class child(father):
 
 
 
-# if __name__ == '__main__':
-#     obj = child('Mohit', 'Mr.Mohan', 'Construction', 'Villa')
-#     obj.show_son_name()
-#     obj.show_family_details()
+if __name__ == '__main__':
+    obj = child('Mohit', 'Mr.Mohan', 'Construction', 'Villa')
+    obj.show_son_name()
+    obj.show_family_details()
 
