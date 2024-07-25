@@ -32,7 +32,10 @@ driver.find_element(By.XPATH,"//input[@name='postcode']").send_keys("695615")
 driver.find_element(By.XPATH,"//input[@name='prefecture']").send_keys("123456")
 driver.find_element(By.XPATH,"//input[@id='street_address1']").send_keys("A-128 Sowparnika Fleminco")
 driver.find_element(By.XPATH,"//input[@id='street_address2']").send_keys("Old fort road Banglore")
-driver.find_element(By.XPATH,"//td[text()='Hyderabad']//preceding-sibling::td/input").click()
+
+city_list = ["Pune", "Delhi"]
+for city in city_list:
+    driver.find_element(By.XPATH,f"//td[text()='{city}']//preceding-sibling::td/input").click()
 
 
 # driver.get("https://automationbysqatools.blogspot.com/p/manual-testing.html")        #LINK_TEXT
