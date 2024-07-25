@@ -65,3 +65,54 @@ iv) preceding-sibling# chintu: elder brothers
 v) parent # chintu parent
 vi) ancestor # chintu grandfather
 vii) child # chintu's child.
+
+############## Advance XPath Method ###################
+
+
+i) following: # All element below chintu
+   # reference                          # target
+   //tagname[@attr='value']//following::tagname[@attr='value']
+   //td[text()='6001']//following::a[text()='Home']
+   //button[@name='login']//following::a[text()='Create new account']
+   //label[@for='fromCity']//following::label[@for='travellers']
+   //label[@for='fromCity']//following::input[@placeholder="From"]
+
+ii) following-sibling# chintu: younger brothers
+    # reference                          # target
+   //tagname[@attr='value']//following-sibling::tagname[@attr='value']
+   //span[text()='From']//following-sibling::p[text()='Enter city or airport']
+   //input[@name='speacialFare']//following-sibling::label[@for='SC']/div[1]
+   //td[text()='6001']//following-sibling::td[text()='1033']
+
+
+
+iii) preceding # All elements above the chintu
+    # reference                          # target
+    //tagname[@attr='value']//preceding::tagname[@attr='value']
+    //input[@id='fromcity']//preceding::input[@id='oneway']
+    //a[text()='Create a Page']//preceding::input[@name='email']
+
+iv) preceding-sibling# chintu: elder brothers
+     # reference                          # target
+    //tagname[@attr='value']//preceding-sibling::tagname[@attr='value']
+    //td[text()='6001']//preceding-sibling::td
+    //td[text()='6001']//preceding::input
+
+
+v) parent # chintu parent
+     # reference                          # target
+    //tagname[@attr='value']//parent::tagname[@attr='value']
+    //td[text()='Kolkata']//parent::tr//input
+
+vi) ancestor # chintu grandfather
+     # reference                          # target
+    //tagname[@attr='value']//ancestor::tagname[@attr='value']
+    //div[text()='Student']//ancestor::label/div[1]
+
+vii) child # chintu's child.
+     # reference                          # target
+    //tagname[@attr='value']//child::tagname[@attr='value']
+
+# Other complex xpath
+
+//td[text()='6001']//following-sibling::td//parent::tr//ancestor::table//preceding::input[@id='fromcity']
