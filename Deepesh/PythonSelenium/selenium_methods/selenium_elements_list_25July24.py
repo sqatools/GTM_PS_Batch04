@@ -41,7 +41,19 @@ def check_element_status():
     pune_checkbox.click()
     print("checkbox is selected :", pune_checkbox.is_selected()) # True
 
-check_element_status()
+#check_element_status()
 
+def get_city_name_along_with_checkbox():
+    driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
+    checkbox_elem_list = driver.find_elements(By.XPATH, "//input[@type='checkbox']")
+    for i in range(len(checkbox_elem_list)):
+        check_box_elem = checkbox_elem_list[i]
+        check_box_elem.click()
+        city_name_elem = driver.find_element(By.XPATH, f"//table[@id='cities']/tbody//tr[{i+2}]//td[3]")
+        print(city_name_elem.text)
+        city_id_elem = driver.find_element(By.XPATH, f"//table[@id='cities']/tbody//tr[{i+2}]//td[2]")
+        print(city_id_elem.text)
+
+get_city_name_along_with_checkbox()
 time.sleep(5)
 driver.close()
