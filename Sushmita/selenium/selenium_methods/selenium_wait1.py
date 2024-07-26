@@ -7,42 +7,29 @@ static wait : When we use time.sleep() method to pause the execution for specifi
               then it is known as static wait.
 """
 import time
+
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
-
-
-driver = webdriver.Chrome()
+driver=webdriver.Chrome()
 driver.maximize_window()
-# implicit wait applies on all the elements of the web page by default
-# driver.implicitly_wait(10)
 
-# explicit wait applies on specific element of the web page with condition
-wait = WebDriverWait(driver, 15, poll_frequency=1)
+def get_wait(timeout=15):
+
+    wait=WebDriverWait(driver,timeout,poll_frequency=1)
+    return wait
+
 driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
 
-t1 = time.time()
-try:
-    element = wait.until(ec.presence_of_element_located((By.ID, "billing_name")))
-    element.send_keys("Rahul Gupta")
-except Exception as e:
-    print(e)
-t2 = time.time()
+billing_name=get_wait().until(ec.presence_of_element_located((By.ID,"billing_name")))
+billing_name.send_keys("Rahul")
 
-print("total time taken :", t2-t1)
+phonenumber =get_wait().until(ec.presence_of_element_located((By.ID,"billing_phone")))
+phonenumber.send_keys(23456)
 
-a1 = time.time()
-try:
-    phone = driver.find_element(By.ID, "billing_phone")
-    phone.send_keys(5654645645)
-except Exception as e:
-    print(e)
-a2 = time.time()
+both=get_wait().until(ec.element_to_be_clickable((By.ID,"female")))
+both.click()
 
-print("total time take phone_number :",a2-a1 )
-
-time.sleep(10) # static wait
+time.sleep(10)
 driver.close()
-
-

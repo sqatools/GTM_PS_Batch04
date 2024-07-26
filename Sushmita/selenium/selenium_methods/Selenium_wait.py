@@ -1,4 +1,4 @@
-"""
+""""
 implicit wait : this wait applies on all the elements of the web page.
 explicit wait : This wait applies on specific element of the web page with condition
 fluent wait  : polling frequency of the element is known as fluent wait, that we
@@ -12,37 +12,41 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
 
-
-driver = webdriver.Chrome()
+driver=webdriver.Chrome()
 driver.maximize_window()
+
 # implicit wait applies on all the elements of the web page by default
 # driver.implicitly_wait(10)
 
 # explicit wait applies on specific element of the web page with condition
-wait = WebDriverWait(driver, 15, poll_frequency=1)
+#poll_frequency is fluent_wait
+wait=WebDriverWait(driver,15,poll_frequency=1)
 driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
 
-t1 = time.time()
+t1=time.time()
+
 try:
-    element = wait.until(ec.presence_of_element_located((By.ID, "billing_name")))
-    element.send_keys("Rahul Gupta")
+
+#explicit wait
+   element=wait.until(ec.presence_of_element_located((By.ID,"billing_name")))
+   element.send_keys("Rahul gupta")
 except Exception as e:
     print(e)
-t2 = time.time()
+t2=time.time()
+print("total time take billing name :",t2-t1 )
 
-print("total time taken :", t2-t1)
-
-a1 = time.time()
+a1=time.time()
 try:
-    phone = driver.find_element(By.ID, "billing_phone")
-    phone.send_keys(5654645645)
+
+   phone=driver.find_element(By.ID,"billing_phone")
+   phone.send_keys(23456)
 except Exception as e:
     print(e)
+
 a2 = time.time()
 
 print("total time take phone_number :",a2-a1 )
-
-time.sleep(10) # static wait
+time.sleep(10) #static wait
 driver.close()
 
 
