@@ -34,5 +34,7 @@ def handle_dropdown():
 
 handle_dropdown()
 
+
+
 driver.close()
 

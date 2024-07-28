@@ -20,15 +20,32 @@ def get_wait(timeout=15):
     wait=WebDriverWait(driver,timeout,poll_frequency=1)
     return wait
 
+def get_element(locator,timeout=15,wait_cond=ec.presence_of_element_located):
+    return get_wait(timeout=15).until(wait_cond(locator))
+
 driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
 
-billing_name=get_wait().until(ec.presence_of_element_located((By.ID,"billing_name")))
-billing_name.send_keys("Rahul")
+# website_header=get_wait().until(ec.presence_of_element_located((By.XPATH,"//h1[text()=' Dummy Ticket Booking Website']")))
+# print(website_header)
+#
+# billing_name=get_wait().until(ec.presence_of_element_located((By.ID,"billing_name")))
+# billing_name.send_keys("Rahul")
+#
+# phonenumber =get_wait().until(ec.presence_of_element_located((By.ID,"billing_phone")))
+# phonenumber.send_keys(23456)
+#
+# both=get_wait().until(ec.element_to_be_clickable((By.ID,"female")))
+# both.click()
+website_header=get_element((By.XPATH,"//h1[text()=' Dummy Ticket Booking Website']"))
+assert website_header
 
-phonenumber =get_wait().until(ec.presence_of_element_located((By.ID,"billing_phone")))
-phonenumber.send_keys(23456)
+billing_name=get_element((By.ID,"billing_name"),wait_cond=ec.element_to_be_clickable)
+billing_name.send_keys('Rahul')
 
-both=get_wait().until(ec.element_to_be_clickable((By.ID,"female")))
+phonenumber=get_element((By.ID,"billing_phone"),wait_cond=ec.visibility_of_element_located)
+phonenumber.send_keys(3456)
+
+both=get_element((By.XPATH,"//span[text()='Both']//preceding-sibling::input[1]"),wait_cond=ec.element_to_be_clickable)
 both.click()
 
 time.sleep(10)
