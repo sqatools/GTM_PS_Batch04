@@ -12,6 +12,7 @@ from selenium.webdriver.support.wait import WebDriverWait  #webdriverwait is a c
 from selenium.webdriver.support import expected_conditions as ec  #excepted condition renamed as ec so when ever needed we can easily use ec.
 from selenium.webdriver.common.by import By
 
+
 driver = webdriver.Chrome()
 driver.maximize_window()
 #implicit wait applies on all the elements of the web page by default
@@ -70,4 +71,5 @@ driver.close()
 #flent wait == assume the total time 15 sec driver actually do there is period specific time, in between specific time it will check again and again and again for the element is there or not
 #if the element is find in 5th sec it will only confuse 5 sec only, time interval between each check is the fluent wait.
 #default value is 0.5 that means in 15 sec it will check for 30 times for the element.
+
 
