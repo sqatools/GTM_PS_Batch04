@@ -1,0 +1,9 @@
+# command to execute the pytest file: run this command in terminal
+-> first open terminal in current location of the file
+ python -m pytest -v .\test_smoke_cases.py
+
+# execute specific test cases
+ python -m pytest -v .\test_smoke_cases.py::test_subtraction
+
+# execute the test cases with help of specific markers.
+ python -m pytest -v -m smoke .\test_smoke_cases.p
