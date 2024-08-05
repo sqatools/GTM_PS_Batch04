@@ -1,0 +1,36 @@
+# Topics we have covered
+
+-> test file
+    python -m pytest -v .\test_smoke_cases.py
+
+-> test function
+   python -m pytest -v .\test_smoke_cases.py::test_subtraction
+
+-> test markers
+   python -m pytest -v -m sanity .\test_smoke_skip_cases.py
+
+-> test marker with and condition
+   python -m pytest -v -m "t1 and sanity" .\test_smoke_skip_cases.py
+
+-> test marker with or condition
+   python -m pytest -v -m "t1 or sanity" .\test_smoke_skip_cases.py
+
+-> test level execution (specific test)
+   python -m pytest -v .\test_smoke_cases.py::test_subtraction
+
+-> test file level execution
+
+-> test folder level execution
+   python -m pytest -v .\tests\
+   python -m pytest -v -m smoke .\tests\
+
+-> test skip marker (unconditional skip)
+
+-> test skipif (conditional based skip)
+
+-> html report
+   install pytest-html package using command (pip install pytest-html)
+   python -m pytest -v -m smoke .\tests\ --html=report.html
+
+->  xfail for intermittent failed test cases due to specific reason
+    python -m pytest -v  .\tests\test_feature_xfail_cases.py --html=report.html

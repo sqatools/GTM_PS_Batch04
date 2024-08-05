@@ -7,3 +7,20 @@
 
 # execute the test cases with help of specific markers.
  python -m pytest -v -m smoke .\test_smoke_cases.p
+
+
+# command to execute the test from folder level
+ python -m pytest -v .\tests\
+ python -m pytest -v .\tests\test_sanity_skip_cases.py
+
+#
+
+
+# command to execute test with and condition of markers
+  This will execute only those test cases where the markers are mathing with t1 and smoke
+ python -m pytest -v -m "t1 and sanity" .\test_smoke_skip_cases.py
+
+
+# command to execute test with or condition of markers
+  This will execute all the the test cases with t1 or sanity markers.
+ python -m pytest -v -m "t1 or sanity" .\test_smoke_skip_cases.py
