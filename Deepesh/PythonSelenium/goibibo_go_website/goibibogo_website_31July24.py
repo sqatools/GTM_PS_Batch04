@@ -38,7 +38,7 @@ def automate_goibibo_website():
     get_element(locator=close_pop_button).click()
     get_element(locator=from_enter_city_loc).click()
 
-    get_element(locator=from_city_input_field).send_keys("Mumbai (BOM)")
+    get_element(locator=from_city_input_field).send_keys("Mumbai)")
     get_element(locator=(By.XPATH, f"//span[text()='{source_city_name}']")).click()
 
     get_element(locator=to_city_input_field).send_keys("Bengaluru")
