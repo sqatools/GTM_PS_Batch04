@@ -24,7 +24,7 @@ def handle_alert():
 
 
 
-#handle_alert()
+handle_alert()
 
 def handle_confirm_box():
     driver.get("https://automationbysqatools.blogspot.com/2020/08/alerts.html")
@@ -36,7 +36,7 @@ def handle_confirm_box():
     alert.accept()
     # print(get_element(locator=(By.XPATH,"// p[ @ id = 'demo']")).text)
     # time.sleep(4)
-#handle_confirm_box()
+handle_confirm_box()
 def handle_prompt_box():
     driver.get("https://automationbysqatools.blogspot.com/2020/08/alerts.html")
     alert = Alert(driver)
