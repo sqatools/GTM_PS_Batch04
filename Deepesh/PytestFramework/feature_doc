@@ -34,3 +34,9 @@
 
 ->  xfail for intermittent failed test cases due to specific reason
     python -m pytest -v  .\tests\test_feature_xfail_cases.py --html=report.html
+
+################### Fixtures ########################
+
+-> fixture fundamentals(scopes, function, module, package, session, class)
+   python -m pytest -v -s .\test_booking_cases.py
+
