@@ -40,3 +40,11 @@
 -> fixture fundamentals(scopes, function, module, package, session, class)
    python -m pytest -v -s .\test_booking_cases.py
 
+-> Test parameterization with and without excel data.
+
+-> Read data from excel sheet and use in automation
+
+# scenario to complete
+# 1. test file with all fixture function in one file
+# 2. test file with conftest file.
+# 3. test file with data file and utility file to read data from excel.
