@@ -48,3 +48,10 @@
 # 1. test file with all fixture function in one file
 # 2. test file with conftest file.
 # 3. test file with data file and utility file to read data from excel.
+
+
+# test class file execution
+   python -m pytest -v -s .\test_feature_class.py
+
+# execute specific function from test class
+  python -m pytest -v -s .\test_feature_class.py::TestBooking::test_hotel_booking
