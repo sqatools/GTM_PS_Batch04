@@ -54,3 +54,27 @@ execution started
 execution completed
 
  2024-08-08 17:16:24.061955-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-08 19:11:17.375772---module execution started
+
+ 2024-08-08 19:11:17.453879-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-08 19:13:37.050278---module execution started
+
+ 2024-08-08 19:14:20.260654-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-08 19:33:13.122188---module execution started
+
+ 2024-08-08 19:33:13.122188-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-08 19:33:31.819535---module execution started
+
+ 2024-08-08 19:33:31.835129-- module execution completed
