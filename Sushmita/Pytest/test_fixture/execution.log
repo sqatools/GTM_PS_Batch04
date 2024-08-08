@@ -1,0 +1,76 @@
+
+---function execution started----
+ ----function execution completed----
+---function execution started----
+ ----function execution completed----
+ test name :test_addition
+
+ test name :test_multiply
+
+ test name :test_addition
+2024-08-08 14:56:50.491545---function execution started----
+ test name :test_addition
+2024-08-08 14:56:50.491545 ----function execution completed----
+ test name :test_multiply
+2024-08-08 14:56:50.496133---function execution started----
+ test name :test_multiply
+2024-08-08 14:56:50.554601 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:13:23.765566 ----function execution startted----
+ test name :test_addition
+2024-08-08 15:13:23.765566---function execution started----
+ test name :test_addition
+2024-08-08 15:13:23.765566 ----function execution completed----
+ test name :test_multiply
+2024-08-08 15:13:23.765566---function execution started----
+ test name :test_multiply
+2024-08-08 15:13:23.828995 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:13:23.828995 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:14:13.955498 ----module execution startted----
+ test name :test_addition
+2024-08-08 15:14:13.955498---function execution started----
+ test name :test_addition
+2024-08-08 15:14:13.955498 ----function execution completed----
+ test name :test_multiply
+2024-08-08 15:14:13.955498---function execution started----
+ test name :test_multiply
+2024-08-08 15:14:14.018659 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:14:14.018659 ----module execution completed----
+ module name :test_booking.py
+2024-08-08 15:31:34.725356 ----module execution startted----
+
+ test name :test_filght
+2024-08-08 15:31:34.725356---function execution started----
+ test name :test_filght
+2024-08-08 15:31:34.725356 ----function execution completed----
+ test name :test_bus
+2024-08-08 15:31:34.725356---function execution started----
+ test name :test_bus
+2024-08-08 15:31:34.787915 ----function execution completed----
+ test name :test_auto
+2024-08-08 15:31:34.787915---function execution started----
+ test name :test_auto
+2024-08-08 15:31:34.787915 ----function execution completed----
+ module name :test_booking.py
+2024-08-08 15:31:34.787915 ----module execution completed----
+
+ module name :test_booking.py
+2024-08-08 15:33:01.270612 ----module execution startted----
+
+ test name :test_filght
+2024-08-08 15:33:01.270612---function execution started----
+ test name :test_filght
+2024-08-08 15:33:01.270612 ----function execution completed----
+ test name :test_bus
+2024-08-08 15:33:01.270612---function execution started----
+ test name :test_bus
+2024-08-08 15:33:01.343334 ----function execution completed----
+ test name :test_auto
+2024-08-08 15:33:01.343334---function execution started----
+ test name :test_auto
+2024-08-08 15:33:01.343334 ----function execution completed----
+ module name :test_booking.py
+2024-08-08 15:33:01.343334 ----module execution completed----
