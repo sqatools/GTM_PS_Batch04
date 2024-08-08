@@ -1,0 +1,56 @@
+execution startedexecution completedexecution startedexecution completed
+execution started
+
+execution completed
+
+execution started
+
+execution completed
+
+ 2024-08-08 16:53:59.634865---module execution started
+
+ 2024-08-08 16:53:59.682119-- module execution completed
+
+ 2024-08-08 16:55:08.350714---module execution started
+
+execution started
+
+execution completed
+
+execution started
+
+execution completed
+
+ 2024-08-08 16:55:08.413232-- module execution completed
+
+ module name : test_fixture_conftnest.py
+
+ 2024-08-08 17:11:16.228134---module execution started
+
+execution started
+
+execution completed
+
+execution started
+
+execution completed
+
+ 2024-08-08 17:11:16.275027-- module execution completed
+
+ module name : test_fixture_conftnest.py
+
+ 2024-08-08 17:16:24.014695---module execution started
+
+ testcase level : test_mul
+
+execution started
+
+execution completed
+
+ testcase level : test_add
+
+execution started
+
+execution completed
+
+ 2024-08-08 17:16:24.061955-- module execution completed
