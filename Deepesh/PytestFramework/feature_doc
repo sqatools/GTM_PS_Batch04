@@ -55,3 +55,10 @@
 
 # execute specific function from test class
   python -m pytest -v -s .\test_feature_class.py::TestBooking::test_hotel_booking
+
+# open browser for each class -> execute specific class -> close browser
+  (repeat same process for all the classes with class fixture.
+
+# Open one browser -> execute all the test classes -> close browser
+  we will achieve this with session and function fixture.
+
