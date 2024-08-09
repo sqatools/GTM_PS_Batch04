@@ -12,7 +12,7 @@ class TestBooking:
 
     def test_hotel_booking(self):
         self.driver.find_element(By.ID, "fromcity").send_keys("Mumbai")
-        self.river.find_element(By.ID, "destcity").send_keys("Kolkata")
+        self.driver.find_element(By.ID, "destcity").send_keys("Kolkata")
 
     def test_flight_booking(self):
         self.driver.find_element(By.ID, "billing_name").send_keys("John")
