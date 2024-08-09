@@ -10,7 +10,7 @@ def test_multiplication(first_setup):
     num2 = 30
     print("multiply output :", num1*num2)
     assert num1 * num2 == 500
-
+    print("Hello")
 
 def test_subtraction(first_setup):
     num1 = 200
