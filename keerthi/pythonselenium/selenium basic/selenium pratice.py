@@ -29,6 +29,6 @@ driver.find_element(By.ID, "roundtrip").click()
 # (how to give  atype ) Tag name as well.
 driver.find_element(By.NAME, "fromcity").send_keys("pune")
 driver.find_element(By.NAME,"destcity").send_keys("hyderabad")
-driver.find_element(By.NAME,"depardate").click()
+driver.find_element(By.NAME,"departdate").click()
 time.sleep(10)
 
