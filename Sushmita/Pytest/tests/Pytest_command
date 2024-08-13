@@ -1,0 +1,16 @@
+# Topics we have covered
+
+-> test file
+    python -m pytest -v .\test_smoke_cases.py
+
+-> test function
+   python -m pytest -v .\test_smoke_cases.py::test_subtraction
+
+-> test markers
+   python -m pytest -v -m sanity .\test_smoke_skip_cases.py
+
+-> test marker with and condition
+   python -m pytest -v -m "t1 and sanity" .\test_smoke_skip_cases.py
+
+-> test marker with or condition
+   python -m pytest -v -m "t1 or sanity" .\test_smoke_skip_cases.py

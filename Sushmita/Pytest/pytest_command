@@ -7,3 +7,49 @@
 
 # execute the test cases with help of specific markers.
  python -m pytest -v -m smoke .\test_smoke_cases.p
+
+-> test marker with and condition
+   python -m pytest -v -m "t1 and sanity" .\test_smoke_skip_cases.py
+
+-> test marker with or condition
+   python -m pytest -v -m "t1 or sanity" .\test_smoke_skip_cases.py
+
+-> test level execution (specific test)
+   python -m pytest -v .\test_smoke_cases.py::test_subtraction
+
+-> test file level execution
+
+-> test folder level execution
+   python -m pytest -v .\tests\
+   python -m pytest -v -m smoke .\tests\
+
+-> test skip marker (unconditional skip)
+
+-> test skipif (conditional based skip)
+
+-> html report
+   install pytest-html package using command (pip install pytest-html)
+   python -m pytest -v -m smoke .\tests\ --html=report.html
+
+->  xfail for intermittent failed test cases due to specific reason
+    python -m pytest -v  .\tests\test_feature_xfail_cases.py --html=report.html
+
+################### Fixtures ########################
+-> fixture fundamentals(scopes, function, module, package, session, class)
+   python -m pytest -v -s .\test_booking_cases.py
+
+-> Test parameterization with and without excel data.
+
+-> Read data from excel sheet and use in automation
+
+# scenario to complete
+# 1. test file with all fixture function in one file
+# 2. test file with conftest file.
+# 3. test file with data file and utility file to read data from excel.
+
+
+# test class file execution
+   python -m pytest -v -s .\test_feature_class.py
+
+# execute specific function from test class
+  python -m pytest -v -s .\test_feature_class.py::TestBooking::test_hotel_booking

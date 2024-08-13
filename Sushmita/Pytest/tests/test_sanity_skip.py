@@ -28,12 +28,12 @@ def test_fun4():
     num2 = 30
     assert num1 + num2 == 50
 
-@pytest.mark.smoke
+@pytest.mark.smokepy
 @pytest.mark.skipif(env == 'PROD', reason="This test is not allowed in production")
 def test_fun5():
     num1 = 20
     num2 = 30
-    assert num1 * num2 == 500
+    assert num1 * num2 == 600
 
 @pytest.mark.sanity
 @pytest.mark.skip

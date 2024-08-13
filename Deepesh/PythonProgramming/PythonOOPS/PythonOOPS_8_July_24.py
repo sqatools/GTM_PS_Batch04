@@ -56,7 +56,7 @@ class ABC:
         self.y_var = y  # Instance variable
         self.greeting()
 
-"""
+'''
 obj = ABC()
 obj.greeting()
 
@@ -68,7 +68,8 @@ print("_"*50)
 obj2 = ABC()
 obj2.greeting()
 obj2.addition(50, 60)
-"""
+'''
+
 
 print("_"*50)
 var1 = int(input("please enter value for var1 :"))

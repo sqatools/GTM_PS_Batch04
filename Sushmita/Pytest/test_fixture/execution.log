@@ -1,0 +1,160 @@
+
+---function execution started----
+ ----function execution completed----
+---function execution started----
+ ----function execution completed----
+ test name :test_addition
+
+ test name :test_multiply
+
+ test name :test_addition
+2024-08-08 14:56:50.491545---function execution started----
+ test name :test_addition
+2024-08-08 14:56:50.491545 ----function execution completed----
+ test name :test_multiply
+2024-08-08 14:56:50.496133---function execution started----
+ test name :test_multiply
+2024-08-08 14:56:50.554601 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:13:23.765566 ----function execution startted----
+ test name :test_addition
+2024-08-08 15:13:23.765566---function execution started----
+ test name :test_addition
+2024-08-08 15:13:23.765566 ----function execution completed----
+ test name :test_multiply
+2024-08-08 15:13:23.765566---function execution started----
+ test name :test_multiply
+2024-08-08 15:13:23.828995 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:13:23.828995 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:14:13.955498 ----module execution startted----
+ test name :test_addition
+2024-08-08 15:14:13.955498---function execution started----
+ test name :test_addition
+2024-08-08 15:14:13.955498 ----function execution completed----
+ test name :test_multiply
+2024-08-08 15:14:13.955498---function execution started----
+ test name :test_multiply
+2024-08-08 15:14:14.018659 ----function execution completed----
+ test name :test_feature.py
+2024-08-08 15:14:14.018659 ----module execution completed----
+ module name :test_booking.py
+2024-08-08 15:31:34.725356 ----module execution startted----
+
+ test name :test_filght
+2024-08-08 15:31:34.725356---function execution started----
+ test name :test_filght
+2024-08-08 15:31:34.725356 ----function execution completed----
+ test name :test_bus
+2024-08-08 15:31:34.725356---function execution started----
+ test name :test_bus
+2024-08-08 15:31:34.787915 ----function execution completed----
+ test name :test_auto
+2024-08-08 15:31:34.787915---function execution started----
+ test name :test_auto
+2024-08-08 15:31:34.787915 ----function execution completed----
+ module name :test_booking.py
+2024-08-08 15:31:34.787915 ----module execution completed----
+
+ module name :test_booking.py
+2024-08-08 15:33:01.270612 ----module execution startted----
+
+ test name :test_filght
+2024-08-08 15:33:01.270612---function execution started----
+ test name :test_filght
+2024-08-08 15:33:01.270612 ----function execution completed----
+ test name :test_bus
+2024-08-08 15:33:01.270612---function execution started----
+ test name :test_bus
+2024-08-08 15:33:01.343334 ----function execution completed----
+ test name :test_auto
+2024-08-08 15:33:01.343334---function execution started----
+ test name :test_auto
+2024-08-08 15:33:01.343334 ----function execution completed----
+ module name :test_booking.py
+2024-08-08 15:33:01.343334 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 12:13:37.710188 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 12:13:37.725492 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 12:27:21.738277 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 12:27:28.363843 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 12:29:43.459544 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 12:30:00.353234 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 13:09:18.866330 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 13:09:18.898522 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 13:52:48.636151 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 13:52:48.664134 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 14:29:52.201096 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 14:29:52.216718 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 14:47:29.528988 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 14:47:29.545766 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 14:50:15.449839 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 14:50:15.516420 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 14:55:42.030650 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 14:55:42.100433 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 14:57:31.053472 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 14:57:31.117920 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 15:01:03.840298 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 15:01:03.902784 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 15:02:44.399624 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 15:02:44.474244 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 15:19:35.738296 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 15:19:35.896911 ----module execution completed----
+
+ module name :test_login_parameter.py
+2024-08-09 15:20:26.146962 ----module execution startted----
+
+ module name :test_login_parameter.py
+2024-08-09 15:20:26.251498 ----module execution completed----

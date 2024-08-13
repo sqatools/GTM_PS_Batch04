@@ -1,0 +1,142 @@
+
+ module name :test_featurecases.py
+
+ module name :test_featurecases.py
+ -- module execution started --
+
+ test name :test_addition
+ 
+ test name :test_multiplication
+ 
+ test name :test_subtraction
+ -- module execution completed --
+
+ module name :test_fixtures.py
+ module execution started --
+module execution completed --
+
+ module name :test_featurecases.py
+ module execution started --
+
+ test name :test_addition
+ function execution started --
+function execution completed --
+
+ test name :test_multiplication
+ function execution started --
+function execution completed --
+
+ test name :test_subtraction
+ function execution started --
+function execution completed --
+module execution completed --
+
+ module name :test_featurecases.py
+
+ module name :test_fixtures.py
+
+ module name :test_featurecases.py
+
+ module name :test_fixtures.py
+
+ module name :test_featurecases.py
+
+ module name :test_fixtures.py
+
+ module name :test_fixtures.py
+
+ module name :test_fixtures.py
+2024-08-10 05:17:29.591765--- module execution started --
+2024-08-10 05:17:29.607350-----module execution completed --
+
+ module name :test_featurecases.py
+2024-08-10 05:20:17.488398--- module execution started --
+
+ test name :test_addition
+ 2024-08-10 05:20:17.488398---function execution started --
+2024-08-10 05:20:17.488398---function execution completed --
+
+ test name :test_multiplication
+ 2024-08-10 05:20:17.488398---function execution started --
+2024-08-10 05:20:17.628678---function execution completed --
+
+ test name :test_subtraction
+ 2024-08-10 05:20:17.644301---function execution started --
+2024-08-10 05:20:17.644301---function execution completed --
+2024-08-10 05:20:17.644301-----module execution completed --
+
+ module name :test_fixtures.py
+2024-08-10 05:22:43.740676--- module execution started --
+2024-08-10 05:22:43.881271-----module execution completed --
+
+ module name :
+2024-08-10 05:27:01.874174--- module execution started --
+
+ module name :test_featurecases.py
+2024-08-10 05:27:01.874174--- module execution started --
+
+ test name :test_addition
+ 2024-08-10 05:27:01.874174---function execution started --
+2024-08-10 05:27:01.874174---function execution completed --
+
+ test name :test_multiplication
+ 2024-08-10 05:27:01.874174---function execution started --
+2024-08-10 05:27:02.039064---function execution completed --
+
+ test name :test_subtraction
+ 2024-08-10 05:27:02.040222---function execution started --
+2024-08-10 05:27:02.042328---function execution completed --
+2024-08-10 05:27:02.042328-----module execution completed --
+2024-08-10 05:27:02.042328-----module execution completed --
+
+ package name :
+2024-08-10 05:29:25.608738--- package execution started --
+
+ module name :test_featurecases.py
+2024-08-10 05:29:25.624358--- module execution started --
+
+ test name :test_addition
+ 2024-08-10 05:29:25.624358---function execution started --
+2024-08-10 05:29:25.624358---function execution completed --
+
+ test name :test_multiplication
+ 2024-08-10 05:29:25.624358---function execution started --
+2024-08-10 05:29:25.749364---function execution completed --
+
+ test name :test_subtraction
+ 2024-08-10 05:29:25.749364---function execution started --
+2024-08-10 05:29:25.764950---function execution completed --
+2024-08-10 05:29:25.764950-----module execution completed --
+2024-08-10 05:29:25.764950-----package execution completed --
+
+ package name :
+2024-08-10 07:03:40.445403--- package execution started --
+
+ module name :test_featurecases.py
+2024-08-10 07:03:40.452590--- module execution started --
+
+ test name :test_addition
+ 2024-08-10 07:03:40.454308---function execution started --
+2024-08-10 07:03:40.456303---function execution completed --
+
+ test name :test_multiplication
+ 2024-08-10 07:03:40.458681---function execution started --
+2024-08-10 07:03:40.654744---function execution completed --
+
+ test name :test_subtraction
+ 2024-08-10 07:03:40.658708---function execution started --
+2024-08-10 07:03:40.660910---function execution completed --
+2024-08-10 07:03:40.663234-----module execution completed --
+2024-08-10 07:03:40.665338-----package execution completed --
+
+ package name :
+2024-08-10 07:16:34.176316--- package execution started --
+
+ module name :test_fixtures.py
+2024-08-10 07:16:34.179400--- module execution started --
+
+ test name :test_addition
+ 2024-08-10 07:16:34.181394---function execution started --
+2024-08-10 07:16:34.184943---function execution completed --
+2024-08-10 07:16:34.347511-----module execution completed --
+2024-08-10 07:16:34.349549-----package execution completed --
