@@ -62,3 +62,23 @@
 # Open one browser -> execute all the test classes -> close browser
   we will achieve this with session and function fixture.
 
+-> Pytest.ini file marker registration
+-> Logging in pytest
+-> Parallel execution of the test cases with pytest-xdist module
+   pip install pytest-xdist
+
+   # In below command auto represent the number of the cores of the system to pick the parallel execution
+     of the test case
+   python -m pytest -v -n auto .\test_prarallel_execution\
+
+   #  In below -n 4 represent, every time, it will 4 test cases to execute parallely.
+    python -m pytest -v -n 4 .\test_prarallel_execution\
+
+
+-> Add custom command line option to provide browser name./
+   python -m pytest -v --browser=Firefox .\test_class_commandline_options\
+
+
+-> Add specific order to the test case for the execution with marker "pytest.mark.order"
+
+

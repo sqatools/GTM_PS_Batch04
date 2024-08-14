@@ -5,11 +5,13 @@ import pytest
 from selenium.webdriver.common.by import By
 
 log = logging.getLogger(__name__)
-#log.info()
-#log.warning()
-#log.error()
-#log.critical()
-#log.exception()
+
+
+# log.info()
+# log.warning()
+# log.error()
+# log.critical()
+# log.exception()
 
 
 @pytest.mark.usefixtures("get_driver")
@@ -44,4 +46,3 @@ class TestDummyWebsite:
         billing_phone_value = "75667546546"
         log.info(f"{billing_phone_locator} : {billing_phone_value}")
         self.driver.find_element(*billing_phone_locator).send_keys(billing_phone_value)
-
