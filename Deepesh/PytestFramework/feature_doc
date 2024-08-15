@@ -82,3 +82,35 @@
 -> Add specific order to the test case for the execution with marker "pytest.mark.order"
 
 
+->  Design custom framework (Hybrid framework)
+
+    seleniumbase
+        -  def click_element()
+        -  def enter_data()
+        -  def select_dropdown()
+
+    login_page_class ( locator file, data file)
+        -  def enter_username()
+               enter_data()
+
+        -  def enter_password()
+               enter_data()
+
+        -  def click_submit_btn()
+                click_element()
+
+    registration_page_class()
+
+
+    test_login_page
+        - def test_login_functionality()
+              enter_firstname()
+              enter_password()
+              click_submit_btn()
+
+
+
+
+
+
+
