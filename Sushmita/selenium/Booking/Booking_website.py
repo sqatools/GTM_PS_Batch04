@@ -16,12 +16,14 @@ def  get_wait(locator,wait_time=30):
 def Booking_automation():
     driver.get("https://www.booking.com/")
     get_wait(locator=flight).click()
-    #dest.send_keys('Bangalore')
+    get_wait(locator=oneway).click()
+    get_wait(locator=source).send_keys('Bangalore')
 
 
     #print(destion.text())
     time.sleep(10)
 
 Booking_automation()
+#
 time.sleep(5)
 driver.close()

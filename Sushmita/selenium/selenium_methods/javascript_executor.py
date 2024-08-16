@@ -15,7 +15,7 @@ def get_wait(locator,wait_time=30):
 
 def use_of_clear_method():
     driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
-    city_element = get_element(locator=(By.NAME, "fromcity"))
+    city_element = get_wait(locator=(By.NAME, "fromcity"))
     city_element.send_keys("Mumbai")
     time.sleep(5)
     city_element.clear()

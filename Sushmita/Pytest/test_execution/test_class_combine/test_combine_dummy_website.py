@@ -6,7 +6,7 @@ class TestDummyWebsite:
 
     @pytest.fixture(autouse=True)
     def setup(self,get_driver_session):
-        self.driver = get_driver_session()
+        self.driver = get_driver_session
 
     def test_booking_info(self):
         self.driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
