@@ -1,7 +1,7 @@
 # Topics we have covered
 
 -> test file
-    python -m pytest -v .\test_smoke_cases.py
+   p python -m pytest -v .\test_smoke_cases.py
 
 -> test function
    python -m pytest -v .\test_smoke_cases.py::test_subtraction
