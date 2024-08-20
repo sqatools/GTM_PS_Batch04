@@ -6,5 +6,5 @@ first_name_value = "John"
 last_name_value = "Jenny"
 
 #### locators ######
-first_name_locator = (By.XPATH, "(//input[@name='firstname'])[1]")
+first_name_locator = (By.XPATH, "(//input[@name='firstname1'])[1]")
 last_name_locator = (By.XPATH, "(//input[@name='firstname'])[2]")
