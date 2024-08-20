@@ -17,7 +17,7 @@ driver.get("https://www.google.co.in")
 driver.find_element(By.XPATH, "//*[@title='Search']").send_keys("Python Selenium")
 
 driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
-driver.find_element(By.XPATH, "(//input[@name='firstname'])[1]").send_keys("Rahul")
-driver.find_element(By.XPATH, "(//input[@name='firstname'])[2]").send_keys("Gupta")
+#driver.find_element(By.XPATH, "(//input[@name='firstname'])[1]").send_keys("Rahul")
+#driver.find_element(By.XPATH, "(//input[@name='firstname'])[2]").send_keys("Gupta")
 
 time.sleep(10)
