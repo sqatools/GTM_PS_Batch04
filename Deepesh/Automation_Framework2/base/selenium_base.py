@@ -29,6 +29,15 @@ class SeleniumBase:
             self.log.info(f"{locator} {e}")
             self.take_screenshot(filename='element_not_found')
 
+    def get_elements_list(self, locator):
+        try:
+            elements_list = self.wait.until(ec.visibility_of_all_elements_located(locator))
+            self.log.info(f"found element with locator: {locator}")
+            return elements_list
+        except Exception as e:
+            self.log.info(f"{locator} {e}")
+            self.take_screenshot(filename='element_not_found')
+
     def enter_text(self, data, locator):
         try:
             element = self.get_element(locator)

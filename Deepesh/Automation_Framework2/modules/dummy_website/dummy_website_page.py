@@ -1,3 +1,5 @@
+import time
+
 from base.selenium_base import SeleniumBase
 from resource.dummy_website.dummy_website_page_data import *
 
@@ -30,6 +32,12 @@ class DummyWebsite(SeleniumBase):
     def enter_dest_city_value(self, dest_city):
         self.enter_text(dest_city, dest_city_locator)
 
+    def select_all_checkboxes(self):
+        elements_list = self.get_elements_list(checkboxes_list_locator)
+        for element in elements_list:
+            element.click()
+            time.sleep(1)
+
     def provide_journey_details(self,
                                 dob,
                                 no_of_pass,
@@ -41,3 +49,4 @@ class DummyWebsite(SeleniumBase):
         self.select_one_way_trip()
         self.enter_from_city_value(from_city)
         self.enter_dest_city_value(dest_city)
+        self.select_all_checkboxes()
