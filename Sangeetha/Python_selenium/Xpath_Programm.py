@@ -44,7 +44,7 @@ driver.find_element(By.XPATH,"//input[@id='billing_address']").send_keys("No119,
 time.sleep(5)
 driver.find_element(By.XPATH,"//input[@id='postcode']").send_keys("600053")
 time.sleep(5)
-# driver.find_element(By.XPATH,"//input[@id='prefecture']").send_keys("Tamilnadu")
+driver.find_element(By.XPATH,"//input[@id='Prefecture']").send_keys("Tamilnadu")
 time.sleep(5)
 driver.find_element(By.XPATH,"//input[@id='street_address1']").send_keys("No119,f4,sai homes,chennai")
 time.sleep(5)
