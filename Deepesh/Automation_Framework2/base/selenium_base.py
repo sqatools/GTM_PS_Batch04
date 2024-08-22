@@ -23,6 +23,7 @@ class SeleniumBase:
     def get_element(self, locator):
         try:
             element = self.wait.until(ec.visibility_of_element_located(locator))
+            self.log.info(f"found element with locator: {locator}")
             return element
         except Exception as e:
             self.log.info(f"{locator} {e}")
@@ -31,6 +32,7 @@ class SeleniumBase:
     def enter_text(self, data, locator):
         try:
             element = self.get_element(locator)
+            self.log.info(f"Enter value: {data},  to the element: {locator}")
             element.send_keys(data)
         except Exception as e:
             self.log.info(f"{locator} {e}")
@@ -38,14 +40,32 @@ class SeleniumBase:
             raise
 
     def click_element(self, locator):
-        element = self.get_element(locator)
-        element.click()
+        try:
+            element = self.get_element(locator)
+            self.log.info(f"clicking to the element: {locator}")
+            element.click()
+        except Exception as e:
+            self.log.info(f"{locator} {e}")
+            self.take_screenshot(filename='element_not_found')
+            raise
 
     def get_text(self, locator):
-        element = self.get_element(locator)
-        return element.text
+        try :
+            element = self.get_element(locator)
+            self.log.info(f"getting text from the element: {locator}")
+            return element.text
+        except Exception as e:
+            self.log.info(f"{locator} {e}")
+            self.take_screenshot(filename='element_not_found')
+            raise
 
     def select_value_from_dropdown(self, value, locator):
-        element = self.get_element(locator)
-        select = Select(element)
-        select.select_by_visible_text(value)
+        try:
+            element = self.get_element(locator)
+            select = Select(element)
+            self.log.info(f"selecting value: {value} from the dropdown: {locator}")
+            select.select_by_visible_text(value)
+        except Exception as e:
+            self.log.info(f"{locator} {e}")
+            self.take_screenshot(filename='element_not_found')
+            raise
