@@ -20,4 +20,4 @@ class TestDummyWebsite:
         ele1=self.driver.find_element(By.LINK_TEXT,'Manual Testing')
         ele1.click()
         text=self.driver.find_element(By.XPATH,'//h3[@itemprop="name"]')
-        print(text.getText())
+        #print(text.getText())
