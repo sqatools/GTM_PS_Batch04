@@ -1,3 +1,11 @@
+# python -m pytest -v .\Tests\google_search\test_google_search_page.py
+
+
+import pytest
+from Modules.google_search_page import GoogleSearchPage
+from Resource.google_page.google_search_page_data import *
+import time
+
 @pytest.mark.usefixtures("get_driver")
 class TestGoogleSearch:
 
