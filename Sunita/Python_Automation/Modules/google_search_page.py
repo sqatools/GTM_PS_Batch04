@@ -1,5 +1,5 @@
-from base.selenium_base import SeleniumBase
-from resource.google_page.google_search_page_data import *
+from Base.selenium_base import SeleniumBase
+from Resource.google_page.google_search_page_data import *
 
 class GoogleSearchPage(SeleniumBase):
     def __init__(self,driver):
