@@ -2,9 +2,9 @@ import time
 
 import pytest
 from modules.google_page.google_search_page import GoogleSearchPage
-from modules.google_page.google_search_page_data import *
+from resource.google_page.google_search_page_data import *
 
-@pytest.mark.usefixtures("get_driver")
+@pytest.mark.usefixtures("get_driver_google_search")
 class TestGoogleSearch:
 
     @pytest.fixture(autouse=True)
