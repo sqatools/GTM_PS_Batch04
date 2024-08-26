@@ -1,0 +1,6 @@
+2024-08-24 12:49:34 [INFO] (test_dropdown.py:14) selecting value from add more passenger dropdown
+2024-08-24 12:49:55 [INFO] (test_dropdown.py:27) selecting value from billing country dropdown
+2024-08-24 12:50:03 [INFO] (test_dummy_website.py:16) ('id', 'fromcity'): Mumbai
+2024-08-24 12:50:04 [INFO] (test_dummy_website.py:21) ('id', 'destcity'): Pune
+2024-08-24 12:50:04 [INFO] (test_dummy_website.py:34) ('id', 'billing_name'): John
+2024-08-24 12:50:04 [INFO] (test_dummy_website.py:39) ('id', 'billing_phone') : 75667546546

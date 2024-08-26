@@ -1,9 +1,17 @@
+import pytest
+
+from module.google_page.googgle_sesrch_page import GoogleSearchPage
+from resource.google_search.google_search_page_locator import *
+import time
+
 @pytest.mark.usefixtures("get_driver")
 class TestGoogleSearch:
 
+
     @pytest.fixture(autouse=True)
     def setup(self):
-        self.gs = GoogleSearchPage(self.driver)
+        self.gs =GoogleSearchPage(self.driver)
+
 
     def test_search_on_google(self):
         self.driver.get("https://www.google.co.in")
