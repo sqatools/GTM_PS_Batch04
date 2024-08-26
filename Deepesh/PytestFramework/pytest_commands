@@ -3,6 +3,7 @@
  python -m pytest -v .\test_smoke_cases.py
 
 # execute specific test cases
+
  python -m pytest -v .\test_smoke_cases.py::test_subtraction
 
 # execute the test cases with help of specific markers.
