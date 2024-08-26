@@ -16,5 +16,5 @@ class Testflightbooking:
         self.bb.To_city_name(To_city_name)
         self.bb.To_city_name_from_suggestion_list(To_city_name)
         self.bb.select_travel_date(Departure_date)
-        self.bb.select_Adult(add_adults)
+        self.bb.select_Adult(Ad_adults)
 
