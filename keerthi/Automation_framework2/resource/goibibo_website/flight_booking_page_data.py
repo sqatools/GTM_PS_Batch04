@@ -23,3 +23,9 @@ calender_locator=(By.XPATH, "//span[text()='Departure']//parent::div}")
 travellers_class_loc = (By.XPATH, "//span[text()='Travellers & Class']//parent::div")
 
 add_adults_icon = (By.XPATH, "//p[text()='Adults']//parent::div")
+add_child_icon = (By.XPATH, "//p[text()='children']//parent::div")
+
+Economy_select = (By.XPATH, "//li[text()='economy']//parent::div")
+premium_economy_select = (By.XPATH,"//li[text()='premium economy']//parent::div")
+Bussiness_click = (By.XPATH, "//li[text()='Business']//parent::div")
+Firstclass_click=(By.XPATH,"")
