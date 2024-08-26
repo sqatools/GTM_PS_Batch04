@@ -1,0 +1,28 @@
+
+ Module name :test_fixture_cases.py 
+2024-08-07 20:40:58.172659---module execution started----
+
+ test name :test_addition 
+2024-08-07 20:40:58.172659---function execution started----
+2024-08-07 20:40:58.172659---function execution completed----
+
+ test name :test_subtraction 
+2024-08-07 20:40:58.219703---function execution started----
+2024-08-07 20:40:58.219703---function execution completed----
+2024-08-07 20:40:58.219703---module execution completed---
+
+ test name :test_addition 
+2024-08-07 20:42:18.742173---function execution started----
+2024-08-07 20:42:18.742173---function execution completed----
+
+ test name :test_subtraction 
+2024-08-07 20:42:18.790503---function execution started----
+2024-08-07 20:42:18.790503---function execution completed----
+
+ test name :test_addition 
+2024-08-07 20:43:14.823337---function execution started----
+2024-08-07 20:43:14.838773---function execution completed----
+
+ test name :test_subtraction 
+2024-08-07 20:43:14.869953---function execution started----
+2024-08-07 20:43:14.869953---function execution completed----

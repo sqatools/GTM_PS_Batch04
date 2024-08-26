@@ -1,8 +1,9 @@
 import time
-
+import logging
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
+log = logging.getLogger(__name__)
 from selenium.webdriver.common.action_chains import ActionChains
 
 @pytest.mark.usefixtures('get_driver')
@@ -10,7 +11,7 @@ class TestDropDown:
 
     @pytest.mark.smoke
     def test_add_passenger(self):
-        self.driver.get("https://automationbysqatools.blogspot.com/2021/05/dummy-website.html")
+        log.info("selecting value from add more passenger dropdown")
         add_pass=self.driver.find_element(By.ID,'admorepass')
         s_obj=Select(add_pass)
         s_obj.select_by_visible_text('Add 1 more passenger (100%)')
@@ -23,6 +24,7 @@ class TestDropDown:
 
     @pytest.mark.smoke
     def test_country(self):
+        log.info("selecting value from billing country dropdown")
         country=self.driver.find_element(By.ID,'billing_country')
         s_obj=Select(country)
         s_obj.select_by_visible_text('United Kingdom')

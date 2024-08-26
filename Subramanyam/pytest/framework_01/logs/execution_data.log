@@ -1,0 +1,33 @@
+2024-08-25 01:29:56 [INFO] (SeleniumBase.py:24) element found with locator :('xpath', "//span[@class='logSprite icClose']")
+2024-08-25 01:29:57 [INFO] (SeleniumBase.py:24) element found with locator :('xpath', "//p[text()='Round-trip']")
+2024-08-25 01:29:57 [INFO] (SeleniumBase.py:24) element found with locator :('xpath', "//font[contains(text(),'More Benefits')]//preceding::span[contains(text(),'From')]")
+2024-08-25 01:29:57 [INFO] (SeleniumBase.py:45) ('xpath', "//font[contains(text(),'More Benefits')]//preceding::span[contains(text(),'From')]") Message: element not interactable
+  (Session info: MicrosoftEdge=128.0.2739.42)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75DA53A12+10594]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF75D9F0439+323321]
+	(No symbol) [0x00007FF75D80EFD5]
+	(No symbol) [0x00007FF75D850B5C]
+	(No symbol) [0x00007FF75D84F670]
+	(No symbol) [0x00007FF75D877B7A]
+	(No symbol) [0x00007FF75D84BEDD]
+	(No symbol) [0x00007FF75D84BDAD]
+	(No symbol) [0x00007FF75D877E60]
+	(No symbol) [0x00007FF75D84BEDD]
+	(No symbol) [0x00007FF75D891B07]
+	(No symbol) [0x00007FF75D8777E3]
+	(No symbol) [0x00007FF75D84B3EC]
+	(No symbol) [0x00007FF75D84A8CD]
+	(No symbol) [0x00007FF75D84AFB1]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF75DBDE4B4+918756]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF75D97C9BF+54575]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF75D96F557+199]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF75DBDD23D+914029]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF75D9F7EC1+354689]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF75D9F4374+339508]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF75D9F44A9+339817]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF75D9EAD6C+301100]
+	BaseThreadInitThunk [0x00007FF952F5257D+29]
+	RtlUserThreadStart [0x00007FF95384AF28+40]
+
+2024-08-25 01:29:57 [INFO] (SeleniumBase.py:18) screenshot: C:\Git_Repo\GTM_PS_Batch04\Subramanyam\pytest\framework_01//logs\25_08_2024_01_29_54\element_not_found-25_08_2024_01_29_57.png

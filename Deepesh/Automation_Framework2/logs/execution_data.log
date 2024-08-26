@@ -1,0 +1,4 @@
+2024-08-24 20:19:33 [INFO] (selenium_base.py:26) found element with locator: ('name', 'q')
+2024-08-24 20:19:33 [INFO] (selenium_base.py:44) Enter value: Python Programming Tutorial,  to the element: ('name', 'q')
+2024-08-24 20:19:34 [INFO] (selenium_base.py:26) found element with locator: ('name', 'btnK')
+2024-08-24 20:19:34 [INFO] (selenium_base.py:54) clicking to the element: ('name', 'btnK')
