@@ -27,7 +27,7 @@ post_code_locator=(By.XPATH,"//input[@id='postcode']")
 street_address_locator=(By.XPATH,"//input[@id='street_address1']")
 
 dob_locator = (By.ID, "birthday")
-male_locator = (By.ID, "male")
+male_locator = (By.ID, "female")
 addmore_passenger_dd_locator = (By.ID, "admorepass")
 one_way_locator = (By.ID, "oneway")
 departure_date_locator=(By.ID,"departdate")
@@ -35,5 +35,8 @@ return_date_locator=(By.ID,"returndate")
 visa_date_locator=(By.ID,"visadate")
 whatsapp_locator=(By.ID,"whatsapp")
 country_locator=(By.ID,"billing_country")
+checkbox_list_locator=(By.XPATH,"(//input[@type='checkbox'])[3]")
+radio_button_locator=(By.XPATH,"(//input[@type='radio'])[2]")
+
 
 
