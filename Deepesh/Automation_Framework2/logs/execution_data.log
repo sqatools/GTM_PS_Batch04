@@ -1,0 +1,47 @@
+2024-08-27 19:23:12 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//span[@class='logSprite icClose']")
+2024-08-27 19:23:13 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//span[text()='Bus']//parent::a")
+2024-08-27 19:23:13 [INFO] (selenium_base.py:54) clicking to the element: ('xpath', "//span[text()='Bus']//parent::a")
+2024-08-27 19:23:16 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//input[@placeholder='Enter Source']")
+2024-08-27 19:23:16 [INFO] (selenium_base.py:44) Enter value: Mumbai, Maharashtra,  to the element: ('xpath', "//input[@placeholder='Enter Source']")
+2024-08-27 19:23:18 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//span[text()='Mumbai, Maharashtra']")
+2024-08-27 19:23:18 [INFO] (selenium_base.py:54) clicking to the element: ('xpath', "//span[text()='Mumbai, Maharashtra']")
+2024-08-27 19:23:18 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//input[@placeholder='Enter Destination']")
+2024-08-27 19:23:18 [INFO] (selenium_base.py:44) Enter value: Bangalore, Karnataka,  to the element: ('xpath', "//input[@placeholder='Enter Destination']")
+2024-08-27 19:23:19 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//span[text()='Bangalore, Karnataka']")
+2024-08-27 19:23:19 [INFO] (selenium_base.py:54) clicking to the element: ('xpath', "//span[text()='Bangalore, Karnataka']")
+2024-08-27 19:23:20 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//input[@data-testid='openCheckinCalendar']")
+2024-08-27 19:23:20 [INFO] (selenium_base.py:54) clicking to the element: ('xpath', "//input[@data-testid='openCheckinCalendar']")
+2024-08-27 19:23:20 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//span[text()='26']//parent::li")
+2024-08-27 19:23:20 [INFO] (selenium_base.py:54) clicking to the element: ('xpath', "//span[text()='26']//parent::li")
+2024-08-27 19:23:20 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//button[text()='Search Bus']")
+2024-08-27 19:23:20 [INFO] (selenium_base.py:54) clicking to the element: ('xpath', "//button[text()='Search Bus']")
+2024-08-27 19:23:21 [INFO] (selenium_base.py:57) ('xpath', "//button[text()='Search Bus']") Message: element click intercepted: Element <button data-testid="searchBusBtn">...</button> is not clickable at point (321, 486). Other element would receive the click: <span>...</span>
+  (Session info: chrome=127.0.6533.122)
+Stacktrace:
+	GetHandleVerifier [0x00007FF683029642+30946]
+	(No symbol) [0x00007FF682FDE3D9]
+	(No symbol) [0x00007FF682ED6FDA]
+	(No symbol) [0x00007FF682F2FEEE]
+	(No symbol) [0x00007FF682F2D962]
+	(No symbol) [0x00007FF682F2AE7B]
+	(No symbol) [0x00007FF682F2A095]
+	(No symbol) [0x00007FF682F1C271]
+	(No symbol) [0x00007FF682F4CA6A]
+	(No symbol) [0x00007FF682F1BBB6]
+	(No symbol) [0x00007FF682F4CC80]
+	(No symbol) [0x00007FF682F6B041]
+	(No symbol) [0x00007FF682F4C813]
+	(No symbol) [0x00007FF682F1A6E5]
+	(No symbol) [0x00007FF682F1B021]
+	GetHandleVerifier [0x00007FF68315F84D+1301229]
+	GetHandleVerifier [0x00007FF68316BDC7+1351783]
+	GetHandleVerifier [0x00007FF683162A13+1313971]
+	GetHandleVerifier [0x00007FF68305DD16+245686]
+	(No symbol) [0x00007FF682FE759F]
+	(No symbol) [0x00007FF682FE3814]
+	(No symbol) [0x00007FF682FE39A2]
+	(No symbol) [0x00007FF682FDA3FF]
+	BaseThreadInitThunk [0x00007FFD67A0257D+29]
+	RtlUserThreadStart [0x00007FFD6966AF28+40]
+
+2024-08-27 19:23:21 [INFO] (selenium_base.py:20) screenshot: C:\GitRepo\Sushmitashastri23\Newpython\GTM_PS_Batch04\Deepesh\Automation_Framework2\logs\27_08_2024_19_23_11\element_not_found_27_08_2024_19_23_21.png
