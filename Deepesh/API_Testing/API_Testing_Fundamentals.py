@@ -28,6 +28,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses
 """
 
 import requests
+import json
 """
 pip install requests
 """
@@ -67,4 +68,124 @@ def get_api_response():
     assert output, "required value is not available"
 
 
-get_api_response()
+#get_api_response()
+
+
+def get_specific_ids_info():
+
+    url = "https://api.restful-api.dev/objects?id=3&id=5&id=10"
+
+    payload = {}
+    headers = {}
+
+    response = requests.request("GET", url, headers=headers, data=payload)
+    print(response.text)
+
+
+#get_specific_ids_info()
+
+
+def get_specific_one_id_info(id):
+
+    url = f"https://api.restful-api.dev/objects/{id}"
+
+    payload = {}
+    headers = {}
+
+    response = requests.request("GET", url, headers=headers, data=payload)
+    print(response.text)
+
+
+#get_specific_one_id_info("ff80818191937f840191949f9e1a0272")
+
+
+def create_new_entry_with_post():
+
+    url = "https://api.restful-api.dev/objects"
+
+    payload = json.dumps({
+      "name": "Apple MacBook Pro 21",
+      "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+      }
+    })
+    headers = {
+      'Content-Type': 'application/json'
+    }
+
+    response = requests.request("POST", url, headers=headers, data=payload)
+
+    print(response.text)
+
+
+#create_new_entry_with_post()
+
+# {"id":"ff80818191937f84019194aedada0285","name":"Apple MacBook Pro 21","createdAt":"2024-08-27T16:32:52.958+00:00","data":{"year":2019,"price":1849.99,"CPU model":"Intel Core i9","Hard disk size":"1 TB"}}
+
+
+def update_entry_with_put(object_id):
+
+    url = f"https://api.restful-api.dev/objects/{object_id}"
+
+    payload = json.dumps({
+      "name": "Apple MacBook Pro 102",
+      "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "5 TB"
+      }
+    })
+    headers = {
+      'Content-Type': 'application/json'
+    }
+
+    response = requests.request("PUT", url, headers=headers, data=payload)
+
+    print(response.text)
+
+# update_entry_with_put("102")
+"""
+The PUT HTTP method is used to update or replace an 
+existing resource on a server with new data or a similar 
+resource that has different values. It's often used in RESTful APIs. 
+
+"""
+
+
+def update_entry_with_patch(object_id):
+
+    url = f"https://api.restful-api.dev/objects/{object_id}"
+
+    payload = json.dumps({"data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "2 TB"
+      }})
+    headers = {
+      'Content-Type': 'application/json'
+    }
+
+    response = requests.request("PATCH", url, headers=headers, data=payload)
+
+    print(response.text)
+
+update_entry_with_patch("ff80818191937f84019194aedada0285")
+
+
+def delete_entry(object_id):
+
+    url = f"https://api.restful-api.dev/objects/{object_id}"
+
+    payload = {}
+    headers = {}
+
+    response = requests.request("DELETE", url, headers=headers, data=payload)
+
+    print(response.text)
+
+#delete_entry("ff80818191937f84019194aedada0285")
