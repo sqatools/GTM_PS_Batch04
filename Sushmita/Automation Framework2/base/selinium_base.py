@@ -6,6 +6,7 @@ from selenium.webdriver.support.select import Select
 from utlities.utility_tool import CommonUtils
 from selenium.webdriver.common.action_chains import ActionChains
 
+
 class SeleniumBase:
 
     def __init__(self, driver, timeout=30):
@@ -16,11 +17,10 @@ class SeleniumBase:
         self.logs_folder_path = self.utils.create_unique_folder_logs()
         self.log = logging.getLogger(__name__)
 
-    def take_screenshot_path(self,filename):
+    def take_screenshot_path(self, filename):
         filepath = os.path.join(self.logs_folder_path, f"{filename}_{self.utils.get_unique_name()}.png")
         self.log.info(f"screenshots : {filepath}")
         self.driver.save_screenshot(filepath)
-
 
     def get_element(self, locator):
         try:
@@ -29,7 +29,7 @@ class SeleniumBase:
             return element
         except Exception as e:
             self.log.info(f"{locator}  {e}")
-            self.take_screenshot_path(filename="Element not found")
+            # self.take_screenshot_path(filename="Element not found")
 
     def enter_text(self, data, locator):
         try:
@@ -45,6 +45,7 @@ class SeleniumBase:
     def click_element(self, locator):
         element = self.get_element(locator)
         element.click()
+
     def clear_fields(self, locator):
         element = self.get_element(locator)
         element.clear()
@@ -58,7 +59,7 @@ class SeleniumBase:
         select = Select(element)
         select.select_by_visible_text(value)
 
-    def move_to_element(self,locator):
+    def move_to_element(self, locator):
         element = self.get_element(locator)
         action = ActionChains.move_to_element(element)
         action.perform()
