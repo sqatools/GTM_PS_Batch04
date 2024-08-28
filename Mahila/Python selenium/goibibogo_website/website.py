@@ -22,7 +22,7 @@ def web_driver():
     get_element(locator=(By.XPATH, f"//span[text()='{from_destiny_name}']")).click()
 
     get_element(locator=To_destiny_text).send_keys("Bengaluru")
-    get_element(locator=(By.XPATH, f"//span[text()='{To_destiny_name}']")).click()ll
+    get_element(locator=(By.XPATH, f"//span[text()='{To_destiny_name}']")).click()
 
 
 
