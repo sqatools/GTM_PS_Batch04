@@ -58,6 +58,15 @@ class SeleniumBase:
         select = Select(element)
         select.select_by_visible_text(value)
 
+
+    def click_and_hold(self,locator):
+        element = self.get_element(locator)
+        action=ActionChains(self.driver)
+        action.click_and_hold(element)
+        action.drag_and_drop_by_offset(element,100,0)
+
+
+
     def move_to_element(self,locator):
         element = self.get_element(locator)
         action = ActionChains.move_to_element(element)
