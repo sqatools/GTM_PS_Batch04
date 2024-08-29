@@ -73,7 +73,14 @@ def get_api_response():
 
 def get_specific_ids_info():
 
-    url = "https://api.restful-api.dev/objects?id=3&id=5&id=10"
+    #url = "https://api.restful-api.dev/objects?id=3&id=5&id=10"
+
+    url = "https://api.restful-api.dev/objects?"
+    for id in (1,2, 7):
+        url = url + f"id={id}&"
+
+    print(url)
+
 
     payload = {}
     headers = {}
