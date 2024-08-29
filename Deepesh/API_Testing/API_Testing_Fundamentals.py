@@ -82,7 +82,7 @@ def get_specific_ids_info():
     print(response.text)
 
 
-#get_specific_ids_info()
+get_specific_ids_info()
 
 
 def get_specific_one_id_info(id):
@@ -174,7 +174,7 @@ def update_entry_with_patch(object_id):
 
     print(response.text)
 
-update_entry_with_patch("ff80818191937f84019194aedada0285")
+#update_entry_with_patch("ff80818191937f84019194aedada0285")
 
 
 def delete_entry(object_id):
