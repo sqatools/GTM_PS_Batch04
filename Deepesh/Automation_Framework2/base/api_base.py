@@ -22,7 +22,7 @@ class APIBase:
         self.log.info(f"{response.json()}")
         self.log.info(f"status code: {response.status_code}")
         self.log.info(f"response header: {response.headers}")
-        return response.json()
+        return response.json(), response.status_code
 
     def post_method(self, api_end_point=None, url=None, headers=None, payload=None):
         headers = headers if headers is not None else {}
@@ -38,7 +38,7 @@ class APIBase:
         self.log.info(f"{response.json()}")
         self.log.info(f"status code: {response.status_code}")
         self.log.info(f"response header: {response.headers}")
-        return response.json()
+        return response.json(), response.status_code
 
     def put_method(self, api_end_point=None, url=None, headers=None, payload=None):
         headers = headers if headers is not None else {}
@@ -54,7 +54,7 @@ class APIBase:
         self.log.info(f"{response.json()}")
         self.log.info(f"status code: {response.status_code}")
         self.log.info(f"response header: {response.headers}")
-        return response.json()
+        return response.json(), response.status_code
 
     def patch_method(self, api_end_point=None, url=None, headers=None, payload=None):
         headers = headers if headers is not None else {}
@@ -70,7 +70,7 @@ class APIBase:
         self.log.info(f"{response.json()}")
         self.log.info(f"status code: {response.status_code}")
         self.log.info(f"response header: {response.headers}")
-        return response.json()
+        return response.json(), response.status_code
 
     def delete_method(self, api_end_point=None, url=None, headers=None, payload=None):
         headers = headers if headers is not None else {}
@@ -86,4 +86,4 @@ class APIBase:
         self.log.info(f"{response.json()}")
         self.log.info(f"status code: {response.status_code}")
         self.log.info(f"response header: {response.headers}")
-        return response.json()
+        return response.json(), response.status_code
