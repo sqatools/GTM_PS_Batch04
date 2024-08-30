@@ -2,8 +2,8 @@ import time
 
 import pytest
 
-from module.amazon.amzon_page import AmazonTesting
-from resource.amazon.amzon_data import *
+from module.amzon_login.amzon_page import AmazonTesting
+from resource.amazon_login.amzon_data import *
 from selenium.webdriver.common.by import By
 
 

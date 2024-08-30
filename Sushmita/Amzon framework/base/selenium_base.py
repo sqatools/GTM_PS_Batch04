@@ -7,6 +7,8 @@ from utlities.utility_tool import CommonUtils
 from selenium.webdriver.common.action_chains import ActionChains
 
 
+
+
 class SeleniumBase:
 
     def __init__(self, driver, timeout=30):
@@ -64,4 +66,6 @@ class SeleniumBase:
         action = ActionChains.move_to_element(element)
         action.perform()
 
-
+    def scroll_element(self,locator):
+        element=self.get_element(locator)
+        driver.execute_script("arguments[0].scrollIntoView()",element)

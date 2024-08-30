@@ -1,5 +1,5 @@
 from base.selenium_base import SeleniumBase
-from resource.amazon.amzon_data import *
+from resource.amazon_register.amzon_data import *
 
 
 class AmazonTesting(SeleniumBase):
