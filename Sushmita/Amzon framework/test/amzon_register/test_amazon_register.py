@@ -28,7 +28,7 @@ class TestFlightBooking:
         self.al.click_all_menu()
         self.al.click_account_filed()
         self.al.click_address()
-        driver.execute_script("window.scrollBy(0, 500)","")
+        self.driver.execute_script("window.scrollBy(0, 500)","")
         #self.al.click_best_seller()
         #self.al.click_amazon_basic()
         #self.click_search_field()
