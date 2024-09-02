@@ -89,7 +89,7 @@ def get_specific_ids_info():
     print(response.text)
 
 
-get_specific_ids_info()
+#get_specific_ids_info()
 
 
 def get_specific_one_id_info(id):
@@ -100,10 +100,10 @@ def get_specific_one_id_info(id):
     headers = {}
 
     response = requests.request("GET", url, headers=headers, data=payload)
-    print(response.text)
+    print(response.json(), response.status_code)
 
 
-#get_specific_one_id_info("ff80818191937f840191949f9e1a0272")
+get_specific_one_id_info(150)
 
 
 def create_new_entry_with_post():

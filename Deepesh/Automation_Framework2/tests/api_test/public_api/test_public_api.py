@@ -3,6 +3,7 @@ from modules.api_module.public_api_operation import PublicAPIOperation
 from resource.api_data.public_api_data import *
 
 
+@pytest.mark.api_test
 class TestPublicAPI:
 
     @pytest.fixture(autouse=True, scope="function")
