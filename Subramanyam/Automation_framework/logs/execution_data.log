@@ -1,0 +1,99 @@
+2024-08-27 16:18:16 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//span[text()='Returns']//preceding::span[text()='Account & Lists']")
+2024-08-27 16:18:16 [INFO] (selenium_base.py:44) clicking to the element: ('xpath', "//span[text()='Returns']//preceding::span[text()='Account & Lists']") 
+2024-08-27 16:18:17 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//input[@type='email']")
+2024-08-27 16:18:17 [INFO] (selenium_base.py:63) enter value 7348934507  to the element: ('xpath', "//input[@type='email']")
+2024-08-27 16:18:17 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//input[@class='a-button-input']")
+2024-08-27 16:18:17 [INFO] (selenium_base.py:44) clicking to the element: ('xpath', "//input[@class='a-button-input']") 
+2024-08-27 16:18:18 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//input[@type='password']")
+2024-08-27 16:18:18 [INFO] (selenium_base.py:63) enter value Test@1234  to the element: ('xpath', "//input[@type='password']")
+2024-08-27 16:18:18 [INFO] (selenium_base.py:67) ('xpath', "//input[@type='password']") Message: element not interactable
+  (Session info: chrome=127.0.6533.120)
+Stacktrace:
+	GetHandleVerifier [0x00007FF607659642+30946]
+	(No symbol) [0x00007FF60760E3D9]
+	(No symbol) [0x00007FF607506E09]
+	(No symbol) [0x00007FF607551E13]
+	(No symbol) [0x00007FF60754FF79]
+	(No symbol) [0x00007FF60757CA6A]
+	(No symbol) [0x00007FF60754BBB6]
+	(No symbol) [0x00007FF60757CC80]
+	(No symbol) [0x00007FF60759B041]
+	(No symbol) [0x00007FF60757C813]
+	(No symbol) [0x00007FF60754A6E5]
+	(No symbol) [0x00007FF60754B021]
+	GetHandleVerifier [0x00007FF60778F84D+1301229]
+	GetHandleVerifier [0x00007FF60779BDC7+1351783]
+	GetHandleVerifier [0x00007FF607792A13+1313971]
+	GetHandleVerifier [0x00007FF60768DD16+245686]
+	(No symbol) [0x00007FF60761759F]
+	(No symbol) [0x00007FF607613814]
+	(No symbol) [0x00007FF6076139A2]
+	(No symbol) [0x00007FF60760A3FF]
+	BaseThreadInitThunk [0x00007FF952F5257D+29]
+	RtlUserThreadStart [0x00007FF95384AF28+40]
+
+2024-08-27 16:18:18 [INFO] (selenium_base.py:20) screenshot: C:\Git_Repo\GTM_PS_Batch04\Subramanyam\Automation_framework\logs\27_08_2024_16_18_16\element_not_found-27_08_2024_16_18_18.png
+2024-08-27 16:18:39 [INFO] (selenium_base.py:26) found element with locator: ('id', 'nav-link-accountList')
+2024-08-27 16:18:39 [INFO] (selenium_base.py:97) found element to locator: ('id', 'nav-link-accountList')
+2024-08-27 16:18:40 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//span[text()='Manage Profiles']")
+2024-08-27 16:18:40 [INFO] (selenium_base.py:44) clicking to the element: ('xpath', "//span[text()='Manage Profiles']") 
+2024-08-27 16:18:41 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//a[text()='View']")
+2024-08-27 16:18:41 [INFO] (selenium_base.py:44) clicking to the element: ('xpath', "//a[text()='View']") 
+2024-08-27 16:18:46 [INFO] (selenium_base.py:26) found element with locator: ('xpath', "//*[text()='Edit your details']")
+2024-08-27 16:18:46 [INFO] (selenium_base.py:44) clicking to the element: ('xpath', "//*[text()='Edit your details']") 
+2024-08-27 16:18:46 [INFO] (selenium_base.py:47) ('xpath', "//*[text()='Edit your details']") Message: element not interactable: element has zero size
+  (Session info: chrome=127.0.6533.120)
+Stacktrace:
+	GetHandleVerifier [0x00007FF607659642+30946]
+	(No symbol) [0x00007FF60760E3D9]
+	(No symbol) [0x00007FF607506FDA]
+	(No symbol) [0x00007FF607559A4D]
+	(No symbol) [0x00007FF60754C271]
+	(No symbol) [0x00007FF60757CA6A]
+	(No symbol) [0x00007FF60754BBB6]
+	(No symbol) [0x00007FF60757CC80]
+	(No symbol) [0x00007FF60759B041]
+	(No symbol) [0x00007FF60757C813]
+	(No symbol) [0x00007FF60754A6E5]
+	(No symbol) [0x00007FF60754B021]
+	GetHandleVerifier [0x00007FF60778F84D+1301229]
+	GetHandleVerifier [0x00007FF60779BDC7+1351783]
+	GetHandleVerifier [0x00007FF607792A13+1313971]
+	GetHandleVerifier [0x00007FF60768DD16+245686]
+	(No symbol) [0x00007FF60761759F]
+	(No symbol) [0x00007FF607613814]
+	(No symbol) [0x00007FF6076139A2]
+	(No symbol) [0x00007FF60760A3FF]
+	BaseThreadInitThunk [0x00007FF952F5257D+29]
+	RtlUserThreadStart [0x00007FF95384AF28+40]
+
+2024-08-27 16:18:46 [INFO] (selenium_base.py:20) screenshot: C:\Git_Repo\GTM_PS_Batch04\Subramanyam\Automation_framework\logs\27_08_2024_16_18_18\element_not_found-27_08_2024_16_18_46.png
+2024-08-27 16:18:46 [INFO] (selenium_base.py:26) found element with locator: ('id', 'editProfileNameInputId')
+2024-08-27 16:18:46 [INFO] (selenium_base.py:63) enter value subbu  to the element: ('id', 'editProfileNameInputId')
+2024-08-27 16:18:46 [INFO] (selenium_base.py:67) ('id', 'editProfileNameInputId') Message: element not interactable
+  (Session info: chrome=127.0.6533.120)
+Stacktrace:
+	GetHandleVerifier [0x00007FF607659642+30946]
+	(No symbol) [0x00007FF60760E3D9]
+	(No symbol) [0x00007FF607506E09]
+	(No symbol) [0x00007FF607551E13]
+	(No symbol) [0x00007FF60754FF79]
+	(No symbol) [0x00007FF60757CA6A]
+	(No symbol) [0x00007FF60754BBB6]
+	(No symbol) [0x00007FF60757CC80]
+	(No symbol) [0x00007FF60759B041]
+	(No symbol) [0x00007FF60757C813]
+	(No symbol) [0x00007FF60754A6E5]
+	(No symbol) [0x00007FF60754B021]
+	GetHandleVerifier [0x00007FF60778F84D+1301229]
+	GetHandleVerifier [0x00007FF60779BDC7+1351783]
+	GetHandleVerifier [0x00007FF607792A13+1313971]
+	GetHandleVerifier [0x00007FF60768DD16+245686]
+	(No symbol) [0x00007FF60761759F]
+	(No symbol) [0x00007FF607613814]
+	(No symbol) [0x00007FF6076139A2]
+	(No symbol) [0x00007FF60760A3FF]
+	BaseThreadInitThunk [0x00007FF952F5257D+29]
+	RtlUserThreadStart [0x00007FF95384AF28+40]
+
+2024-08-27 16:18:46 [INFO] (selenium_base.py:20) screenshot: C:\Git_Repo\GTM_PS_Batch04\Subramanyam\Automation_framework\logs\27_08_2024_16_18_18\element_not_found-27_08_2024_16_18_46.png

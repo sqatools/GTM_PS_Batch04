@@ -1,18 +1,18 @@
-import pytest
-from modules.api_module.public_api_operation import PublicAPIOperation
+from module.api_module.api_module_operation import PublicAPIOperation
 from resource.api_data.public_api_data import *
+import pytest
 
 
 class TestPublicAPI:
-
     @pytest.fixture(autouse=True, scope="function")
     def setup(self):
         self.pub_api = PublicAPIOperation(server)
 
-    def test_verify_total_number_of_objects(self):
-        response, st_code = self.pub_api.get_list_of_all_objects()
+    def test_verify_total_number_of_object(self):
+        response ,st_code= self.pub_api.get_all_objects()
         assert len(response) == 13
         assert st_code == 200
+
 
     def test_verify_specific_objects_data(self):
         response, st_code = self.pub_api.get_specific_objects_data(3, 5, 7)

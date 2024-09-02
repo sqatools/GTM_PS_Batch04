@@ -1,6 +1,6 @@
-protocol = "https"
-server = "api.restful-api.dev"
 
+protocol ="https"
+server ="api.restful-api.dev"
 
 create_object_payload = {
    "name": "Apple MacBook Pro 120",

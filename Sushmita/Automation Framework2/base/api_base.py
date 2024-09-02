@@ -1,8 +1,10 @@
-import requests
 import logging
+
+import requests
 
 
 class APIBase:
+
     def __init__(self, server, protocol="https"):
         self.server = server
         self.protocol = protocol
@@ -13,8 +15,10 @@ class APIBase:
         payload = payload if payload is not None else {}
         if url is not None:
             url = url
+
         else:
-            url = f"{self.protocol}//:{self.server}/{api_end_point}"
+
+            url = f"{self.protocol}://{self.server}/{api_end_point}"
 
         response = requests.request("GET", url, headers=headers, data=payload)
         self.log.info(f"request headers: {headers}")
@@ -29,7 +33,9 @@ class APIBase:
         payload = payload if payload is not None else {}
         if url is not None:
             url = url
+
         else:
+
             url = f"{self.protocol}//:{self.server}/{api_end_point}"
 
         response = requests.request("POST", url, headers=headers, data=payload)
@@ -45,10 +51,13 @@ class APIBase:
         payload = payload if payload is not None else {}
         if url is not None:
             url = url
+
         else:
+
             url = f"{self.protocol}//:{self.server}/{api_end_point}"
 
         response = requests.request("PUT", url, headers=headers, data=payload)
+
         self.log.info(f"request headers: {headers}")
         self.log.info(f"request payload: {payload}")
         self.log.info(f"{response.json()}")
@@ -61,7 +70,9 @@ class APIBase:
         payload = payload if payload is not None else {}
         if url is not None:
             url = url
+
         else:
+
             url = f"{self.protocol}//:{self.server}/{api_end_point}"
 
         response = requests.request("PATCH", url, headers=headers, data=payload)
@@ -77,10 +88,13 @@ class APIBase:
         payload = payload if payload is not None else {}
         if url is not None:
             url = url
+
         else:
-            url = f"{self.protocol}//:{self.server}/{api_end_point}"
+
+            url = f"{self.protocol}://{self.server}/{api_end_point}"
 
         response = requests.request("delete", url, headers=headers, data=payload)
+
         self.log.info(f"request headers: {headers}")
         self.log.info(f"request payload: {payload}")
         self.log.info(f"{response.json()}")

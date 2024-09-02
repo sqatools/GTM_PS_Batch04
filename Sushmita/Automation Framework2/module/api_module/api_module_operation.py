@@ -10,7 +10,7 @@ class PublicAPIOperation(APIBase):
         self.server = server
         self.log = logging.getLogger(__name__)
 
-    def get_list_of_all_objects(self):
+    def get_all_objects(self):
         self.log.info("get_list_of_all_objects execution started")
         url = f"{protocol}://{self.server}/objects"
         response, st_code = self.get_method(url=url)
@@ -57,4 +57,3 @@ class PublicAPIOperation(APIBase):
         url = f"{protocol}://{self.server}/objects/{object_id}"
         response, st_code = self.delete_method(url=url)
         return response, st_code
-
