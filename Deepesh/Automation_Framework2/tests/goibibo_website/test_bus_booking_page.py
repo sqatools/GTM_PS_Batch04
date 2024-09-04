@@ -2,7 +2,7 @@ import pytest
 from modules.goibibo_website.bus_booking_page import BusBooking
 from resource.goibibo_website.bus_booking_page_data import *
 
-
+@pytest.mark.goibibo
 @pytest.mark.usefixtures("get_driver_goibibo")
 class TestBusBooking:
 

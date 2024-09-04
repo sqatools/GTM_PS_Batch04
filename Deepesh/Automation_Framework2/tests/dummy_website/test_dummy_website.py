@@ -5,6 +5,7 @@ from modules.dummy_website.dummy_website_page import DummyWebsite
 from resource.dummy_website.dummy_website_page_data import *
 from utilities.utility_tools import CommonUtils
 
+@pytest.mark.dummy_website
 @pytest.mark.usefixtures("get_driver_dummy")
 class TestDummyWebsite:
 
