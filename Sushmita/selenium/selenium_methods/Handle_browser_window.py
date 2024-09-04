@@ -39,7 +39,7 @@ def handle_browser():
     home_element.click()
     time.sleep(5)
 
-#handle_browser()
+handle_browser()
 
 def handle_multipple_browser_loop():
     driver.get("https://automationbysqatools.blogspot.com/p/manual-testing.html")
@@ -53,7 +53,7 @@ def handle_multipple_browser_loop():
         link_element=get_wait(locator=ele_locator)
         link_element.click()
 
-handle_multipple_browser_loop()
+#handle_multipple_browser_loop()
 time.sleep(10)
 driver.close()
 
