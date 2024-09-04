@@ -23,11 +23,7 @@ class AmazonTesting(SeleniumBase):
         self.click_element(signin_button)
 
 
-    def enter_search_field(self,enter_data):
-        self.enter_text(enter_data,search_loc)
 
-    def click_serach_but(self):
-        self.click_element(search_button)
 
     def click_all_menu(self):
         self.click_element(all_loc)
@@ -38,7 +34,13 @@ class AmazonTesting(SeleniumBase):
     def click_address(self):
         self.click_element(adress_loc)
 
+    def enter_search_field(self,enter_data):
+        self.enter_text(enter_data,search_loc)
 
+    def click_serach_but(self):
+        self.click_element(search_button)
 
+    def click_add_cart(self):
+        self.click_element(add_cart_ele)
     def click_amazon_basic(self):
         self.click_element(amzon_basic)

@@ -68,4 +68,4 @@ class SeleniumBase:
 
     def scroll_element(self,locator):
         element=self.get_element(locator)
-        driver.execute_script("arguments[0].scrollIntoView()",element)
+        self.driver.execute_script("arguments[0].scrollIntoView()",element)
