@@ -9,3 +9,9 @@ jobs:
               echo "Hello World!"
               python --version
               git --version
+              git checkout https://github.com/sqatools/GTM_PS_Batch04
+              cd GTM_PS_Batch04/Deepesh/Automation_Framework2
+              pip install -r requirements.txt
+              python -m pytest -v tests/api_testn --html=report.html
+
+              
