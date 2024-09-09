@@ -8,3 +8,4 @@ jobs:
         run: |
               echo "Hello World!"
               python --version
+              git --version
