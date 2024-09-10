@@ -14,8 +14,9 @@ class TestGroTech:
         self.al = GroTechRegisterPage(self.driver)
 
     def test_amazon_testing(self):
-        self.driver.get("https://grotechminds.com/alert/")
+        self.driver.get("https://grotechminds.com/hoverover/")
         #self.al.move_cursor()
         #self.al.click_alert_tab()
-        self.al.alert_but()
+        #self.al.alert_but()
+        self.al.hover_on_demo()
         time.sleep(10)

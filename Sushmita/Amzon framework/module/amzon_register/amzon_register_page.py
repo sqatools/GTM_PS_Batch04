@@ -40,7 +40,25 @@ class AmazonTesting(SeleniumBase):
     def click_serach_but(self):
         self.click_element(search_button)
 
-    def click_add_cart(self):
-        self.click_element(add_cart_ele)
-    def click_amazon_basic(self):
-        self.click_element(amzon_basic)
+    def slider_price(self):
+        self.slider_ele(slider_loc)
+
+    def click_go_submit(self):
+        self.click_element(go_price_loc)
+    def click_size(self):
+        self.click_element(L_loc)
+
+    def click_dress(self):
+        self.click_element(dress_loc)
+
+    def click_cart(self):
+        self.click_element(cart_loc)
+
+    def click_proceed_cart(self):
+        self.click_element(proceed_loc)
+
+    def click_adress_button(self):
+        self.click_element(your_address_loc)
+
+    def click_use_address(self):
+        self.click_element(use_address_loc)

@@ -56,9 +56,8 @@ class SeleniumBase:
         # print(browser_windows)
         self.driver.switch_to.window(browser_windows[1])
 
-    def handle_alert(self,locator):
-        alert=Alert(self.driver)
+    def handle_alert(self, locator):
+        alert = Alert(self.driver)
         element = self.get_element(locator)
         element.click()
         alert.accept()
-

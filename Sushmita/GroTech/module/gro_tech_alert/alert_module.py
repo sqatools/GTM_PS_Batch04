@@ -1,5 +1,6 @@
 from base.gro_tech_base import SeleniumBase
 from resource.gro_tech_alert.alert_data import *
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 class GroTechRegisterPage(SeleniumBase):
@@ -15,3 +16,8 @@ class GroTechRegisterPage(SeleniumBase):
 
     def alert_but(self):
         self.handle_alert(alert_loc1)
+
+    def hover_on_demo(self):
+        move = self.move_to_element(demo_loc)
+        action = ActionChains.move_to_element(move)
+        action.perform()

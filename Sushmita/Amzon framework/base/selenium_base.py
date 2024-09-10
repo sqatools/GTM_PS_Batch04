@@ -69,3 +69,9 @@ class SeleniumBase:
     def scroll_element(self,locator):
         element=self.get_element(locator)
         self.driver.execute_script("arguments[0].scrollIntoView()",element)
+
+    def slider_ele(self,locator):
+        element=self.get_element(locator)
+        move=ActionChains(self.driver)
+        move.click_and_hold(element).move_by_offset(40,0).release().perform()
+
