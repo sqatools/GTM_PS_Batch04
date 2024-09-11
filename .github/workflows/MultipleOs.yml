@@ -1,0 +1,17 @@
+name: hello-world
+'on':
+    pull_request:
+      branches: [ main ]
+jobs:
+  my-job:
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+    
+    steps:
+      - name: my-step
+        run: |
+              echo "Hello World!"
+              python --version
+              git --version
