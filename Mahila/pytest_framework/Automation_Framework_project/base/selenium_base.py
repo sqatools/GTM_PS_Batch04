@@ -8,7 +8,7 @@ from utilities.utility_tools import CommonUtils
 from selenium.webdriver.common.action_chains import ActionChains
 
 class SeleniumBase:
-    def __init__(self, driver, timeout=30):
+    def __init__(self, driver, timeout=60):
         self.driver = driver
         self.timeout = timeout
         self.wait = WebDriverWait(self.driver, self.timeout)
@@ -70,4 +70,5 @@ class SeleniumBase:
     def move_to_element(self,locator):
         element = self.get_element(locator)
         action = ActionChains.move_to_element(element)
+        action.move_by_offset()
         action.perform()

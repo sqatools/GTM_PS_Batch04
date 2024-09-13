@@ -102,3 +102,77 @@
 #Enter a natural number : 10
 #sum of the given natural number :  55
 
+# import datetime
+# date = datetime.datetime.now()
+#
+# print(date.strftime("%Y %m %d"))
+
+# from datetime import date
+#
+# date_1 = date(2023, 1, 5)
+# date_2 = date(2023, 1, 22)
+#
+# result = (date_2 - date_1).days
+# print ("Number of Days between the given Dates are: ", result, "days")
+
+
+# num = int(input("Enter a value : "))
+# fact = 1
+#
+# for i in range(1,num+1):
+#     fact = fact * i
+#     num = num-1
+#
+# print(fact)
+
+# num = str(input("Enter a number: "))
+#
+# print(num[::-1])
+
+num_1 = 0
+num_2 = 1
+fib= num_1+num_2
+
+#
+# for i in range(num_1,50):
+#
+#     num = fib+i
+#     fib +=1
+#     sum = fib+num
+#     sum +=sum
+#
+#     print(sum)
+
+# a=1
+#
+# while a<=10:
+#     if a>4 and a<7:
+#         a +=1
+#         continue
+#
+#     print(a)
+#     a+=1
+#
+# b=1
+# while True:
+#     print(b)
+#     b+=1
+#     if b ==100:
+#         break
+#
+#
+# print(dir(str))
+
+
+list = [2,4,6,7,9,13]
+output = []
+for val in list:
+    if val%2 == 0:
+        output.append(val**2)
+    else:
+        output.append(val**3)
+print(output)
+
+
+
+
