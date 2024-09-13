@@ -73,5 +73,5 @@ class SeleniumBase:
     def slider_ele(self,locator):
         element=self.get_element(locator)
         move=ActionChains(self.driver)
-        move.click_and_hold(element).move_by_offset(40,0).release().perform()
+        move.drag_and_drop_by_offset(element,40,0).perform()
 

@@ -27,7 +27,8 @@ L_loc=(By.XPATH,"//button[@value='L']")
 
 Brand_loc=(By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/span[1]/div[1]/span[1]/div[1]/div[1]/div[3]/ul[1]/span[1]/span[5]/li[1]")
 dress_loc=(By.XPATH,"//span[normalize-space()='Midi Dress | One Piece Dress | Beach Dress for Women']")
-cart_loc=(By.XPATH,"//input[@title='Add to Shopping Cart']")
+cart_loc=(By.XPATH,"//input[@id='add-to-cart-button']")
 proceed_loc=(By.XPATH,"//input[@name='proceedToRetailCheckout']")
 your_address_loc=(By.XPATH,"//div[@class='a-row panel-content']//div[3]//span[1]//div[1]//label[1]")
 use_address_loc=(By.XPATH,"//input[@data-testid='Address_selectShipToThisAddress']")
+
