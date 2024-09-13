@@ -4,6 +4,7 @@ import pytest
 from modules.google_page.google_search_page import GoogleSearchPage
 from resource.google_page.google_search_page_data import *
 
+@pytest.mark.google
 @pytest.mark.usefixtures("get_driver_google_search")
 class TestGoogleSearch:
 

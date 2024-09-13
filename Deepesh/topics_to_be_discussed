@@ -1,0 +1,38 @@
+1. scroll to left to right
+2. slider
+3. headless mode in framework
+python -m pytest -v --browser=chrome --headless=True .\tests\dummy_website\
+
+4. jenkins node execution # external machine in not
+5. html reporter, aggregator.
+6. jenkins SMTP server for notification # not possible due tpo SMTP server availability.
+
+# data = [1, 'a', [1, "b"], ('a', 3, 8), {"a": "7"}, {1, 2, 34}]
+
+##### Steps to automate any application  ###########
+
+1.  Gather Application requirements.
+(Modules, Platform Support (web, api, mobile))
+
+2. Minimal test case should be there for POC
+
+3. Identification of Automation Tools (paid tools, Open source tools)
+
+4. Framework design (POM, BBD (Behave), DDT, TDD, KDF (Robotframework))
+
+5. Automate the Minimal number test cases and show to Management
+
+6. Training and Learning curve and automation remaining (smoke, sanity, regression)
+
+7. Maintenance of the test case.
+
+Day to Day work for Automation Engineer
+
+1. Once we start test engineer start a day with check previously report.
+2. Analyse and find out failure and report defect for the same.
+3. Update the automation test cases if required due to the latest changes.
+4. start automating the new feature -> push code repo and raise a PR (pull request)
+5. once the code merge the verify the code is working in daily pipeline run
+
+
+
