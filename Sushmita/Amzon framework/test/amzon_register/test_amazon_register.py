@@ -34,6 +34,7 @@ class TestFlightBooking:
         self.al.slider_price()
         self.al.click_size()
         self.al.brand_select()
+        time.sleep(5)
         self.al.click_dress()
         browser_windows = self.driver.window_handles
         print(browser_windows)

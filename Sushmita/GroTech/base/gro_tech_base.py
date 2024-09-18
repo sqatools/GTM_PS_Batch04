@@ -46,7 +46,8 @@ class SeleniumBase:
 
     def move_to_element(self, locator):
         element = self.get_element(locator)
-        action = ActionChains.move_to_element(element)
+        action=ActionChains(self.driver)
+        action.move_to_element(element)
         action.perform()
 
     def handle_browser_window(self, locator):
