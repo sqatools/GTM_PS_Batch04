@@ -18,6 +18,7 @@
 # 105). Write a program to get all the email id’s from given string using python.
 # Input str = “”” We have some employee whos john@gmail.com email id’s are randomly distributed jay@lic.com we want to get hari@facebook.com all the email mery@hotmail.com id’s from this given string.”””
 # Output = [‘john@gmail.com’, ‘ jay@lic.com’, ‘hari@facebook.com’, ‘mery@hotmail.com’ ]
+import os
 
 # str1 = """We have some employee whos john@gmail.com email id’s are
 #         randomly distributed jay@lic.com we want to get hari@facebook.com
@@ -31,3 +32,23 @@
 #             new_str.append(word)
 # print(new_str)
 
+print(os.cpu_count())
+
+import datetime
+
+curremt_time = datetime.datetime.now()
+print(curremt_time)
+date_var = curremt_time.strftime("%d_%m_%Y_%H_%M_%S")
+print(date_var)
+
+print ("-"*50)
+
+try:
+    a=100
+    b="hello"
+    c=a+b
+    print(c)
+except Exception as e:
+    print(e)
+    print("int and string cannot be added")
+print("HELLO")

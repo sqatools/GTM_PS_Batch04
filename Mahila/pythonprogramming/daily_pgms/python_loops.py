@@ -25,3 +25,20 @@
 #     output = sorted(l2,reverse = True)
 # print(output)
 
+
+def try_except_else_condition(num1, num2):
+    try:
+        c = num1 + num2
+        print("adddition :", c)
+    except Exception as e:
+        print(e)
+        print("Both the variable should have int value")
+    else:
+        multiplication = num1 * num2
+        print(" multiply :", multiplication)
+
+
+try_except_else_condition(50, "Hello")
+#
+try_except_else_condition(5, 6)
+

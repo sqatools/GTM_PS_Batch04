@@ -29,5 +29,5 @@ class TestAmazonLogin:
         self.al.click_buy_now()
         self.al.click_payment_change()
         self.al.click_card_payment()
-        time.sleep(10)
+        time.sleep(5)
 

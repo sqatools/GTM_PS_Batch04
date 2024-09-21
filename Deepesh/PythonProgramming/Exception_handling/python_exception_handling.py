@@ -10,7 +10,7 @@ def addition():
         print(e)
         print("Can not add string with integer")
 
-addition()
+#addition()
 
 # when we execute and raise the exception, then further code execution will stop working
 def addition_with_raise():
@@ -22,6 +22,7 @@ def addition_with_raise():
     except Exception as e:
         print("Can not add string with integer")
         raise e
+
 
 #addition_with_raise()
 
@@ -65,7 +66,7 @@ def try_except_else_finally_condition(num1, num2):
 
 
 #try_except_else_finally_condition(6, "Python")
-#try_except_else_finally_condition(6, 5)
+try_except_else_finally_condition(6, 5)
 
 
 def code_with_multiple_exception(num1 : int, num2 : int, num3: int):

@@ -59,6 +59,7 @@ class SeleniumBase:
         select.select_by_visible_text(value)
 
 
+
     def click_and_hold(self,locator):
         element = self.get_element(locator)
         action=ActionChains(self.driver)

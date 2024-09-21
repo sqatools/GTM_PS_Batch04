@@ -23,4 +23,4 @@ select_size_loc = (By.XPATH,f"//a[@class='a-dropdown-link' and text()='{shoe_siz
 show_details_loc = (By.XPATH, "//a[text()='See all item details']")
 buy_now_loc = (By.XPATH,"//input[@id='buy-now-button']")
 change_pay_method_loc= (By.XPATH, "//a[@id='payChangeButtonId']")
-click_card_loc =  (By.XPATH,"//input[@id='pp-Z5eprI-119']")
+click_card_loc =  (By.XPATH,"//input[@id='pp-4WgaPe-119']")
