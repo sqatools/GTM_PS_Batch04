@@ -1,23 +1,10 @@
 from base.gro_tech_base import SeleniumBase
-from resource.gro_tech_register.register_data import *
+from resource.gro_tech_flight.flight_data import *
 
+class GroTechFlight(SeleniumBase):
 
-class GroTechRegisterPage(SeleniumBase):
-
-    def __int__(self, driver):
-        super().__init__(driver)
-
-    def click_toggle(self):
-        self.click_element(toggle_loc)
-
-    def click_login(self):
-        self.click_element(login_loc)
-
-    def enter_username(self, enterdata):
-        self.enter_text(enterdata, username_loc)
-
-    def enter_password(self, enterdata):
-        self.enter_text(enterdata, password_loc)
+    def __int__(self,driver):
+        super().__init__(self,driver)
 
     def flight_flip(self):
         self.move_to_element(flight_flippop)
@@ -37,6 +24,9 @@ class GroTechRegisterPage(SeleniumBase):
     def enter_depart_date(self, enterdata):
         self.enter_text(enterdata, Depart_loc)
 
+    def enter_return_date(self, enterdata):
+        self.enter_text(enterdata, return_loc)
+
     def select_adults(self, enterdata):
         self.select_from_dropdown(enterdata, adult_loc)
 
@@ -45,6 +35,3 @@ class GroTechRegisterPage(SeleniumBase):
 
     def click_serach_but(self):
         self.click_element(search_loc)
-
-    def element_displayed(self):
-        self.get_element(msg_alert)

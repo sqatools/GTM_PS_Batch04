@@ -33,6 +33,8 @@ class TestFlightBooking:
         self.driver.execute_script("window.scrollBy(0, 500)","")
         self.al.slider_price()
         self.al.click_size()
+        self.al.brand_select()
+        time.sleep(5)
         self.al.click_dress()
         browser_windows = self.driver.window_handles
         print(browser_windows)
@@ -43,4 +45,5 @@ class TestFlightBooking:
         self.al.click_adress_button()
         self.al.click_use_address()
         time.sleep(15)
+
 

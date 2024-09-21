@@ -48,6 +48,9 @@ class AmazonTesting(SeleniumBase):
     def click_size(self):
         self.click_element(L_loc)
 
+    def brand_select(self):
+        self.click_element(Brand_locator)
+
     def click_dress(self):
         self.click_element(dress_loc)
 

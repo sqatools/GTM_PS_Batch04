@@ -26,7 +26,7 @@ def handle_alert_box():
     time.sleep(5)
     alert.accept()
 
-#handle_alert_box()
+handle_alert_box()
 
 def handle_confirm_box():
     driver.get("https://automationbysqatools.blogspot.com/2020/08/alerts.html")
@@ -77,7 +77,7 @@ def handle_alert_on_facebook():
     # print(driver.title)
     #driver.close()
 
-handle_alert_on_facebook()
+#handle_alert_on_facebook()
 
 time.sleep(10)
 driver.close()
