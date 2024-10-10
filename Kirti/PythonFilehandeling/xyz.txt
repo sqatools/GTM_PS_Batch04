@@ -1,0 +1,2 @@
+ABC and this is written in file
+Hi this this the appended data to the exisitng file

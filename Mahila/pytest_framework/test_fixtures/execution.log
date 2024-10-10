@@ -1,0 +1,164 @@
+execution startedexecution completedexecution startedexecution completed
+execution started
+
+execution completed
+
+execution started
+
+execution completed
+
+ 2024-08-08 16:53:59.634865---module execution started
+
+ 2024-08-08 16:53:59.682119-- module execution completed
+
+ 2024-08-08 16:55:08.350714---module execution started
+
+execution started
+
+execution completed
+
+execution started
+
+execution completed
+
+ 2024-08-08 16:55:08.413232-- module execution completed
+
+ module name : test_fixture_conftnest.py
+
+ 2024-08-08 17:11:16.228134---module execution started
+
+execution started
+
+execution completed
+
+execution started
+
+execution completed
+
+ 2024-08-08 17:11:16.275027-- module execution completed
+
+ module name : test_fixture_conftnest.py
+
+ 2024-08-08 17:16:24.014695---module execution started
+
+ testcase level : test_mul
+
+execution started
+
+execution completed
+
+ testcase level : test_add
+
+execution started
+
+execution completed
+
+ 2024-08-08 17:16:24.061955-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-08 19:11:17.375772---module execution started
+
+ 2024-08-08 19:11:17.453879-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-08 19:13:37.050278---module execution started
+
+ 2024-08-08 19:14:20.260654-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-08 19:33:13.122188---module execution started
+
+ 2024-08-08 19:33:13.122188-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-08 19:33:31.819535---module execution started
+
+ 2024-08-08 19:33:31.835129-- module execution completed
+
+ module name : test_fixture_conftnest.py
+
+ 2024-08-09 11:26:22.136775---module execution started
+
+ testcase level : test_mul
+
+execution started
+
+execution completed
+
+ testcase level : test_add
+
+execution started
+
+execution completed
+
+ 2024-08-09 11:26:22.199264-- module execution completed
+
+ module name : test_para_test_sample.py
+
+ 2024-08-09 11:41:46.805419---module execution started
+
+ 2024-08-09 11:41:46.805419-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-09 11:49:26.395262---module execution started
+
+ 2024-08-09 11:50:11.762281-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-09 12:08:06.739314---module execution started
+
+ 2024-08-09 12:08:22.919179-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-09 12:09:42.293164---module execution started
+
+ 2024-08-09 12:10:19.647615-- module execution completed
+
+ module name : test_login_parametrerize.py
+
+ 2024-08-09 12:37:12.407371---module execution started
+
+ 2024-08-09 12:37:20.867462-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-09 12:37:36.413951---module execution started
+
+ 2024-08-09 12:37:36.425486-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-09 13:14:30.048719---module execution started
+
+ 2024-08-09 13:14:30.064309-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-09 13:54:21.256420---module execution started
+
+ 2024-08-09 13:54:21.256420-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-09 13:56:29.204950---module execution started
+
+ 2024-08-09 13:56:29.220540-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-09 13:57:25.599249---module execution started
+
+ 2024-08-09 13:57:25.622879-- module execution completed
+
+ module name : test_parame_cases1.py
+
+ 2024-08-09 14:00:07.710102---module execution started
+
+ 2024-08-09 14:00:07.837007-- module execution completed
