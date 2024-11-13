@@ -31,7 +31,7 @@ for i in inp_list:
 print(res)
 
 
-#5.Dictionary program- sum of all the itemss
+#5.Dictionary program- sum of all the items
 
 dic_1={'x':23,'y':10,'z':7}
 count=0
