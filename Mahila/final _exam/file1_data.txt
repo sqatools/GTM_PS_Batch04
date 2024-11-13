@@ -1,3 +1,3 @@
 1.Learning Python Selenium
-2.Good to learn
-3.Easy to learn
+2.Learning Selenium
+3.Both are easy
